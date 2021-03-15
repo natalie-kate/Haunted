@@ -1,45 +1,170 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">Haunted Website</h1>
 
-Welcome USER_NAME,
+BADGES?
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Here is a link to the live project. ()
 
-## Gitpod Reminders
+This website was created for Milestone 1- User Centric Frontend Development project, as part of the Code Institutes diploma in Software development.
+ I wanted to create a site that provided information for people interested in the paranormal, in particular ghosts.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<h2 align="center"><img src=Am i responsive image from folder><h2>
 
-`python3 -m http.server`
+## Contents - Maybe want make these links to the correct section?
 
-A blue button should appear to click: *Make Public*,
+## User Experience (UX)
 
-Another blue button should appear to click: *Open Browser*.
+   ### Site Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+   - As a user I want to be able to learn about ghosts and hauntings.
+   - As a user who believes in the paranormal I want to read true stories and contribute my own.
+   - As a user who's a cynic I want to see video and picture evidence and read theories as what could cause paranormal phenomona.
 
-A blue button should appear to click: *Make Public*,
+   - As the site owner I want to teach people about the fascinating world of the paranormal, in particular hauntings and ghosts.
+   - As the site owner I want to collect evidence of the paranormal e.g stories, pictures and videos.
 
-Another blue button should appear to click: *Open Browser*.
+   ### User stories
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+   - #### First Time Visitor 
 
-## Updates Since The Instructional Video
+        1. As a first time visitor, I want to easily understand the main purpose of the site. 
+        2. As a first time visitor, I want to be able to easily navigate throughout the site to find content.
+        3. As a first time visitor, I expect to see an attractive, visually appealing site.
+        4. As a first time visitor, I expect an accessible site.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+   - #### Returning Visitor Goals
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+        1. As a returning visitor, I want to easily identify new content.
+        2. As a returning visitor, I want to sign up to the mailing list so that i'm informed of new content or features.
+        3. As a returning visitor, I want to send stories, pictures or videos to be added to the page.
+        4. As a returning visitor, I want to see recommended resources to learn more.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+   ### Design
+    -   #### Colour Scheme
+          
+    -   #### Typography
+          
+    -   #### Imagery
+         
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+   ### Wireframes
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+    -   Mobile
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+    -   Tablet
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    -   Laptop
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
+## Features
 
-Happy coding!
+-   Responsive on all device sizes
+
+-   Interactive elements
+
+-   Social Links 
+
+-   Easy to navigate (Single use learning)
+
+-   Accessible 
+
+### Features to implement in the future
+
+#### Users ability to add pictures, videos and stories directly onto the page. 
+
+#### Haunted House subscription 
+
+Sign up for exclusive content: 
+- Location focus, each month a new location would be picked and its story told.
+- Ghosts in the media, hauntings that have made the news or been made into films.
+
+
+
+
+## Technologies Used
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries & Programs Used
+
+1. [Bootstrap v???](https://getbootstrap.com/docs/???/getting-started/introduction/)
+    - Bootstrap was used for the initial layout and styling before customising it.
+2. [Google Fonts](https://fonts.google.com/)
+    - Google fonts were used to import the *INSERT FONT TYPE* 
+3. [Font Awesome](https://fontawesome.com/)
+    - Font Awesome 
+4. [Git](https://git-scm.com/)
+    - Git 
+5. [GitHub](https://github.com/)
+    - GitHub 
+6. [Balsamiq](https://balsamiq.com/)
+    - Balsamiq
+7. [TinyJPG](https://tinyjpg.com/)
+    - TinyJPG was used to optimise the images I used on my site to minimise loading time.
+8. [Am I responsive](http://ami.responsivedesign.is/)
+    - This was used to generate the image at the top of this README.
+
+
+## Testing
+
+The W3C Markup Validator and W3C CSS Validator were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+-   Lighthouse in devtools
+-   Chrome Dev tools
+
+
+
+### Testing User Stories from User Experience (UX) Section
+
+-   
+
+   
+
+### Manual Testing
+
+-   The website was viewed with browsers: 
+-   Viewed manually on Macbook air 13", Dell 21" HD screen, iphone 11, Dell 17" laptop and Pixel 4XL phone.
+-   Links 
+
+### Bugs
+
+   #### Found and Fixed
+
+   #### Existing
+  
+
+## Deployment
+
+## Credits
+
+### Code
+
+-   
+
+-   [Bootstrap4](https://getbootstrap.com/docs/4.1/getting-started/introduction/): Bootstrap Library used for the layout and styling.
+
+
+### Content
+
+-   
+
+-   README layout from https://github.com/Code-Institute-Solutions/SampleREADME
+
+
+### Media
+
+-   
+
+-  
+
+-   
+
+
+### Acknowledgements
+
+-   Code institute. 
+-   
