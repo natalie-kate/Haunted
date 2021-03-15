@@ -82,9 +82,9 @@ This website was created for Milestone 1- User Centric Frontend Development proj
 
    ### Wireframes
 
-    - [Mobile](wireframes/ms1-mobile.pdf)
-    - [Tablet](wireframes/ms1-tablet.pdf)
-    - [Desktop](wireframes/ms1-desktop.pdf)
+* [Mobile](wireframes/ms1-mobile.pdf)
+* [Tablet](wireframes/ms1-tablet.pdf)
+* [Desktop](wireframes/ms1-desktop.pdf)
 
 ## Features
 
