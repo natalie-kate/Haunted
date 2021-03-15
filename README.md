@@ -1,4 +1,4 @@
-<h1 align="center">Haunted Website</h1>
+# Haunted Website
 
 BADGES?
 
@@ -7,9 +7,40 @@ Here is a link to the live project. ()
 This website was created for Milestone 1- User Centric Frontend Development project, as part of the Code Institutes diploma in Software development.
  I wanted to create a site that provided information for people interested in the paranormal, in particular ghosts.
 
-<h2 align="center"><img src=Am i responsive image from folder><h2>
+![Image showing the website displayed on different screen sizes](Am i responsive image from folder)
 
-## Contents - Maybe want make these links to the correct section?
+## Contents - Make these links to the correct section.
+
+- [User Experience (UX)](#user-experience)
+   * [Site Goals](#site-goals)
+   * [User Stories](#user-stories) 
+   * [Design](#design)
+   * [Wireframes](#wireframes)
+
+- [Features](#features)
+   * [Current Features](#current-features)
+   * [Features to implement in the future](#features-to-implement-in-the-future)
+
+- [Technologies](#technologies)
+   * [Languages used](#languages-used)
+   * [Frameworks, Libraries & Programs Used](#frameworks-,-libraries-&-programs-used)
+
+- [Testing](#testing)
+   * [Automated Testing](#automated-testing)
+   * [Testing User Stories](#testing-user-stories)
+   * [Manual testing](#manual-testing)
+   * [Bugs](#bugs)
+      + [Found and Fixed](#found-and-fixed)
+      + [Existing](#existing)
+
+- [Deployment](#deployment)
+- [Credits](#credits)
+   * [Code](#code)
+   * [Content](#content)
+   * [Media](media)
+   * [Acknowledgements](#acknowledgements)
+
+
 
 ## User Experience (UX)
 
@@ -21,8 +52,9 @@ This website was created for Milestone 1- User Centric Frontend Development proj
 
    - As the site owner I want to teach people about the fascinating world of the paranormal, in particular hauntings and ghosts.
    - As the site owner I want to collect evidence of the paranormal e.g stories, pictures and videos.
+   - As the site owner I want my site to be responsive to different screen sizes and to be accessible to my visitors.
 
-   ### User stories
+   ### User Stories
 
    - #### First Time Visitor 
 
@@ -30,6 +62,8 @@ This website was created for Milestone 1- User Centric Frontend Development proj
         2. As a first time visitor, I want to be able to easily navigate throughout the site to find content.
         3. As a first time visitor, I expect to see an attractive, visually appealing site.
         4. As a first time visitor, I expect an accessible site.
+        5. As a first time visitor, I want to see social media links so that I can follow on my chosen platforms.
+        6. As a first tine visitor, I want to be able to contact the owner with comments or questions.
 
    - #### Returning Visitor Goals
 
@@ -48,14 +82,13 @@ This website was created for Milestone 1- User Centric Frontend Development proj
 
    ### Wireframes
 
-    -   Mobile
-
-    -   Tablet
-
-    -   Laptop
-
+![Mobile](ms1-mobile.pdf)
+![Tablet](wireframes/ms1-tablet.pdf)
+![Desktop](wireframes/ms1-desktop.pdf)
 
 ## Features
+
+### Current features
 
 -   Responsive on all device sizes
 
@@ -69,18 +102,15 @@ This website was created for Milestone 1- User Centric Frontend Development proj
 
 ### Features to implement in the future
 
-#### Users ability to add pictures, videos and stories directly onto the page. 
+Users ability to add pictures, videos and stories directly onto the page. 
 
-#### Haunted House subscription 
-
+Haunted House subscription
 Sign up for exclusive content: 
 - Location focus, each month a new location would be picked and its story told.
 - Ghosts in the media, hauntings that have made the news or been made into films.
 
 
-
-
-## Technologies Used
+## Technologies 
 
 ### Languages Used
 
@@ -109,6 +139,8 @@ Sign up for exclusive content:
 
 ## Testing
 
+### Automated Testing
+
 The W3C Markup Validator and W3C CSS Validator were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
@@ -118,7 +150,7 @@ The W3C Markup Validator and W3C CSS Validator were used to validate every page 
 
 
 
-### Testing User Stories from User Experience (UX) Section
+### Testing User Stories 
 
 -   
 
