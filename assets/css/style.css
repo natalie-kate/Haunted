@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.navbar-toggler{
+    font-size: 30px;
+    color: #753871
+}
+
+a.navbar-brand {
+    font-family: "Noto Sans KR", sans-serif;
+    padding-left: 20px;
+    font-weight: 700;
+    color: #e8feff;
+    font-size: 30px;
+}
+
+.navbar .nav-link {
+    padding-left: 20px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 18px;
+    color: #753871;
+
+}
