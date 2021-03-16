@@ -6,6 +6,13 @@ body{
     padding: 0;
 }
 
+h1,h2,h3,h4,h5{
+    font-family: "Noto Sans KR", sans-serif;
+    text-transform: uppercase;
+    color: #753871;
+   
+}
+
 .nav-header-container{
     padding: 0;
     background: url("/assets/images/image1.jpg") no-repeat center center fixed;
@@ -41,4 +48,17 @@ a.navbar-brand {
     color: #753871;
     font-weight: 600;
 
+}
+
+footer .col-12{
+    padding: 0;
+    height: 75px;
+    background-color:#95a4a8;
+    text-align: center;
+}
+
+.social i{
+    font-size: 40px;
+    padding-left: 10px;
+    color: #753871;
 }
