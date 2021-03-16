@@ -6,9 +6,19 @@ body{
     padding: 0;
 }
 
+.nav-header-container{
+    padding: 0;
+    background: url("/assets/images/image1.jpg") no-repeat center center fixed;
+    min-height: 80vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
 .navbar {
     height: 75px;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(206, 211, 214, 0.25);
 }
 
 .navbar-toggler{
@@ -20,7 +30,7 @@ a.navbar-brand {
     font-family: "Noto Sans KR", sans-serif;
     padding-left: 20px;
     font-weight: 700;
-    color: #e8feff;
+    color: #753871;
     font-size: 30px;
 }
 
@@ -29,5 +39,6 @@ a.navbar-brand {
     font-family: "Noto Sans KR", sans-serif;
     font-size: 18px;
     color: #753871;
+    font-weight: 600;
 
 }
