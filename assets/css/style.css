@@ -9,19 +9,18 @@ body{
 h1,h2,h3,h4,h5{
     font-family: "Noto Sans KR", sans-serif;
     margin: 0;
-    color: #753871;
+    color: #0e0325;
    
 }
-
+/*-------------------------------Nav------------*/
 .nav-header-container{
     padding: 0;
-    background: url("/assets/images/image1.jpg") no-repeat center center fixed;
+    background: url("/assets/images/image1.jpg") no-repeat center center;
     min-height: 80vh;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    object-fit: cover;
 }
 .navbar {
     height: 75px;
@@ -37,7 +36,7 @@ a.navbar-brand {
     font-family: "Noto Sans KR", sans-serif;
     padding-left: 20px;
     font-weight: 700;
-    color: #0e0325;
+    color: #381936;
     font-size: 30px;
     text-transform: uppercase;
 }
@@ -58,6 +57,7 @@ a.navbar-brand:hover{
 .nav-link.active {
     color: #381936;
 }
+
 .dropdown-item:hover,
 .dropdown-item:active{
     color: #381936;
@@ -68,9 +68,11 @@ a.navbar-brand:hover{
     color: #381936;
 }
 
+/*-----------------------Landing page--------*/
 .landing-page-container{
     text-align: center;
 }
+
 .title-slogan-container{
     padding: 0;
     background-color: rgba(206, 211, 214, 0.5);
@@ -115,7 +117,23 @@ transform: translateY(10px);
 transition: transform 600ms;
 }
 
+/*-------------------About------------------*/
 
+.introduction-image{
+    text-align:center;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.introduction-image img{
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   object-fit: cover;
+   padding: 0px;   
+}
+
+
+/*-------------------footer------------------*/
 footer .col-12{
     padding: 0;
     height: 75px;
@@ -128,6 +146,10 @@ footer .col-12{
     padding-left: 10px;
     color: #753871;
 }
+.social i:hover,
+.social i:active{
+    color: #381936;
+}
 
 
 /*-----------------Media Queries--------------*/
@@ -138,6 +160,3 @@ footer .col-12{
     transition: none;
   }
 }
-
-
-
