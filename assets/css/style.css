@@ -8,9 +8,8 @@ body{
 
 h1,h2,h3,h4,h5{
     font-family: "Noto Sans KR", sans-serif;
-    text-transform: uppercase;
-    color: #753871;
     margin: 0;
+    color: #753871;
    
 }
 
@@ -18,11 +17,11 @@ h1,h2,h3,h4,h5{
     padding: 0;
     background: url("/assets/images/image1.jpg") no-repeat center center fixed;
     min-height: 80vh;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-
+    object-fit: cover;
 }
 .navbar {
     height: 75px;
@@ -38,25 +37,84 @@ a.navbar-brand {
     font-family: "Noto Sans KR", sans-serif;
     padding-left: 20px;
     font-weight: 700;
-    color: #753871;
+    color: #0e0325;
     font-size: 30px;
+    text-transform: uppercase;
 }
 
-.navbar .nav-link {
+a.navbar-brand:hover{
+    color: #e8feff;
+}
+
+.navbar .nav-link,
+.dropdown-item{
     padding-left: 20px;
     font-family: "Noto Sans KR", sans-serif;
     font-size: 18px;
     color: #753871;
     font-weight: 600;
-
 }
 
+.nav-link.active {
+    color: #381936;
+}
+.dropdown-item:hover,
+.dropdown-item:active{
+    color: #381936;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:active{
+    color: #381936;
+}
+
+.landing-page-container{
+    text-align: center;
+}
 .title-slogan-container{
+    padding: 0;
     background-color: rgba(206, 211, 214, 0.5);
     text-align: center; 
     margin-top: 15%;
-    border-radius: 10px;   
+    border-radius: 10px;  
 }
+
+.page-title h1,
+strong{
+    font-weight: 900;
+}
+
+.fa-ghost{
+    font-size: 60px;
+    color: #0e0325;
+}
+
+.fa-ghost:hover,
+.fa-ghost-focus{
+   color:#e8feff
+}
+
+
+button.btn-success{
+    background-color: #0e0325;
+    color: #e8feff;
+    border:none;
+    margin-top: 20px;
+}
+
+button.btn-success:hover,
+button.btn-success:focus,
+button.btn-success:active{
+    color: #e8feff;
+    background-color: #0e0325;
+}
+
+/*-----------------www.joshwcomeau.com--------*/
+.hover:hover{
+transform: translateY(10px);
+transition: transform 600ms;
+}
+
 
 footer .col-12{
     padding: 0;
@@ -72,6 +130,14 @@ footer .col-12{
 }
 
 
+/*-----------------Media Queries--------------*/
+
+/*-----------------www.joshwcomeau.com--------*/
+@media (prefers-reduced-motion: reduce) {
+  .hover {
+    transition: none;
+  }
+}
 
 
 
