@@ -4,6 +4,8 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #e8feff;
 }
 
 h1,h2,h3,h4,h5{
@@ -18,9 +20,36 @@ h1,h2,h3,h4,h5{
     background-color: #753871;
 }
 
-h3{
+h2{
     margin: 15px;
 }
+h4{
+    margin-top:10px;
+}
+
+p{
+    margin-top: 10px;
+}
+
+.right-text{
+    text-align: right;
+}
+
+.left-text{
+    text-align: left;
+}
+
+.col-12,
+.col-10,
+.col-8,
+.col-6,
+.col-4,
+.col-2,
+.d-none {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 /*-------------------------------Nav------------*/
 .nav-header-container{
     padding: 0;
@@ -31,7 +60,12 @@ h3{
     -moz-background-size: cover;
     -o-background-size: cover;
 }
-.navbar {
+
+.nav-header-container .col-12{
+    padding: 0px;
+}
+
+nav.navbar {
     height: 75px;
     background-color: rgba(206, 211, 214, 0.25);
 }
@@ -122,7 +156,7 @@ button.btn-success:active{
 
 /*-----------------www.joshwcomeau.com--------*/
 .hover:hover{
-transform: translateY(10px);
+transform: translateY(8px);
 transition: transform 600ms;
 }
 
@@ -142,7 +176,23 @@ transition: transform 600ms;
    left: 50%;                   
    transform: translate(-50%);  
 }
+.ghosts table{
+    margin-top: 25px;
+}
 
+
+
+
+/*-------------------Theories------------------*/
+.fact-box{
+    border: solid 5px #381936;
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
 
 
 /*-------------------footer------------------*/
@@ -152,6 +202,11 @@ footer .col-12{
     background-color:#95a4a8;
     text-align: center;
 }
+
+footer .row{
+    padding: 0px;
+}
+
 
 .social i{
     font-size: 40px;
@@ -171,4 +226,20 @@ footer .col-12{
   .hover {
     transition: none;
   }
+}
+
+@media(min-width:992px) {
+    h4.right-text,
+    h4.left-text {
+        text-align: center;
+    }
+    .row{
+        padding-bottom: 40px;
+    }
+
+    .row-heading{
+        padding: 0px;
+    }
+
+    
 }
