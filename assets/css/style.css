@@ -129,17 +129,20 @@ transition: transform 600ms;
 /*-------------------About------------------*/
 
 .introduction-image{
-    text-align:center;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 63px;
+    display: relative;
 }
 .introduction-image img{
-   width: 300px;
+   width: auto;
    height: 300px;
-   border-radius: 50%;
+   padding: 0px;  
    object-fit: cover;
-   padding: 0px;   
+   position: absolute;         
+   display: inline-block;       
+   left: 50%;                   
+   transform: translate(-50%);  
 }
+
 
 
 /*-------------------footer------------------*/
