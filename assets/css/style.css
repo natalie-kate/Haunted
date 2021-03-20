@@ -45,6 +45,13 @@ p{
     padding-right: 30px;
 }
 
+section.true-stories-section,
+section.about-section,
+section.hauntings-section,
+section.theories-section {
+    margin-bottom: 30px;
+}
+
 /*-------------------------------Nav------------*/
 .nav-header-container{
     padding: 0;
@@ -62,7 +69,7 @@ p{
 
 nav.navbar {
     height: 75px;
-    background-color: rgba(206, 211, 214, 0.25);
+    background-color: rgba(206, 211, 214, 0.5);
 }
 
 .navbar-toggler{
@@ -105,7 +112,6 @@ a.navbar-brand:hover{
 .navbar .nav-link:active{
     color: #381936;
 }
-
 /*-----------------------Landing page--------*/
 .landing-page-container{
     text-align: center;
@@ -189,6 +195,30 @@ transition: transform 600ms;
     margin-top: 15px;
 }
 
+/*-------------------Evidence------------------*/
+.header-container{
+    padding: 0;
+    background: url("../images/image3.jpg") no-repeat bottom -75px center;
+    min-height: 33vh;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.header-container .col-12{
+    padding: 0;
+}
+
+small{
+    text-align: right;
+}
+
+.row-button{
+    margin: 0;
+    justify-content: top;
+    text-align: center;
+}
 
 /*-------------------footer------------------*/
 footer .col-12{
@@ -231,7 +261,8 @@ footer .row{
         padding-bottom: 40px;
     }
 
-    .row-heading{
+    .row-heading,
+    .row-button{
         padding: 0px;
     }
 
