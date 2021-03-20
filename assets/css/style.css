@@ -31,10 +31,6 @@ p{
     margin-top: 10px;
 }
 
-.right-text{
-    text-align: right;
-}
-
 .left-text{
     text-align: left;
 }
@@ -53,7 +49,7 @@ p{
 /*-------------------------------Nav------------*/
 .nav-header-container{
     padding: 0;
-    background: url("/assets/images/image1.jpg") no-repeat center center;
+    background: url("./assets/images/image1.jpg") no-repeat center center;
     min-height: 80vh;
     background-size: cover;
     -webkit-background-size: cover;
@@ -229,7 +225,6 @@ footer .row{
 }
 
 @media(min-width:992px) {
-    h4.right-text,
     h4.left-text {
         text-align: center;
     }
