@@ -16,36 +16,38 @@
         <div class="container-fluid nav-header-container">
             <div class="row">
                 <div class="col-12">
-                    <nav class="navbar navbar-expand-md sticky-top">
+                    <nav class="navbar navbar-expand-md">
                         <a class="navbar-brand" href="#">Haunted</a>
                         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
-                            data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true"
+                            data-target="#dropdownmenu" aria-controls="navbarNavDropdown" aria-expanded="true"
                             aria-label="Toggle navigation">
                             <span><i class="fas fa-bars"></i></span></button>
-                        <div class="collapse navbar-collapse">
+                        <div class="collapse navbar-collapse" id="dropdownmenu">
                             <ul class="navbar-menu nav ml-auto">
-                                <li class="nav-item"><a class="active nav-link" href="/">Home</a></li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                <li class="nav-item mr-auto"><a class="active nav-link" href="/">Home</a></li>
+                                <li class="nav-item dropdown mr-auto">
+                                    <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown"
                                         aria-haspopup="true" aria-expanded="false">About</a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="#">Introduction</a>
-                                        <a class="dropdown-item" href="#">Hauntings</a>
-                                        <a class="dropdown-item" href="#">Ghosts</a>
-                                        <a class="dropdown-item" href="#">Theories</a>
+                                        <a class="dropdown-item" href="#about">About</a>
+                                        <a class="dropdown-item" href="#introduction">Introduction</a>
+                                        <a class="dropdown-item" href="#hauntings">Hauntings</a>
+                                        <a class="dropdown-item" href="#ghosts">Ghosts</a>
+                                        <a class="dropdown-item" href="#theories">Theories</a>
                                     </div>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                <li class="nav-item dropdown mr-auto">
+                                    <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown"
                                         aria-haspopup="true" aria-expanded="false">Evidence</a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="#">True Stories</a>
-                                        <a class="dropdown-item" href="#">Pictures</a>
-                                        <a class="dropdown-item" href="#">Videos</a>
+                                        <a class="dropdown-item" href="evidence.html#evidence">Evidence</a>
+                                        <a class="dropdown-item" href="evidence.html#true-stories">True Stories</a>
+                                        <a class="dropdown-item" href="evidence.html#pictures">Pictures</a>
+                                        <a class="dropdown-item" href="evidence.html#videos">Videos</a>
                                     </div>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="/">Resources</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/">Contact</a></li>
+                                <li class="nav-item mr-auto"><a class="nav-link" href="evidence.html#resources">Resources</a></li>
+                                <li class="nav-item mr-auto"><a class="nav-link" href="contact.html">Contact</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -60,14 +62,14 @@
                         </div>
                         <div class="slogan">
                             <h2>Do <strong>you</strong> believe in ghosts?</h2>
-                            <a href="#"><i class="fas fa-ghost" aria-hidden="true"></i>
+                            <a href="evidence.html"><i class="fas fa-ghost" aria-hidden="true"></i>
                                 <span class="sr-only">Link to evidence section</span></a>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-10 offset-1">
-                        <a class="landing-page-button" href="#">
+                        <a class="landing-page-button" href="contact.html">
                             <button type="button" class="btn btn-lg btn-success hover">Tell us your true
                                 stories</button>
                             <span class="sr-only">Link will open contact page</span>
@@ -79,20 +81,19 @@
     </header>
 
     <article>
-        <section class="About-section">
+        <section class="about-section">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 col-md-10 offset-md-1 col-lg-4 offset-lg-0 about">
-                        <h2 class="text-center">About</h2>
+                    <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-0">
+                        <h2 class="text-center" id="about">About</h2>
                         <p> This site is for anyone interested in the paranormal. Paranormal is defined as events that
                             are beyond explanation<sup>1</sup>. In the last
                             decade or so ghost hunting programs have been gaining popularity and there are lots! But the
                             fascination with ghost, spirits and hauntings has been popular for <strong>alot</strong>
                             longer. On this site I want to give you an introduction into this fascinating subject and
                             let you decide: <br><em>Do you believe in Ghosts?</em></p>
-                    </div>
-                    <div class="col-12 col-md-10 offset-md-1 col-lg-4 offset-lg-0 introduction">
-                        <h2 class="text-center">Introduction</h2>
+                    
+                        <h2 class="text-center" id="introduction">Introduction</h2>
                         <p> Belief in the paranormal is an ancient one, it is even mentioned in the bible, and is the
                             main
                             storyline of thousands of pieces of literature and films.<sup>2</sup><br> In Victorian
@@ -122,11 +123,11 @@
             </div>
         </section>
         <hr class="section-divide">
-        <section>
+        <section class="hauntings-section">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-lg-4 hauntings">
-                        <h2 class="text-center">Hauntings</h2>
+                        <h2 class="text-center" id="hauntings">Hauntings</h2>
                         <h4 class="left-text">Intelligent</h4>
                         <p>In intelligent hauntings the ghost appears to be aware of the living world, directly
                             interacting with people and objects within the environment. This includes answering
@@ -147,7 +148,7 @@
                         </p>
                     </div>
                     <div class="col-12 col-lg-8 ghosts">
-                        <h2 class="text-center">Ghosts</h2>
+                        <h2 class="text-center" id="ghosts">Ghosts</h2>
                         <table class="table table-striped table-md">
                             <caption>Types and descriptions of ghosts.<sup>7</sup></caption>
                             <thead>
@@ -193,11 +194,11 @@
             </div>
         </section>
         <hr class="section-divide">
-        <section>
-            <div class="container-fluid theories">
+        <section class="theories-section">
+            <div class="container-fluid">
                 <div class="row row-heading">
                     <div class="col-12 theories-title">
-                        <h2 class="text-center">Theories</h2>
+                        <h2 class="text-center" id="theories">Theories</h2>
                     </div>
                 </div>
                 <div class="row">
