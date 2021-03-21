@@ -40,6 +40,7 @@ p{
 .col-6,
 .col-4,
 .col-2,
+.col-md-6,
 .d-none {
     padding-left: 30px;
     padding-right: 30px;
@@ -198,7 +199,7 @@ transition: transform 600ms;
 /*-------------------Evidence------------------*/
 .header-container{
     padding: 0;
-    background: url("../images/image3.jpg") no-repeat bottom -75px center;
+    background: url("../images/image3.jpg") no-repeat bottom center;
     min-height: 33vh;
     background-size: cover;
     -webkit-background-size: cover;
@@ -210,6 +211,10 @@ transition: transform 600ms;
     padding: 0;
 }
 
+.hidden{
+    position: relative;
+}
+
 label {
   padding: 10px;
   border: solid;
@@ -218,26 +223,19 @@ label {
   background-color: #0e0325;
   color: #e8feff;
   border:none;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-left: 30px;                 
 }
 
 input{
   display: none;
 }
 
-.hide{
-    display: none;
+.row.true-stories-row,
+.row.hidden-stories-row{
+    padding-bottom: 0;
+    
 }
-
-input:checked ~ .hide {
-  display: inline;
-}
-
-div.hidden {
-    padding: 0;
-    width: 100vh;
-}
-
 
 /*-------------------footer------------------*/
 footer .col-12{
@@ -272,7 +270,7 @@ footer .row{
   }
 }
 
-@media(min-width:992px) {
+@media(min-width:769px) {
     h4.left-text {
         text-align: center;
     }
@@ -287,15 +285,36 @@ footer .row{
 
     label {
         display: none;
-    }
-     
-    .hide{
-        display: inline-block;
-        width: 33%;
-        justify-content: top;
-        padding: 30px;
+    }    
+}
 
+@media(min-width:769px) {
+    .header-container{
+    background: url("../images/image3.jpg") no-repeat bottom -80px center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;   
     }
 
-    
+@media(min-width:1000px) {
+ .header-container{
+    background: url("../images/image3.jpg") no-repeat bottom -130px center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+ }
+
+@media(max-width:768px){
+    .hide {
+        display: none;
+    }
+    input:checked ~ .hide {
+    display: inline;
+}
+    div.hide.col-md-6.col-lg-4 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
