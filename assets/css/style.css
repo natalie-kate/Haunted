@@ -5,23 +5,23 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
+    color: #0e0325;
 }
 
 h1,h2,h3,h4,h5{
     font-family: "Noto Sans KR", sans-serif;
     margin: 0;
-    color: #0e0325;
-}
-
-.section-divide{
-    width: 50%;
-    height: 10px;
-    background-color: #753871;
 }
 
 h2{
     margin: 15px;
+    font-weight: 700;
 }
+
+h3{
+    color: #753871;
+}
+
 h4{
     margin-top:10px;
 }
@@ -42,8 +42,8 @@ p{
 .col-2,
 .col-md-6,
 .d-none {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 section.true-stories-section,
@@ -51,6 +51,11 @@ section.about-section,
 section.hauntings-section,
 section.theories-section {
     margin-bottom: 30px;
+}
+
+.heading-row h2 {
+    background-color: #753871;
+    color: #e8feff;  
 }
 
 /*-------------------------------Nav------------*/
@@ -68,7 +73,8 @@ section.theories-section {
     padding: 0px;
 }
 
-nav.navbar {
+nav.navbar.navbar-expand-md {
+    padding: 8px 0;
     height: 75px;
     background-color: rgba(206, 211, 214, 0.5);
 }
@@ -93,7 +99,6 @@ a.navbar-brand:hover{
 
 .navbar .nav-link,
 .dropdown-item{
-    padding-left: 20px;
     font-family: "Noto Sans KR", sans-serif;
     font-size: 18px;
     color: #753871;
@@ -194,6 +199,8 @@ transition: transform 600ms;
     font-weight: 700;
     font-size: 1.2rem;
     margin-top: 15px;
+    background-color: #e8feff;
+    color: #381936;
 }
 
 /*-------------------Evidence------------------*/
@@ -216,7 +223,6 @@ transition: transform 600ms;
 }
 
 label {
-  padding: 10px;
   border: solid;
   border-radius: 5px;
   height: 50px;
@@ -224,7 +230,7 @@ label {
   color: #e8feff;
   border:none;
   margin-bottom: 20px;
-  margin-left: 30px;                 
+                 
 }
 
 input{
@@ -235,6 +241,15 @@ input{
 .row.hidden-stories-row{
     padding-bottom: 0;
     
+}
+.pictures{
+    text-align: center;
+}
+
+.pictures img{
+   width: auto;
+   height: 400px;
+   padding: 5px;       
 }
 
 /*-------------------footer------------------*/
@@ -271,10 +286,25 @@ footer .row{
 }
 
 @media(min-width:769px) {
-    h4.left-text {
-        text-align: center;
+    .header-container{
+    background: url("../images/image3.jpg") no-repeat bottom -80px center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;   
     }
-    .row{
+    .col-12,
+    .col-10,
+    .col-8,
+    .col-6,
+    .col-4,
+    .col-2,
+    .col-md-6,
+    .d-none {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+     .row{
         padding-bottom: 40px;
     }
 
@@ -286,16 +316,10 @@ footer .row{
     label {
         display: none;
     }    
-}
-
-@media(min-width:769px) {
-    .header-container{
-    background: url("../images/image3.jpg") no-repeat bottom -80px center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;   
+    h2 {
+        text-transform: uppercase;
     }
+}
 
 @media(min-width:1000px) {
  .header-container{
@@ -305,6 +329,7 @@ footer .row{
     -moz-background-size: cover;
     -o-background-size: cover;
  }
+}
 
 @media(max-width:768px){
     .hide {
@@ -312,9 +337,17 @@ footer .row{
     }
     input:checked ~ .hide {
     display: inline;
-}
+    }
     div.hide.col-md-6.col-lg-4 {
         padding-left: 30px;
         padding-right: 30px;
     }
+    table td,
+    table th,
+    table {
+        padding: 2px;
+        font-size: 0.9rem;
+        line-height: 1.2;  
+    }
+    
 }
