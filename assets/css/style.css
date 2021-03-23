@@ -226,7 +226,7 @@ transition: transform 600ms;
     position: relative;
 }
 
-input{
+input#more-button{
   display: none;
 }
 
@@ -247,6 +247,30 @@ input{
    width: auto;
    height: 300px;
    padding: 5px;       
+}
+/*-----------------------------Contact-------*/
+form fieldset{
+    border: solid 1px #0e0325;
+    width: 95vw;
+}
+fieldset input{
+    width: 85vw;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+fieldset label{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+fieldset legend {
+    width: 60vw;
+    text-align: center;
+}
+
+textarea {
+    width: 95vw;
 }
 
 /*-------------------footer------------------*/
