@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Information site about ghosts and hauntings">
+    <meta name="keywords" content="ghosts, hauntings, paranormal, ghost stories">
+    <meta name="author" content="Natalie Kate Alexander">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
     <link rel="stylesheet" href="assets/css/style.css">
@@ -12,11 +15,11 @@
 
 <body>
     <!-----------------------------------------------Header and Nav-->
-    <header>
-        <div class="container-fluid header-container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="navbar navbar-expand-md">
+    <div class="container-fluid">
+        <div class="header-container">
+            <header>
+                <div class="row">
+                    <nav class="col navbar navbar-expand-md">
                         <a class="navbar-brand" href="index.html">Haunted</a>
                         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
                             data-target="#dropdownmenu" aria-controls="navbarNavDropdown" aria-expanded="true"
@@ -24,7 +27,8 @@
                             <span><i class="fas fa-bars"></i></span></button>
                         <div class="collapse navbar-collapse" id="dropdownmenu">
                             <ul class="navbar-menu nav ml-auto">
-                                <li class="nav-item mr-auto"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item mr-auto"><a class="active nav-link" href="index.html">Home</a>
+                                </li>
                                 <li class="nav-item dropdown mr-auto">
                                     <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown"
                                         aria-haspopup="true" aria-expanded="false">About</a>
@@ -37,27 +41,25 @@
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown mr-auto">
-                                    <a class="nav-link active dropdown-toggle" role="button" data-toggle="dropdown"
-                                        aria-haspopup="true" aria-expanded="false">Evidence</a>
+                                    <a class="nav-link dropdown-toggle" href="evidence.html" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Evidence</a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="#evidence">Evidence</a>
-                                        <a class="dropdown-item" href="#true-stories">True Stories</a>
-                                        <a class="dropdown-item" href="#pictures">Pictures</a>
-                                        <a class="dropdown-item" href="#videos">Videos</a>
+                                        <a class="dropdown-item" href="evidence.html#true-stories">True Stories</a>
+                                        <a class="dropdown-item" href="evidence.html#pictures">Pictures</a>
+                                        <a class="dropdown-item" href="evidence.html#videos">Videos</a>
                                     </div>
                                 </li>
-                                <li class="nav-item mr-auto"><a class="nav-link" href="#resources">Resources</a></li>
-                                <li class="nav-item mr-auto"><a class="nav-link" href="contact.html">Contact</a></li>
+                                <li class="nav-item mr-auto"><a class="nav-link"
+                                        href="evidence.html#resources">Resources</a></li>
+                                <li class="nav-item mr-auto"><a class="nav-link" href="#contact">Contact</a></li>
                             </ul>
                         </div>
                     </nav>
                 </div>
-            </div>
+            </header>
         </div>
-    </header>
-    <!-----------------------------------------------True Stories-->
-    <article>
-        <div class="container-fluid">
+        <!-----------------------------------------------True Stories-->
+        <main>
             <div class="row row-heading">
                 <div class="col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 heading-row page-title">
                     <h1 class="text-center">Evidence</h1>
@@ -204,118 +206,114 @@
                     </div>
                 </div>
             </section>
-        </div>
-    </article>
+            <section>
+                <div class="container-fluid">
+                    <div class="row row-heading">
+                        <div class="col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 heading-row">
+                            <h2 class="text-center">Media Evidence</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-8 picture-evidence">
+                            <h3 class="left-text" id="pictures">Pictures</h3>
+                            <img src="./assets/images/image15.jpeg"
+                                alt="Old group photo of some woman, circled in red is a hand that doesn't have an arm or body to go with it as all the woman have their arms crossed in front of them.">
+                            <picture>
+                                <source srcset="./assets/images/image7crop.jpeg" media="(max-width:500px">
+                                <img src="./assets/images/image7.jpeg"
+                                    alt="Photo showing a group of military men, a close up of one of the men shows a face behind him, absent of a body.">
+                            </picture>
+                            <picture>
+                                <source srcset="./assets/images/image6crop.jpeg" media="(max-width:500px">
+                                <img src="./assets/images/image6.jpeg"
+                                    alt="Picture of a sitting room where there is the torso of a transparent man sitting in the chair.">
+                            </picture>
+                            <img src="./assets/images/image8.jpeg"
+                                alt="Photo of an older woman in dark clothes and hat sitting for a portrait with what apears to be the spirit of a man standing behind her with his hands on her shouders">
+                            <img src="./assets/images/image10.jpeg"
+                                alt="Photo of a woman with a mans face floating in a mist above.">
+                            <img src="./assets/images/image11.png"
+                                alt="Photo of three people sitting for a picture with two faces floating above them.">
+                            <img src="./assets/images/image17.png"
+                                alt="Photo of a man with a white apparition with no discernible features beside him">
+                            <img src="./assets/images/image16.png"
+                                alt="Photo of a woman and her large dog. On top of the dog is the face of another smaller dog, with no body.">
+                            <img src="./assets/images/image9.jpeg"
+                                alt="Photo of an older couple sitting for their picture with a womans face with a shroud round her head floating above.">
+                            <picture>
+                                <source srcset="./assets/images/image13crop.jpeg" media="(max-width:500px">
+                                <img src="./assets/images/image13.jpeg"
+                                    alt="Picture taken at the front of a church where there appears to be a tall figure in a hooded cloak with a long white goulish face.">
+                            </picture>
+                            <img src="./assets/images/image14.png"
+                                alt="Picture of an older bearded gentleman sitting, there is a transparent figure in white beside him.">
+                            <img src="./assets/images/image12.jpeg"
+                                alt="Photo of a transparent apparition coming down stairs">
 
-    <section>
-        <div class="container-fluid">
-            <div class="row row-heading">
-                <div class="col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 heading-row">
-                    <h2 class="text-center">Media Evidence</h2>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <h3 class="left-text" id="videos">Videos</h3>
+                            <iframe src="https://www.youtube.com/embed/gj8z-3e5SsA" title="YouTube video player"
+                                allowfullscreen>
+                                <p>Your browser does not support iframes.
+                                    <a href="https://www.youtube.com/embed/gj8z-3e5SsA">View video here.</a>
+                                </p>
+                            </iframe>
+                            <iframe src="https://www.youtube.com/embed/WHgHdhS5Oco" title="YouTube video player"
+                                allowfullscreen>
+                                <p>Your browser does not support iframes.
+                                    <a href="https://www.youtube.com/embed/WHgHdhS5Oco">View video here.</a>
+                                </p>
+                            </iframe>
+                            <iframe src="https://www.youtube.com/embed/CgHVifwshdc?start=342&end712"
+                                title="YouTube video player" allowfullscreen>
+                                <p>Your browser does not support iframes.
+                                    <a href="https://www.youtube.com/embed/CgHVifwshdc?start=342&end712">View video
+                                        here.</a>
+                                </p>
+                            </iframe>
+                            <iframe src="https://www.youtube.com/embed/2mss495OpRs" title="YouTube video player"
+                                allowfullscreen>
+                                <p>Your browser does not support iframes.
+                                    <a href="https://www.youtube.com/embed/CgHVifwshdc?start=342&end712">View video
+                                        here.</a>
+                                </p>
+                            </iframe>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </section>
+        </main>
+
+        <!----------------------------------------------Footer------>
+        <footer>
             <div class="row">
-                <div class="col-12 col-lg-8 picture-evidence">
-                    <h3 class="left-text" id="pictures">Pictures</h3>
-                    <img src="./assets/images/image15.jpeg"
-                        alt="Old group photo of some woman, circled in red is a hand that doesn't have an arm or body to go with it as all the woman have their arms crossed in front of them.">
-                    <picture>
-                        <source srcset="./assets/images/image7crop.jpeg" media="(max-width:500px">
-                        <img src="./assets/images/image7.jpeg"
-                            alt="Photo showing a group of military men, a close up of one of the men shows a face behind him, absent of a body.">
-                    </picture>
-                    <picture>
-                        <source srcset="./assets/images/image6crop.jpeg" media="(max-width:500px">
-                        <img src="./assets/images/image6.jpeg"
-                            alt="Picture of a sitting room where there is the torso of a transparent man sitting in the chair.">
-                    </picture>
-                    <img src="./assets/images/image8.jpeg"
-                        alt="Photo of an older woman in dark clothes and hat sitting for a portrait with what apears to be the spirit of a man standing behind her with his hands on her shouders">
-                    <img src="./assets/images/image10.jpeg"
-                        alt="Photo of a woman with a mans face floating in a mist above.">
-                    <img src="./assets/images/image11.png"
-                        alt="Photo of three people sitting for a picture with two faces floating above them.">
-                    <img src="./assets/images/image17.png"
-                        alt="Photo of a man with a white apparition with no discernible features beside him">
-                    <img src="./assets/images/image16.png"
-                        alt="Photo of a woman and her large dog. On top of the dog is the face of another smaller dog, with no body.">
-                    <img src="./assets/images/image9.jpeg"
-                        alt="Photo of an older couple sitting for their picture with a womans face with a shroud round her head floating above.">
-                    <picture>
-                        <source srcset="./assets/images/image13crop.jpeg" media="(max-width:500px">
-                        <img src="./assets/images/image13.jpeg"
-                            alt="Picture taken at the front of a church where there appears to be a tall figure in a hooded cloak with a long white goulish face.">
-                    </picture>
-                    <img src="./assets/images/image14.png"
-                        alt="Picture of an older bearded gentleman sitting, there is a transparent figure in white beside him.">
-                    <img src="./assets/images/image12.jpeg" alt="Photo of a transparent apparition coming down stairs">
-
-                </div>
-                <div class="col-12 col-lg-4">
-                    <h3 class="left-text" id="videos">Videos</h3>
-                    <iframe src="https://www.youtube.com/embed/gj8z-3e5SsA" title="YouTube video player"
-                        allowfullscreen>
-                        <p>Your browser does not support iframes.
-                            <a href="https://www.youtube.com/embed/gj8z-3e5SsA">View video here.</a>
-                        </p>
-                    </iframe>
-                    <iframe src="https://www.youtube.com/embed/WHgHdhS5Oco" title="YouTube video player"
-                        allowfullscreen>
-                        <p>Your browser does not support iframes.
-                            <a href="https://www.youtube.com/embed/WHgHdhS5Oco">View video here.</a>
-                        </p>
-                    </iframe>
-                    <iframe src="https://www.youtube.com/embed/CgHVifwshdc?start=342&end712"
-                        title="YouTube video player" allowfullscreen>
-                        <p>Your browser does not support iframes.
-                            <a href="https://www.youtube.com/embed/CgHVifwshdc?start=342&end712">View video here.</a>
-                        </p>
-                    </iframe>
-                    <iframe src="https://www.youtube.com/embed/2mss495OpRs" title="YouTube video player"
-                        allowfullscreen>
-                        <p>Your browser does not support iframes.
-                            <a href="https://www.youtube.com/embed/CgHVifwshdc?start=342&end712">View video here.</a>
-                        </p>
-                    </iframe>
+                <div class="col-12">
+                    <div class="social-links">
+                        <span class="social">Follow us on social media</span><br>
+                        <a class="social" target="_blank" href="https://www.facebook.com/" rel="noopener">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Link will open Facebook in a new page</span>
+                        </a>
+                        <a class="social" target="_blank" href="https://www.twitter.com" rel="noopener">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Link will open Twitter in a new page</span>
+                        </a>
+                        <a class="social" target="_blank" href="https://www.youtube.com" rel="noopener">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">Link will open Youtube in a new page</span>
+                        </a>
+                        <a class="social" target="_blank" href="https://www.instagram.com" rel="noopener">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Link will open Instagram in a new page</span>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </footer>
+    </div>
 
 
-
-
-
-
-
-
-
-    <!----------------------------------------------Footer------>
-    <footer class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <div class="social-links">
-                    <h5>Follow us on social media</h5>
-                    <a class="social" target="_blank" href="https://www.facebook.com/">
-                        <i class="fab fa-facebook" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span>
-                    </a>
-                    <a class="social" target="_blank" href="https://www.twitter.com">
-                        <i class="fab fa-twitter" aria-hidden="true"></i>
-                        <span class="sr-only">Link will open Twitter in a new page</span>
-                    </a>
-                    <a class="social" target="_blank" href="https://www.youtube.com">
-                        <i class="fab fa-youtube" aria-hidden="true"></i>
-                        <span class="sr-only">Link will open Youtube in a new page</span>
-                    </a>
-                    <a class="social" target="_blank" href="https://www.instagram.com">
-                        <i class="fab fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Link will open Instagram in a new page</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
 
 
 

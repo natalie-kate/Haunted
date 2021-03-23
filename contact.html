@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Information site about ghosts and hauntings">
+    <meta name="keywords" content="ghosts, hauntings, paranormal, ghost stories">
+    <meta name="author" content="Natalie Kate Alexander">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
     <link rel="stylesheet" href="assets/css/style.css">
@@ -11,112 +14,119 @@
 </head>
 
 <body>
+    <div class="container-fluid">
+        <div class="header-container">
+            <header>
+                <div class="row">
+                        <nav class="col navbar navbar-expand-md">
+                            <a class="navbar-brand" href="index.html">Haunted</a>
+                            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                                data-target="#dropdownmenu" aria-controls="navbarNavDropdown" aria-expanded="true"
+                                aria-label="Toggle navigation">
+                                <span><i class="fas fa-bars"></i></span></button>
+                            <div class="collapse navbar-collapse" id="dropdownmenu">
+                                <ul class="navbar-menu nav ml-auto">
+                                    <li class="nav-item mr-auto"><a class="active nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item dropdown mr-auto">
+                                        <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false">About</a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item" href="index.html#about">About</a>
+                                            <a class="dropdown-item" href="index.html#introduction">Introduction</a>
+                                            <a class="dropdown-item" href="index.html#hauntings">Hauntings</a>
+                                            <a class="dropdown-item" href="index.html#ghosts">Ghosts</a>
+                                            <a class="dropdown-item" href="index.html#theories">Theories</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown mr-auto">
+                                        <a class="nav-link dropdown-toggle" href="evidence.html" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">Evidence</a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item" href="evidence.html#true-stories">True Stories</a>
+                                            <a class="dropdown-item" href="evidence.html#pictures">Pictures</a>
+                                            <a class="dropdown-item" href="evidence.html#videos">Videos</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item mr-auto"><a class="nav-link"
+                                            href="evidence.html#resources">Resources</a></li>
+                                    <li class="nav-item mr-auto"><a class="nav-link" href="#contact">Contact</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </header>
+        </div>
 
-    <header>
-        <div class="container-fluid header-container">
+        <main>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                        <h2 class="text-center">Get in touch!</h2>
+                        <p>We would love to hear your stories, comments and answer your questions. Please get in touch.
+                        </p>
+                        <form action=" " method="POST">
+                            <fieldset>
+                                <legend>Personal details</legend>
+                                <label for="firstname">First Name:</label><br>
+                                <input id="firstname" type="text" name="first-name" placeholder="e.g Casper"
+                                    required><br>
+                                <label for="surname">Surname:</label><br>
+                                <input id="surname" type="text" name="surname" placeholder="e.g Friendly" required><br>
+                                <label for="email">Email Address:</label><br>
+                                <input id="email" type="email" name="email" placeholder="e.g casperfriendly@fake.com"
+                                    required><br>
+                            </fieldset>
+                            <p>Would you like to be added into our mailing list so you can receive updates of new
+                                content
+                                and exciting new features?</p>
+                            <input id="yes-button" type="radio" name="mailing-list" value="yes" checked required>
+                            <label for="yes-button">Of Course!</label>
+                            <input id="no-button" type="radio" name="mailing-list" value="no">
+                            <label for="no-button">Not just now</label><br>
+                            <label for="text-box">Your message:</label><br>
+                            <textarea id="text-box" name="message" placeholder="Type here"></textarea><br>
+                            <label for="file">Want to send us your own pictures or videos?</label><br>
+                            <input id="file" type="file" name="file"><br>
+                            <button type="submit" class="btn btn-success btn-lg">Send message
+                                <i class="fas-fa-mail"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <!----------------------------------Footer-->
+        <footer>
             <div class="row">
                 <div class="col-12">
-                    <nav class="navbar navbar-expand-md">
-                        <a class="navbar-brand" href="index.html">Haunted</a>
-                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
-                            data-target="#dropdownmenu" aria-controls="navbarNavDropdown" aria-expanded="true"
-                            aria-label="Toggle navigation">
-                            <span><i class="fas fa-bars"></i></span></button>
-                        <div class="collapse navbar-collapse" id="dropdownmenu">
-                            <ul class="navbar-menu nav ml-auto">
-                                <li class="nav-item mr-auto"><a class="active nav-link" href="index.html">Home</a></li>
-                                <li class="nav-item dropdown mr-auto">
-                                    <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown"
-                                        aria-haspopup="true" aria-expanded="false">About</a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="index.html#about">About</a>
-                                        <a class="dropdown-item" href="index.html#introduction">Introduction</a>
-                                        <a class="dropdown-item" href="index.html#hauntings">Hauntings</a>
-                                        <a class="dropdown-item" href="index.html#ghosts">Ghosts</a>
-                                        <a class="dropdown-item" href="index.html#theories">Theories</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown mr-auto">
-                                    <a class="nav-link dropdown-toggle" href="evidence.html" role="button"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Evidence</a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="evidence.html#true-stories">True Stories</a>
-                                        <a class="dropdown-item" href="evidence.html#pictures">Pictures</a>
-                                        <a class="dropdown-item" href="evidence.html#videos">Videos</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item mr-auto"><a class="nav-link"
-                                        href="evidence.html#resources">Resources</a></li>
-                                <li class="nav-item mr-auto"><a class="nav-link" href="#contact">Contact</a></li>
-                            </ul>
-                        </div>
-                    </nav>
+                    <div class="social-links">
+                        <span class="social">Follow us on social media</span><br>
+                        <a class="social" target="_blank" href="https://www.facebook.com/" rel="noopener">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Link will open Facebook in a new page</span>
+                        </a>
+                        <a class="social" target="_blank" href="https://www.twitter.com" rel="noopener">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Link will open Twitter in a new page</span>
+                        </a>
+                        <a class="social" target="_blank" href="https://www.youtube.com" rel="noopener">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">Link will open Youtube in a new page</span>
+                        </a>
+                        <a class="social" target="_blank" href="https://www.instagram.com" rel="noopener">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Link will open Instagram in a new page</span>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
-    <section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-                    <h2 class="text-center">Get in touch!</h2>
-                    <p>We would love to hear your stories, comments and answer your questions. Please get in touch.</p>
-                    <form action=" " method="POST">
-                        <fieldset>
-                            <legend>Personal details</legend>
-                            <label for="firstname">First Name:</label><br>
-                            <input id="firstname" type="text" name="first-name" placeholder="e.g Casper" required><br>
-                            <label for="surname">Surname:</label><br>
-                            <input id="surname" type="text" name="surname" placeholder="e.g Friendly" required><br>
-                            <label for="email">Email Address:</label><br>
-                            <input id="email" type="email" name="email" placeholder="e.g casperfriendly@fake.com"
-                                required><br>
-                        </fieldset>
-                        <p>Would you like to be added into our mailing list so you can receive updates of new content
-                            and exciting new features?</p>
-                        <input id="yes-button" type="radio" name="mailing-list" value="yes" checked required>
-                        <label for="yes-button">Of Course!</label>
-                        <input id="no-button" type="radio" name="mailing-list" value="no">
-                        <label for="no-button">Not just now</label><br>
-                        <label for="text-box">Your message:</label><br>
-                        <textarea id="text-box" name="message" placeholder="Type here"></textarea><br>
-                        <label for="file">Want to send us your own pictures or videos?</label><br>
-                        <input id="file" type="file" name="file"><br>
-                        <button type="submit" class="btn btn-success btn-lg">Send message 
-                            <i class="fas-fa-mail"></i></button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+        </footer>
+    </div>
 
 
-    <!----------------------------------Footer-->
-    <footer class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <div class="social-links">
-                    <h5>Follow us on social media</h5>
-                    <a class="social" target="_blank" href="https://www.facebook.com/">
-                        <i class="fab fa-facebook" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span>
-                    </a>
-                    <a class="social" target="_blank" href="https://www.twitter.com">
-                        <i class="fab fa-twitter" aria-hidden="true"></i>
-                        <span class="sr-only">Link will open Twitter in a new page</span>
-                    </a>
-                    <a class="social" target="_blank" href="https://www.youtube.com">
-                        <i class="fab fa-youtube" aria-hidden="true"></i>
-                        <span class="sr-only">Link will open Youtube in a new page</span>
-                    </a>
-                    <a class="social" target="_blank" href="https://www.instagram.com">
-                        <i class="fab fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Link will open Instagram in a new page</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
 
 
 
