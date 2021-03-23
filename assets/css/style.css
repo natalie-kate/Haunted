@@ -147,19 +147,23 @@ strong{
 }
 
 
-button.btn-success{
+a.btn-success,
+input.btn-success,
+label.btn-success{
     background-color: #0e0325;
     color: #e8feff;
     border:none;
     margin-top: 20px;
 }
 
-button.btn-success:hover,
-button.btn-success:focus,
-button.btn-success:active{
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active {
     color: #e8feff;
     background-color: #0e0325;
 }
+
+
 
 /*-----------------www.joshwcomeau.com--------*/
 .hover:hover{
@@ -222,33 +226,26 @@ transition: transform 600ms;
     position: relative;
 }
 
-label {
-  border: solid;
-  border-radius: 5px;
-  height: 50px;
-  background-color: #0e0325;
-  color: #e8feff;
-  border:none;
-  margin-bottom: 20px;
-                 
-}
-
 input{
   display: none;
 }
 
 .row.true-stories-row,
 .row.hidden-stories-row{
-    padding-bottom: 0;
-    
+    padding-bottom: 0;  
 }
-.pictures{
+
+.hidden-stories-row .col-10{
+    text-align:center;
+}
+.picture-evidence{
     text-align: center;
 }
 
-.pictures img{
+.picture-evidence img,
+.picture-evidence picture{
    width: auto;
-   height: 400px;
+   height: 300px;
    padding: 5px;       
 }
 
@@ -304,7 +301,7 @@ footer .row{
         padding-left: 30px;
         padding-right: 30px;
     }
-     .row{
+    .row{
         padding-bottom: 40px;
     }
 
@@ -313,9 +310,10 @@ footer .row{
         padding: 0px;
     }
 
-    label {
+    label.btn.btn-success {
         display: none;
-    }    
+    }  
+
     h2 {
         text-transform: uppercase;
     }
