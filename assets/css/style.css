@@ -304,7 +304,27 @@ form p {
     width: 95%;
 }
 
+form button.btn {
+    margin-top: 0;
+}
 
+.modal-content {
+    background-color: #e8feff; 
+    text-align: center;
+}
+.modal-content h3 {
+    color: #0e0325;
+}
+.modal-content p {
+    color: #753871;
+}
+
+.modal button.btn {
+   width: 100px;
+   margin-bottom: 20px;
+   margin-top: 5px;
+   align-self: center;
+}
 
 
 
