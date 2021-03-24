@@ -308,6 +308,7 @@ form button.btn {
     margin-top: 0;
 }
 
+/*-----------------------------Modal-------*/
 .modal-content {
     background-color: #e8feff; 
     text-align: center;
@@ -326,8 +327,20 @@ form button.btn {
    align-self: center;
 }
 
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 20px;
+}
 
+ul a {
+    color: #753871;
+}
 
+ul a:hover{
+    color: #0e0325;
+    text-decoration: none;
+}
 
 /*-------------------footer------------------*/
 footer .col-12{
@@ -342,12 +355,12 @@ footer .row{
     padding: 0px;
 }
 
-
 .social i{
     font-size: 40px;
     padding-left: 10px;
     color: #753871;
 }
+
 .social i:hover,
 .social i:active{
     color: #381936;
