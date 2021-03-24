@@ -1,15 +1,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
-
+html,
 body{
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow-x: hidden;
     font-family: "Montserrat", sans-serif;
     color: #0e0325;
 }
 
 .row{
     width: 100vw;
+    margin: auto;
 }
 
 h1,h2,h3,h4,h5{
@@ -155,11 +158,13 @@ strong{
 
 a.btn-success,
 input.btn-success,
-label.btn-success{
+label.btn-success,
+button.btn-success {
     background-color: #0e0325;
     color: #e8feff;
     border:none;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .btn-success:hover,
@@ -196,9 +201,6 @@ transition: transform 600ms;
 .ghosts table{
     margin-top: 25px;
 }
-
-
-
 
 /*-------------------Theories------------------*/
 .fact-box{
@@ -244,40 +246,68 @@ input#more-button{
 .hidden-stories-row .col-10{
     text-align:center;
 }
-.picture-evidence{
+div.picture-evidence,
+div.video-evidence {
     text-align: center;
+    padding: 0 15px;
 }
 
 .picture-evidence img,
-.picture-evidence picture{
+.picture-evidence picture {
    width: auto;
    height: 300px;
-   padding: 5px;       
+   padding: 5px;     
 }
+
 /*-----------------------------Contact-------*/
+form {
+    width: 100%;
+}
+
+form input {
+    margin: 10px 10px;
+
+}
 form fieldset{
     border: solid 1px #0e0325;
-    width: 95vw;
+    width: 95%;
+    margin: 0;
 }
 fieldset input{
-    width: 85vw;
-    margin-bottom: 5px;
-    margin-left: 10px;
+    width: 90%;
+    margin: 10px 10px 15px;
 }
 
 fieldset label{
-    margin-left: 10px;
+    margin-left: 15px;
     margin-bottom: 5px;
 }
 
 fieldset legend {
-    width: 60vw;
+    width: 90%;
     text-align: center;
 }
 
 textarea {
-    width: 95vw;
+    height: 300px;
+    width: 95%;
+    margin-top: 8px;
 }
+
+form label,
+form p {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+form p {
+    width: 95%;
+}
+
+
+
+
+
 
 /*-------------------footer------------------*/
 footer .col-12{
@@ -285,6 +315,7 @@ footer .col-12{
     height: 75px;
     background-color:#95a4a8;
     text-align: center;
+    margin-top: 10px;
 }
 
 footer .row{
@@ -304,7 +335,7 @@ footer .row{
 
 span.social {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 15px;
   text-transform: uppercase;
 }
 
@@ -352,6 +383,15 @@ span.social {
     h2 {
         text-transform: uppercase;
     }
+
+    form {
+        width: 100%; 
+        padding-left: 10px;  
+    }
+
+    fieldset legend {
+    width: 40%;
+    }
 }
 
 @media(min-width:1000px) {
@@ -381,6 +421,5 @@ span.social {
         padding: 2px;
         font-size: 0.9rem;
         line-height: 1.2;  
-    }
-    
+    }   
 }
