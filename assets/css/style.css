@@ -156,20 +156,21 @@ strong{
 }
 
 
-a.btn-success,
-input.btn-success,
-label.btn-success,
-button.btn-success {
+a.my-btn,
+input.my-btn,
+label.my-btn,
+button.my-btn {
     background-color: #0e0325;
     color: #e8feff;
-    border:none;
     margin-top: 20px;
     margin-bottom: 10px;
+    border: none;
 }
 
-.btn-success:hover,
-.btn-success:focus,
-.btn-success:active {
+.my-btn:hover,
+.my-btn:focus,
+.my-btn:active 
+.my-btn:active:focus{
     color: #e8feff;
     background-color: #0e0325;
 }
@@ -346,13 +347,15 @@ form button.btn {
     background-color: #e8feff; 
     text-align: center;
 }
+.modal-header {
+    text-align: center;
+}
 .modal-content h3 {
     color: #0e0325;
 }
 .modal-content p {
     color: #753871;
 }
-
 .modal button.btn {
    width: 100px;
    margin-bottom: 20px;
