@@ -67,7 +67,7 @@
                         </p>
                     </div>
                 </div>
-                <form onsubmit="openModal()" id="contactform">
+                <form id="contactform">
                     <div class="row">
                         <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3">
                             <fieldset>
@@ -109,13 +109,19 @@
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
-                    <h3 class="modal-title text-center" id="sentmodaltitle">Yaay its sent!</h3>
+                    <div class="modal-header">
+                        <h3 class="modal-title text-center" id="sentmodaltitle">Yaay its sent!</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
                     <p>Thank you for contacting us.<br>We'll be in touch.<br>Watch out for those pesky ghosts!<br><i
                             class="fas fa-ghost" aria-hidden="true"></i></p>
                     <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
+
 
 
         <!----------------------------------Footer-->
@@ -159,7 +165,7 @@
         integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
         crossorigin="anonymous"></script>
 
-    <!-------------------------Davide Sanfilippo Codepen-->   
+    <!-------------------------Davide Sanfilippo Codepen-->
     <script>$('#contactform').on('submit', function (e) {
             $('#sentmodal').modal('show');
             e.preventDefault();
