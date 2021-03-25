@@ -259,6 +259,39 @@ div.video-evidence {
    padding: 5px;     
 }
 
+.picture-evidence h2,
+.video-evidence h2 {
+    margin: 10px;
+}
+
+/*-----------------------------Resource section-------*/
+.resource img {
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.resource.fact-box {
+    padding: 5px 15px;
+    margin-top: 10px;
+    font-size: 1rem;
+    
+}.resources ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 20px;
+}
+
+.resources ul a {
+    color: #753871;
+}
+
+.resources ul a:hover{
+    color: #0e0325;
+    text-decoration: none;
+}
+
 /*-----------------------------Contact-------*/
 form {
     width: 100%;
@@ -325,21 +358,6 @@ form button.btn {
    margin-bottom: 20px;
    margin-top: 5px;
    align-self: center;
-}
-
-ul {
-    list-style-type: none;
-    padding-left: 0;
-    font-size: 20px;
-}
-
-ul a {
-    color: #753871;
-}
-
-ul a:hover{
-    color: #0e0325;
-    text-decoration: none;
 }
 
 /*-------------------footer------------------*/
