@@ -100,32 +100,45 @@ a.navbar-brand {
     text-transform: uppercase;
 }
 
-a.navbar-brand:hover{
+a.navbar-brand:hover,
+a.navbar-brand:focus {
     color: #e8feff;
 }
 
 .nav-link,
 .dropdown-item,
-.nav-item {
+.nav-item,
+a {
     font-family: "Noto Sans KR", sans-serif;
     font-size: 18px;
     color: #753871;
     font-weight: 600;
     padding-top: 0;
 }
-
 .nav-link.active {
     color: #381936;
 }
-
 .dropdown-item:hover,
-.dropdown-item:active{
+.navbar .nav-link:hover,
+.navbar-toggler:hover,
+.navbar-toggler:focus,
+a:hover,
+a:focus {
     color: #381936;
 }
 
-.navbar .nav-link:hover,
-.navbar .nav-link:active{
+.dropdown-item:focus,
+.navbar .nav-link:focus,
+.navbar-toggler:focus,
+a:focus,
+a.navbar-brand:focus,
+.fa-ghost:focus, 
+.my-btn:focus,
+.my-btn:active:focus,
+.social i:focus,
+.resources ul a:focus {
     color: #381936;
+    outline: 2px solid #753871;
 }
 
 /*-----------------------Landing page--------*/
@@ -159,11 +172,9 @@ strong{
     color: #0e0325;
 }
 
-.fa-ghost:hover,
-.fa-ghost-focus{
-   color:#e8feff
+.fa-ghost:hover {
+   color: #e8feff;
 }
-
 
 a.my-btn,
 input.my-btn,
@@ -183,8 +194,6 @@ button.my-btn {
     color: #e8feff;
     background-color: #0e0325;
 }
-
-
 
 /*-----------------www.joshwcomeau.com--------*/
 .hover:hover{
@@ -207,7 +216,7 @@ transition: transform 600ms;
    position: absolute;         
    display: inline;       
    left: 50%;                   
-   transform: translate(-50%);  
+   transform: translate(-50%); 
 }
 
 figcaption {
@@ -292,6 +301,7 @@ div.video-evidence {
     padding: 0;
 }
 
+
 .resource.fact-box {
     padding: 5px 15px;
     margin-top: 10px;
@@ -307,9 +317,10 @@ div.video-evidence {
     color: #753871;
 }
 
-.resources ul a:hover{
+.resources ul a:hover,
+.resources ul a:hover {
     color: #0e0325;
-    text-decoration: none;
+    text-decoration: none,
 }
 
 /*-----------------------------Contact-------*/
@@ -401,8 +412,7 @@ footer .row{
     color: #753871;
 }
 
-.social i:hover,
-.social i:active{
+.social i:hover {
     color: #381936;
 }
 
