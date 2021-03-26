@@ -132,14 +132,11 @@ a.navbar-brand:hover{
     padding: 0;
     background: url("../images/image1.jpg") no-repeat center center;
     min-height: 80vh;
+    text-align: center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-}
-
-.landing-page-container{
-    text-align: center;
 }
 
 .title-slogan-container{
