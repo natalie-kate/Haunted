@@ -88,6 +88,11 @@ nav.navbar.navbar-expand-md {
     background-color: rgba(206, 211, 214, 0.5);
 }
 
+.navbar-collapse{
+    background-color: rgba(206, 211, 214, 0.5);
+    text-align: center;
+}
+
 .navbar-toggler{
     font-size: 30px;
     color: #753871
@@ -106,12 +111,14 @@ a.navbar-brand:hover{
     color: #e8feff;
 }
 
-.navbar .nav-link,
-.dropdown-item{
+.nav-link,
+.dropdown-item,
+.nav-item {
     font-family: "Noto Sans KR", sans-serif;
     font-size: 18px;
     color: #753871;
     font-weight: 600;
+    padding-top: 0;
 }
 
 .nav-link.active {
@@ -127,7 +134,11 @@ a.navbar-brand:hover{
 .navbar .nav-link:active{
     color: #381936;
 }
+
 /*-----------------------Landing page--------*/
+
+
+
 .landing-page-container{
     text-align: center;
 }
