@@ -76,12 +76,13 @@ section.theories-section {
 nav.navbar.navbar-expand-md {
     padding: 8px 0;
     height: 75px;
-    background-color: rgba(206, 211, 214, 0.5);
+    background-color: #d3d8db;
 }
 
 .navbar-collapse{
-    background-color: rgba(206, 211, 214, 0.5);
+    background-color: #d3d8db;
     text-align: center;
+    margin-top: 12px;
 }
 
 .navbar-toggler{
@@ -374,7 +375,7 @@ form button.btn {
 footer .col-12{
     padding: 0;
     height: 75px;
-    background-color:#95a4a8;
+    background-color: #d3d8db;
     text-align: center;
     margin-top: 10px;
 }
