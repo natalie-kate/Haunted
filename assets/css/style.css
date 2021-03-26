@@ -197,10 +197,11 @@ transition: transform 600ms;
 .introduction-image{
     padding-top: 75px;
     display: relative;
+    text-align: center;
 }
 .introduction-image img{
-   width: 100%;
-   height: auto;
+   width: auto;
+   height: 400px;
    padding: 0px;  
    object-fit: cover;
    position: absolute;         
@@ -208,6 +209,11 @@ transition: transform 600ms;
    left: 50%;                   
    transform: translate(-50%);  
 }
+
+figcaption {
+    padding-top: 400px;
+}
+
 .ghosts table{
     margin-top: 25px;
 }
@@ -313,8 +319,8 @@ form {
 
 form input {
     margin: 10px 10px;
-
 }
+
 form fieldset{
     border: solid 1px #0e0325;
     width: 95%;
@@ -415,8 +421,10 @@ span.social {
   }
 }
 
-@media(min-width:768px) {
-  
+@media(min-width:769px) {
+    .page-title h1 {
+    font-size: 60px;
+    }
     .header-container{
     background: url("../images/image3.jpg") no-repeat bottom -80px center;
     background-size: cover;
@@ -502,9 +510,8 @@ span.social {
         line-height: 1.2;  
     }   
 }
-
 @media(min-width:2000px) {
-    .landing-page-container{
+    .landing-page-container {
         padding: 0;
         background: url("../images/image1.jpg") no-repeat top -300px center;
         min-height: 80vh;
@@ -513,7 +520,8 @@ span.social {
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-}
+    }
+
     .col-12,
     .col-10,
     .col-8,
