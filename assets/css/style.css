@@ -294,11 +294,23 @@ div.video-evidence {
 }
 
 /*-----------------------------Resource section-------*/
+.resource {
+    text-align: center;
+    position: relative;
+}
 .resource img {
-    height: auto;
-    width: 100%;
-    margin-top: 10px;
-    padding: 0;
+   width: auto;
+   height: 250px;
+   padding: 0px;  
+   object-fit: cover;
+   position: absolute;         
+   display: inline;       
+   left: 50%;                   
+   transform: translate(-50%); 
+}
+
+.resource figcaption{
+    padding-top: 250px;
 }
 
 
