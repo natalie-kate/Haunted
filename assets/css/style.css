@@ -83,7 +83,7 @@ section.theories-section {
 }
 
 nav.navbar.navbar-expand-md {
-    padding: 8px;
+    padding: 8px 0;
     height: 75px;
     background-color: rgba(206, 211, 214, 0.5);
 }
@@ -95,7 +95,8 @@ nav.navbar.navbar-expand-md {
 
 .navbar-toggler{
     font-size: 30px;
-    color: #753871
+    color: #753871;
+    padding-right: 15px;
 }
 
 a.navbar-brand {
