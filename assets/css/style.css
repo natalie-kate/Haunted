@@ -153,6 +153,7 @@ strong{
     font-weight: 900;
 }
 
+
 .fa-ghost{
     font-size: 60px;
     color: #0e0325;
@@ -209,6 +210,10 @@ transition: transform 600ms;
 }
 .ghosts table{
     margin-top: 25px;
+}
+
+sup{
+    color: #753871;
 }
 
 /*-------------------Theories------------------*/
@@ -410,7 +415,8 @@ span.social {
   }
 }
 
-@media(min-width:769px) {
+@media(min-width:768px) {
+  
     .header-container{
     background: url("../images/image3.jpg") no-repeat bottom -80px center;
     background-size: cover;
@@ -483,6 +489,7 @@ span.social {
     input:checked ~ .hide {
     display: inline;
     }
+
     div.hide.col-md-6.col-lg-4 {
         padding-left: 30px;
         padding-right: 30px;
@@ -497,13 +504,25 @@ span.social {
 }
 
 @media(min-width:2000px) {
-.landing-page-container{
-    padding: 0;
-    background: url("../images/image1.jpg") no-repeat top -300px center;
-    min-height: 80vh;
-    text-align: center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    .landing-page-container{
+        padding: 0;
+        background: url("../images/image1.jpg") no-repeat top -300px center;
+        min-height: 80vh;
+        text-align: center;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+}
+    .col-12,
+    .col-10,
+    .col-8,
+    .col-6,
+    .col-4,
+    .col-2,
+    .col-md-6,
+    .d-none {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
 }
