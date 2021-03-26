@@ -72,15 +72,6 @@ section.theories-section {
 }
 
 /*-------------------------------Nav------------*/
-.landing-page-container{
-    padding: 0;
-    background: url("../images/image1.jpg") no-repeat center center;
-    min-height: 80vh;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
 
 nav.navbar.navbar-expand-md {
     padding: 8px 0;
@@ -137,8 +128,15 @@ a.navbar-brand:hover{
 }
 
 /*-----------------------Landing page--------*/
-
-
+.landing-page-container{
+    padding: 0;
+    background: url("../images/image1.jpg") no-repeat center center;
+    min-height: 80vh;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
 
 .landing-page-container{
     text-align: center;
