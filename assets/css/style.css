@@ -457,6 +457,16 @@ span.social {
 }
 
 @media(min-width:1000px) {
+.landing-page-container{
+    padding: 0;
+    background: url("../images/image1.jpg") no-repeat top -150px center;
+    min-height: 80vh;
+    text-align: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
  .header-container{
     background: url("../images/image3.jpg") no-repeat bottom -130px center;
     background-size: cover;
@@ -484,4 +494,16 @@ span.social {
         font-size: 0.9rem;
         line-height: 1.2;  
     }   
+}
+
+@media(min-width:2000px) {
+.landing-page-container{
+    padding: 0;
+    background: url("../images/image1.jpg") no-repeat top -300px center;
+    min-height: 80vh;
+    text-align: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
