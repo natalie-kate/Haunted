@@ -220,26 +220,26 @@ transition: transform 600ms;
 /*-------------------About------------------*/
 
 .introduction-image{
-    padding-top: 75px;
-    display: relative;
+    padding-top: 50px;
+    position: relative;
     text-align: center;
 }
 .introduction-image img{
    width: auto;
    height: 400px;
    padding: 0px;  
-   object-fit: cover;
-   position: absolute;         
+   position: absolute;
+   object-fit: cover;        
    display: inline;       
    left: 50%;                   
    transform: translate(-50%); 
 }
 
-figcaption {
+.introduction-image picture p {
     padding-top: 400px;
 }
 
-figcaption a {
+picture a {
     font-size: 16px;
     color: #753871;
 }
@@ -329,18 +329,15 @@ div.video-evidence {
    width: auto;
    height: 250px;
    padding: 0px;  
-   object-fit: cover;
+   object-fit: cover;             
    position: absolute;         
-   display: inline;       
+   display: inline; 
    left: 50%;                   
    transform: translate(-50%); 
 }
-
-.resource figcaption{
+.resource picture p {
     padding-top: 250px;
 }
-
-
 .resource.fact-box {
     padding: 5px 15px;
     margin-top: 10px;
@@ -359,7 +356,7 @@ div.video-evidence {
 .resources ul a:hover,
 .resources ul a:focus {
     color: #0e0325;
-    text-decoration: none,
+    text-decoration: none;
 }
 
 /*-----------------------------Contact-------*/
