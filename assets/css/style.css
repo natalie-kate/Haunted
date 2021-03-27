@@ -35,6 +35,10 @@ h4{
     color: #753871;
 }
 
+h5 {
+    font-size: 32px;
+}
+
 p{
     margin-top: 10px;
 }
@@ -107,17 +111,17 @@ a.navbar-brand:focus {
 
 .nav-link,
 .dropdown-item,
-.nav-item,
-a {
+.nav-item {
     font-family: "Noto Sans KR", sans-serif;
     font-size: 18px;
     color: #753871;
     font-weight: 600;
-    padding-top: 0;
 }
+
 .nav-link.active {
     color: #381936;
 }
+
 .dropdown-item:hover,
 .dropdown-item:focus,
 .navbar .nav-link:focus,
@@ -129,8 +133,10 @@ a.navbar-brand:focus,
 a:hover,
 a:focus,
 .fa-ghost:focus,
-.social i:hover 
-.social i:focus {
+.social i:hover,
+.social i:focus,
+sup:hover,
+sup:focus {
     color: #381936;
 }
 
@@ -233,12 +239,23 @@ figcaption {
     padding-top: 400px;
 }
 
+figcaption a {
+    font-size: 16px;
+    color: #753871;
+}
+
 .ghosts table{
     margin-top: 25px;
 }
 
 sup{
     color: #753871;
+    font-weight: 500;
+}
+
+sup:hover,
+sup:focus {
+    color: #17a2b8;
 }
 
 /*-------------------Theories------------------*/
@@ -541,9 +558,16 @@ span.social {
 }
 
 @media(max-width:768px){
+    .nav-link,
+    .dropdown-item,
+    .nav-item {
+        padding-top: 0;
+    }
+
     .hide {
         display: none;
     }
+
     input:checked ~ .hide {
     display: inline;
     }
@@ -552,6 +576,7 @@ span.social {
         padding-left: 30px;
         padding-right: 30px;
     }
+
     table td,
     table th,
     table {
@@ -560,6 +585,7 @@ span.social {
         line-height: 1.2;  
     }   
 }
+
 @media(min-width:2000px) {
     .landing-page-container {
         padding: 0;
