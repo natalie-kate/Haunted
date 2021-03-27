@@ -35,10 +35,6 @@ h4{
     color: #753871;
 }
 
-h5 {
-    font-size: 32px;
-}
-
 p{
     margin-top: 10px;
 }
@@ -342,6 +338,11 @@ div.video-evidence {
 .resource-image p {
     padding-top: 250px;
 }
+
+.resource-image a {
+    font-size: 16px;
+    color: #753871;
+}
 .resource.fact-box {
     padding: 5px 15px;
     margin-top: 10px;
@@ -361,6 +362,10 @@ div.video-evidence {
 .resources ul a:focus {
     color: #0e0325;
     text-decoration: none;
+}
+
+.fact-box h4 {
+    font-size: 32px;
 }
 
 /*-----------------------------Contact-------*/
@@ -451,7 +456,6 @@ footer .row{
     padding-left: 10px;
     color: #753871;
 }
-
 
 span.social {
   font-weight: 700;
