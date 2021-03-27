@@ -513,6 +513,26 @@ span.social {
  }
 }
 
+@media(min-width:1400px) {
+.landing-page-container{
+    padding: 0;
+    background: url("../images/image1.jpg") no-repeat top -240px center;
+    min-height: 80vh;
+    text-align: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+ .header-container{
+    background: url("../images/image3.jpg") no-repeat bottom -200px center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+ }
+}
+
 @media(max-width:768px){
     .hide {
         display: none;
