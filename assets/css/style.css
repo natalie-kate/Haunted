@@ -440,6 +440,7 @@ span.social {
 @media (prefers-reduced-motion: reduce) {
   .hover {
     transition: none;
+    color: #753871;
   }
 }
 
@@ -474,7 +475,7 @@ span.social {
         padding: 0px;
     }
 
-    label.btn.btn-success {
+    label.btn.my-btn {
         display: none;
     }  
 
