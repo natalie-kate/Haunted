@@ -75,6 +75,10 @@ section.theories-section {
     padding: 0;
 }
 
+.badge.badge-info {
+    background-color: #01778a;
+}
+
 /*-------------------------------Nav------------*/
 
 nav.navbar.navbar-expand-md {
@@ -153,7 +157,7 @@ form input:focus-visible,
 form textarea:focus-visible,
 iframe button:focus-visible,
 iframe a:focus-visible {
-    outline: 3px dotted #17a2b8;
+    outline: 3px dotted #01778a;
 }
 
 
@@ -255,7 +259,7 @@ sup{
 
 sup:hover,
 sup:focus {
-    color: #17a2b8;
+    color: #01778a;
 }
 
 /*-------------------Theories------------------*/
