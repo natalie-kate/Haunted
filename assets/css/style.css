@@ -119,27 +119,37 @@ a {
     color: #381936;
 }
 .dropdown-item:hover,
+.dropdown-item:focus,
+.navbar .nav-link:focus,
 .navbar .nav-link:hover,
 .navbar-toggler:hover,
 .navbar-toggler:focus,
+a.navbar-brand:hover,
+a.navbar-brand:focus,
 a:hover,
-a:focus {
+a:focus,
+.fa-ghost:focus,
+.social i:hover 
+.social i:focus {
     color: #381936;
 }
 
-.dropdown-item:focus,
-.navbar .nav-link:focus,
-.navbar-toggler:focus,
-a:focus,
-a.navbar-brand:focus,
-.fa-ghost:focus, 
-.my-btn:focus,
-.my-btn:active:focus,
-.social i:focus,
-.resources ul a:focus {
-    color: #381936;
-    outline: 2px solid #753871;
+.dropdown-item:focus-visible,
+.navbar .nav-link:focus-visible,
+.navbar-toggler:focus-visible,
+a:focus-visible,
+a.navbar-brand:focus-visible,
+.fa-ghost:focus-visible, 
+.my-btn:focus-visible,
+.social i:focus-visible,
+.resources ul a:focus-visible,
+form input:focus-visible,
+form textarea:focus-visible,
+iframe button:focus-visible,
+iframe a:focus-visible {
+    outline: 3px dotted #17a2b8;
 }
+
 
 /*-----------------------Landing page--------*/
 .landing-page-container{
@@ -330,7 +340,7 @@ div.video-evidence {
 }
 
 .resources ul a:hover,
-.resources ul a:hover {
+.resources ul a:focus {
     color: #0e0325;
     text-decoration: none,
 }
@@ -424,9 +434,6 @@ footer .row{
     color: #753871;
 }
 
-.social i:hover {
-    color: #381936;
-}
 
 span.social {
   font-weight: 700;
