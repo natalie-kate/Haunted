@@ -228,18 +228,18 @@ transition: transform 600ms;
    width: auto;
    height: 400px;
    padding: 0px;  
-   position: absolute;
-   object-fit: cover;        
+   object-fit: cover;   
+   position: absolute;     
    display: inline;       
    left: 50%;                   
    transform: translate(-50%); 
 }
 
-.introduction-image picture p {
+.introduction-image p {
     padding-top: 400px;
 }
 
-picture a {
+.introduction-image a {
     font-size: 16px;
     color: #753871;
 }
@@ -321,11 +321,11 @@ div.video-evidence {
 }
 
 /*-----------------------------Resource section-------*/
-.resource {
+.resource-image {
     text-align: center;
     position: relative;
 }
-.resource img {
+.resource-image img {
    width: auto;
    height: 250px;
    padding: 0px;  
@@ -335,7 +335,7 @@ div.video-evidence {
    left: 50%;                   
    transform: translate(-50%); 
 }
-.resource picture p {
+.resource-image p {
     padding-top: 250px;
 }
 .resource.fact-box {
