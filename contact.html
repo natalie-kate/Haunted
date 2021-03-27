@@ -43,10 +43,12 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="evidence.html" id="navbardropdownmenu2"
                                     role="button" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">Evidence</a>
+                                    aria-expanded="false">Evidence <sup class="badge badge-info"
+                                        aria-label="contains new content">New</sup></a>
                                 <div class="dropdown-menu" aria-labelledby="navbardropdownmenu2">
                                     <a class="dropdown-item" href="evidence.html">Evidence</a>
-                                    <a class="dropdown-item" href="evidence.html#true-stories">True Stories</a>
+                                    <a class="dropdown-item" href="evidence.html#true-stories">True Stories <sup
+                                            class="badge badge-info" aria-label="contains new content">New</sup></a>
                                     <a class="dropdown-item" href="evidence.html#pictures">Pictures</a>
                                     <a class="dropdown-item" href="evidence.html#videos">Videos</a>
                                 </div>
@@ -55,56 +57,56 @@
                                 <a class="nav-link" href="index.html#resources">Resources</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                                <a class="nav-link active" href="contact.html">Contact<span
+                                        class="sr-only">(current)</span></a>
                             </li>
                         </ul>
                     </div>
                 </nav>
             </header>
         </div>
-   
+
         <section>
+            <div class="row">
+                <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3 text-center">
+                    <h2 class="text-center">Get in touch! <i class="fas fa-keyboard"></i></h2>
+                    <p>We would love to hear your stories, comments and answer your questions. Please get in touch.
+                    </p>
+                </div>
+            </div>
+            <form id="contactform">
                 <div class="row">
-                    <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3 text-center">
-                        <h2 class="text-center">Get in touch! <i class="fas fa-keyboard"></i></h2>
-                        <p>We would love to hear your stories, comments and answer your questions. Please get in touch.
-                        </p>
+                    <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3">
+                        <fieldset>
+                            <legend>Personal details</legend>
+                            <label for="firstname">First Name:</label><br>
+                            <input id="firstname" type="text" name="first-name" placeholder="e.g Casper" required><br>
+                            <label for="surname">Surname:</label><br>
+                            <input id="surname" type="text" name="surname" placeholder="e.g Friendly" required><br>
+                            <label for="email">Email Address:</label><br>
+                            <input id="email" type="email" name="email" placeholder="e.g casperfriendly@fake.com"
+                                required><br>
+                        </fieldset>
+                        <p>Would you like to be added into our mailing list so you can receive updates of new
+                            content
+                            and exciting new features?</p>
+                        <input id="yes-button" type="radio" name="mailing-list" value="yes" checked required>
+                        <label for="yes-button">Of Course!</label>
+                        <input id="no-button" type="radio" name="mailing-list" value="no">
+                        <label for="no-button">Not just now</label><br>
+                        <label for="text-box">Your message:</label><br>
+                        <textarea id="text-box" name="message" placeholder="Type here"></textarea><br>
+                        <label for="file">Want to send us your own pictures or videos?</label><br>
+                        <input id="file" type="file" name="file"><br>
                     </div>
                 </div>
-                <form id="contactform">
-                    <div class="row">
-                        <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3">
-                            <fieldset>
-                                <legend>Personal details</legend>
-                                <label for="firstname">First Name:</label><br>
-                                <input id="firstname" type="text" name="first-name" placeholder="e.g Casper"
-                                    required><br>
-                                <label for="surname">Surname:</label><br>
-                                <input id="surname" type="text" name="surname" placeholder="e.g Friendly" required><br>
-                                <label for="email">Email Address:</label><br>
-                                <input id="email" type="email" name="email" placeholder="e.g casperfriendly@fake.com"
-                                    required><br>
-                            </fieldset>
-                            <p>Would you like to be added into our mailing list so you can receive updates of new
-                                content
-                                and exciting new features?</p>
-                            <input id="yes-button" type="radio" name="mailing-list" value="yes" checked required>
-                            <label for="yes-button">Of Course!</label>
-                            <input id="no-button" type="radio" name="mailing-list" value="no">
-                            <label for="no-button">Not just now</label><br>
-                            <label for="text-box">Your message:</label><br>
-                            <textarea id="text-box" name="message" placeholder="Type here"></textarea><br>
-                            <label for="file">Want to send us your own pictures or videos?</label><br>
-                            <input id="file" type="file" name="file"><br>
-                        </div>
+                <div class="row button text-center">
+                    <div class="col-10 offset-1 col-md-6 offset-md-3 col-lg-4 offset-lg-4">
+                        <button type="submit" class="btn my-btn btn-lg hover">Send message
+                            <i class="fas fa-envelope"></i></button>
                     </div>
-                    <div class="row button text-center">
-                        <div class="col-10 offset-1 col-md-6 offset-md-3 col-lg-4 offset-lg-4">
-                            <button type="submit" class="btn my-btn btn-lg hover">Send message
-                                <i class="fas fa-envelope"></i></button>
-                        </div>
-                    </div>
-                </form>
+                </div>
+            </form>
         </section>
 
         <!-- Modal -->
