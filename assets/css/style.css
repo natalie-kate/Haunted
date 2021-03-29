@@ -435,7 +435,6 @@ span.social {
     .nav-item {
         padding-top: 0;
     }
-
     .navbar-nav, 
     .dropdown-menu {
         font-size: 16px;
@@ -455,7 +454,6 @@ span.social {
         padding-left: 30px;
         padding-right: 30px;
     }
-
     table td,
     table th,
     table {
@@ -490,37 +488,34 @@ span.social {
     .row{
         padding-bottom: 40px;
     }
-
     .row-heading,
     .row-button{
         padding: 0px;
     }
-
     label.btn.my-btn {
         display: none;
     }  
-
     h2 {
         text-transform: uppercase;
     }
-
     form {
         width: 100%; 
         padding-left: 10px;  
     }
-
     fieldset legend {
     width: 40%;
     }
     .social i{
     font-size: 40px;
-}
+    }
     span.social {
     font-weight: 700;
-}
+    }
     footer .footer-link {
     padding: 20px 0;
+    }
 }
+
 @media(min-width:1000px) {
 .landing-page-container{
     padding: 0;
@@ -547,7 +542,7 @@ span.social {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-}
+    }
  .header-container{
     background: url("../images/image3.jpg") no-repeat bottom -150px center;
     min-height: 40vh;
@@ -555,7 +550,7 @@ span.social {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
- }
+    }
 }
 
 @media(min-width:2000px) {
@@ -569,7 +564,6 @@ span.social {
         -moz-background-size: cover;
         -o-background-size: cover;
     }
-
     .col-12,
     .col-10,
     .col-8,
