@@ -81,6 +81,7 @@ nav.navbar.navbar-expand-md {
     padding: 8px 0;
     height: 75px;
     background-color: #d3d8db;
+    z-index: 1;
 }
 
 .navbar-collapse{
