@@ -119,6 +119,13 @@ a.navbar-brand:focus {
     font-weight: 600;
 }
 
+.navbar-nav .dropdown-menu {
+   position: absolute;
+    left: 30%;
+    background-color: #d3d8db;
+    text-align: center;
+}
+
 .nav-link.active {
     color: #381936;
 }
