@@ -201,7 +201,7 @@ a.navbar-brand {
     padding: 0;
     background-color: rgba(206, 211, 214, 0.5);
     text-align: center; 
-    margin-top: 20vh;
+    margin-top: 10vh;
     border-radius: 10px;  
 }
 .page-title h1,
@@ -410,7 +410,7 @@ footer .footer-social {
     padding-right: 0;
 } 
 footer .footer-link {
-    padding: 10px 0;
+    padding: 5px 5px 0 0;
     height: 75px;
 } 
 footer .row{
@@ -474,6 +474,9 @@ span.social {
     -moz-background-size: cover;
     -o-background-size: cover;   
     }
+    .title-slogan-container{
+    margin-top: 20vh;
+    }   
     .col-12,
     .col-10,
     .col-8,
@@ -519,7 +522,7 @@ span.social {
 @media(min-width:1000px) {
 .landing-page-container{
     padding: 0;
-    background: url("../images/image1.jpg") no-repeat top -150px center;
+    background: url("../images/image1.jpg") no-repeat top center;
      background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
