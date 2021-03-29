@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+/*---- General ----*/
 html,
 body{
     margin: 0;
@@ -9,40 +11,30 @@ body{
     font-family: "Montserrat", sans-serif;
     color: #0e0325;
 }
+.container-fluid {
+    padding: 0;
+}
 
 .row{
     width: 100vw;
     margin: auto;
 }
-
 h1,h2,h3,h4,h5{
     font-family: "Noto Sans KR", sans-serif;
     margin: 0;
 }
-
 h2{
     margin: 15px;
     font-weight: 700;
-    color: #753871;
 }
-
-h3{
+h3,
+h4,
+p {
     margin-top: 10px;
 }
-
-h4{
-    margin-top: 10px;
-    color: #753871;
-}
-
-p{
-    margin-top: 10px;
-}
-
 .left-text{
     text-align: left;
 }
-
 .col-12,
 .col-10,
 .col-8,
@@ -54,82 +46,21 @@ p{
     padding-left: 15px;
     padding-right: 15px;
 }
-
 section.true-stories-section,
 section.about-section,
 section.hauntings-section,
 section.theories-section {
     margin-bottom: 30px;
 }
-
 .heading-row h2 {
     background-color: #753871;
     color: #e8feff;  
 }
-
-.container-fluid {
-    padding: 0;
-}
-
 .badge.badge-info {
     background-color: #01778a;
 }
 
-/*-------------------------------Nav------------*/
-
-nav.navbar.navbar-expand-md {
-    padding: 8px 0;
-    height: 75px;
-    background-color: #d3d8db;
-    z-index: 1;
-}
-
-.navbar-collapse{
-    background-color: #d3d8db;
-    text-align: center;
-    margin-top: 12px;
-}
-
-.navbar-toggler{
-    font-size: 30px;
-    color: #753871;
-    padding-right: 15px;
-}
-
-a.navbar-brand {
-    font-family: "Noto Sans KR", sans-serif;
-    margin-left: 30px;
-    font-weight: 700;
-    color: #381936;
-    font-size: 30px;
-    text-transform: uppercase;
-}
-
-a.navbar-brand:hover,
-a.navbar-brand:focus {
-    color: #e8feff;
-}
-
-.nav-link,
-.dropdown-item,
-.nav-item {
-    font-family: "Noto Sans KR", sans-serif;
-    font-size: 18px;
-    color: #753871;
-    font-weight: 600;
-}
-
-.navbar-nav .dropdown-menu {
-   position: absolute;
-    left: 30%;
-    background-color: #d3d8db;
-    text-align: center;
-}
-
-.nav-link.active {
-    color: #381936;
-}
-
+/*---- Hover, focus styles ----*/
 .dropdown-item:hover,
 .dropdown-item:focus,
 .navbar .nav-link:focus,
@@ -145,7 +76,18 @@ a:focus,
 .social i:focus {
     color: #381936;
 }
-
+a.navbar-brand:hover,
+a.navbar-brand:focus,
+.fa-ghost:hover {
+    color: #e8feff;
+}
+.my-btn:hover,
+.my-btn:focus,
+.my-btn:active 
+.my-btn:active:focus{
+    color: #e8feff;
+    background-color: #0e0325;
+}
 .dropdown-item:focus-visible,
 .navbar .nav-link:focus-visible,
 .navbar-toggler:focus-visible,
@@ -162,9 +104,89 @@ iframe a:focus-visible,
 .col-2 a:focus-visible {
     outline: 3px dotted #01778a;
 }
+.resources ul a:hover,
+.resources ul a:focus {
+    color: #0e0325;
+    text-decoration: none;
+}
+p sup:hover,
+p sup:focus {
+    color: #01778a;
+}
+/*---- www.joshwcomeau.com ----*/
+.hover:hover{
+transform: translateY(8px);
+transition: transform 600ms;
+}
 
+/*---- Colours ----*/
+nav.navbar.navbar-expand-md,
+.navbar-collapse,
+.navbar-nav .dropdown-menu,
+footer .col-8,
+footer .col-2,
+footer .row {
+    background-color: #d3d8db;
+}
+.navbar-toggler,
+.nav-link,
+.dropdown-item,
+.nav-item,
+h4,
+h2,
+.resources ul a,
+.introduction-image a,
+p sup,
+.resource-image a,
+.modal-content p,
+.col-2 a,
+.social i {
+ color: #753871;
+}
+a.navbar-brand, 
+.nav-link.active {
+ color: #381936;
+}
+.modal-content h3,
+.fa-ghost {
+color: #0e0325;
+} 
 
-/*-----------------------Landing page--------*/
+/*---- Nav ----*/
+nav.navbar.navbar-expand-md {
+    padding: 8px 0;
+    height: 75px;
+    z-index: 1;
+}
+.navbar-collapse{
+    text-align: center;
+    margin-top: 12px;
+}
+.navbar-toggler{
+    font-size: 30px;
+    padding-right: 15px;
+}
+a.navbar-brand {
+    font-family: "Noto Sans KR", sans-serif;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.nav-link,
+.dropdown-item,
+.nav-item {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.navbar-nav .dropdown-menu {
+    position: absolute;
+    left: 30%;
+    text-align: center;
+}
+
+/*---- Landing page ----*/
 .landing-page-container{
     padding: 0;
     background: url("../images/image1.jpg") no-repeat center center;
@@ -175,7 +197,6 @@ iframe a:focus-visible,
     -moz-background-size: cover;
     -o-background-size: cover;
 }
-
 .title-slogan-container{
     padding: 0;
     background-color: rgba(206, 211, 214, 0.5);
@@ -183,22 +204,13 @@ iframe a:focus-visible,
     margin-top: 20vh;
     border-radius: 10px;  
 }
-
 .page-title h1,
 strong{
     font-weight: 900;
 }
-
-
 .fa-ghost{
     font-size: 60px;
-    color: #0e0325;
 }
-
-.fa-ghost:hover {
-   color: #e8feff;
-}
-
 a.my-btn,
 input.my-btn,
 label.my-btn,
@@ -210,22 +222,7 @@ button.my-btn {
     border: none;
 }
 
-.my-btn:hover,
-.my-btn:focus,
-.my-btn:active 
-.my-btn:active:focus{
-    color: #e8feff;
-    background-color: #0e0325;
-}
-
-/*-----------------www.joshwcomeau.com--------*/
-.hover:hover{
-transform: translateY(8px);
-transition: transform 600ms;
-}
-
-/*-------------------About------------------*/
-
+/*---- About ----*/
 .introduction-image{
     padding-top: 50px;
     position: relative;
@@ -241,31 +238,20 @@ transition: transform 600ms;
    left: 50%;                   
    transform: translate(-50%); 
 }
-
 .introduction-image p {
     padding-top: 400px;
 }
-
 .introduction-image a {
     font-size: 16px;
-    color: #753871;
 }
-
 .ghosts table{
     margin-top: 25px;
 }
-
 p sup{
-    color: #753871;
     font-weight: 500;
 }
 
-p sup:hover,
-p sup:focus {
-    color: #01778a;
-}
-
-/*-------------------Theories------------------*/
+/*---- Theories ----*/
 .fact-box{
     border: solid 5px #381936;
     border-radius: 15px;
@@ -278,7 +264,7 @@ p sup:focus {
     color: #381936;
 }
 
-/*-------------------Evidence------------------*/
+/*---- Evidence ----*/
 .header-container{
     padding: 0;
     background: url("../images/image3.jpg") no-repeat bottom center;
@@ -288,28 +274,22 @@ p sup:focus {
     -moz-background-size: cover;
     -o-background-size: cover;
 }
-
 .header-container .col-12{
     padding: 0;
 }
-
 h3.badge {
     font-size:50%;
 }
-
 .hidden{
     position: relative;
 }
-
 input#more-button{
   display: none;
 }
-
 .row.true-stories-row,
 .row.hidden-stories-row{
     padding-bottom: 0;  
 }
-
 .hidden-stories-row .col-10{
     text-align:center;
 }
@@ -318,20 +298,18 @@ div.video-evidence {
     text-align: center;
     padding: 0 15px;
 }
-
 .picture-evidence img,
 .picture-evidence picture {
    width: auto;
    height: 300px;
    padding: 5px;     
 }
-
 .picture-evidence h2,
 .video-evidence h2 {
     margin: 10px;
 }
 
-/*-----------------------------Resource section-------*/
+/*---- Resource section ----*/
 .resource-image {
     text-align: center;
     position: relative;
@@ -352,42 +330,28 @@ div.video-evidence {
 
 .resource-image a {
     font-size: 16px;
-    color: #753871;
 }
 .resource.fact-box {
     padding: 5px 15px;
     margin-top: 10px;
-    font-size: 1rem;
-    
-}.resources ul {
+    font-size: 1rem;   
+}
+.resources ul {
     list-style-type: none;
     padding-left: 0;
     font-size: 20px;
 }
-
-.resources ul a {
-    color: #753871;
-}
-
-.resources ul a:hover,
-.resources ul a:focus {
-    color: #0e0325;
-    text-decoration: none;
-}
-
 .fact-box h4 {
     font-size: 32px;
 }
 
-/*-----------------------------Contact-------*/
+/*---- Contact ----*/
 form {
     width: 100%;
 }
-
 form input {
     margin: 10px 10px;
 }
-
 form fieldset{
     border: solid 1px #0e0325;
     width: 95%;
@@ -397,50 +361,38 @@ fieldset input{
     width: 90%;
     margin: 10px 10px 15px;
 }
-
 fieldset label{
     margin-left: 15px;
     margin-bottom: 5px;
 }
-
 fieldset legend {
     width: 90%;
     text-align: center;
 }
-
 textarea {
     height: 300px;
     width: 95%;
     margin-top: 8px;
 }
-
 form label,
 form p {
     margin-bottom: 0px;
     margin-top: 10px;
 }
-
 form p {
     width: 95%;
 }
-
 form button.btn {
     margin-top: 0;
 }
 
-/*-----------------------------Modal-------*/
+/*---- Modal ----*/
 .modal-content {
     background-color: #e8feff; 
     text-align: center;
 }
 .modal-header {
     text-align: center;
-}
-.modal-content h3 {
-    color: #0e0325;
-}
-.modal-content p {
-    color: #753871;
 }
 .modal button.btn {
    width: 100px;
@@ -449,51 +401,66 @@ form button.btn {
    align-self: center;
 }
 
-/*-------------------footer------------------*/
+/*---- footer ----*/
 footer .col-8 {
     padding: 0;
     height: 75px;
-    background-color: #d3d8db;
     text-align: center;
     padding-top: 5px;
 } 
-
 footer .col-2 {
     padding: 20px 0;
     height: 75px;
-    background-color: #d3d8db;
 } 
-
-.col-2 a {
-    color: #753871;
-}
-
 footer .row{
     padding: 0;
     margin: 0;
-    background-color: #d3d8db;
 }
-
 .social i{
     font-size: 40px;
     padding-left: 10px;
-    color: #753871;
 }
-
 span.social {
   font-weight: 700;
   font-size: 15px;
   text-transform: uppercase;
 }
 
-/*-----------------Media Queries--------------*/
+/*---- Media Queries ----*/
+@media(max-width:768px){
+    .nav-link,
+    .dropdown-item,
+    .nav-item {
+        padding-top: 0;
+    }
 
-/*-----------------www.joshwcomeau.com--------*/
-@media (prefers-reduced-motion: reduce) {
-  .hover {
-    transition: none;
-    color: #753871;
-  }
+    .navbar-nav, 
+    .dropdown-menu {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+    
+    /*---- Chiller on stack overflow ----*/
+    .hide {
+        display: none;
+    }
+    /*---- Chiller on stack overflow ----*/
+    input:checked ~ .hide {
+    display: inline;
+    }
+
+    div.hide.col-md-6.col-lg-4 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    table td,
+    table th,
+    table {
+        padding: 2px;
+        font-size: 0.9rem;
+        line-height: 1.2;  
+    }   
 }
 
 @media(min-width:769px) {
@@ -582,41 +549,6 @@ span.social {
  }
 }
 
-@media(max-width:768px){
-    .nav-link,
-    .dropdown-item,
-    .nav-item {
-        padding-top: 0;
-    }
-
-    .navbar-nav, 
-    .dropdown-menu {
-        font-size: 16px;
-        line-height: 1.25;
-    }
-
-    .hide {
-        display: none;
-    }
-
-    input:checked ~ .hide {
-    display: inline;
-    }
-
-    div.hide.col-md-6.col-lg-4 {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    table td,
-    table th,
-    table {
-        padding: 2px;
-        font-size: 0.9rem;
-        line-height: 1.2;  
-    }   
-}
-
 @media(min-width:2000px) {
     .landing-page-container {
         padding: 0;
@@ -640,4 +572,12 @@ span.social {
         padding-left: 60px;
         padding-right: 60px;
     }
+}
+
+/*-----------------www.joshwcomeau.com--------*/
+@media (prefers-reduced-motion: reduce) {
+  .hover {
+    transition: none;
+    color: #753871;
+  }
 }
