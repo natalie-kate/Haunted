@@ -16,57 +16,67 @@
 </head>
 
 <body>
+    <!-- Header and Nav, modified bootstrap nav -->
+    <div class="header-container">
+        <header>
+            <nav class="navbar navbar-expand-md">
+                <a class="navbar-brand" href="index.html" aria-label="Logo and link to home">Haunted</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navdropdownmenu"
+                    aria-controls="navdropdownmenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navdropdownmenu">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="index.html" id="navbardropdownmenu"
+                                aria-label="dropdown menu for about page" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">About</a>
+                            <div class="dropdown-menu" aria-labelledby="navbardropdownmenu">
+                                <a class="dropdown-item" href="index.html#about"
+                                    aria-label="link to about section">About</a>
+                                <a class="dropdown-item" href="index.html#introduction"
+                                    aria-label="link to introduction section">Introduction</a>
+                                <a class="dropdown-item" href="index.html#hauntings"
+                                    aria-label="link to hauntings section">Hauntings</a>
+                                <a class="dropdown-item" href="index.html#ghosts"
+                                    aria-label="link to ghosts section">Ghosts</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="evidence.html" id="navbardropdownmenu2"
+                                aria-label="dropdown menu for evidence page" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Evidence <sup
+                                    class="badge badge-info">New</sup></a>
+                            <div class="dropdown-menu" aria-labelledby="navbardropdownmenu2">
+                                <a class="dropdown-item" href="evidence.html"
+                                    aria-label="link to evidence page">Evidence</a>
+                                <a class="dropdown-item" href="evidence.html#true-stories"
+                                    aria-label="link to true stories section">True Stories <sup
+                                        class="badge badge-info">New</sup></a>
+                                <a class="dropdown-item" href="evidence.html#pictures"
+                                    aria-label="link to picture evidence section">Pictures</a>
+                                <a class="dropdown-item" href="evidence.html#videos"
+                                    aria-label="link to videos section">Videos</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#resources"
+                                aria-label="link to resources section">Resources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contact<span class="sr-only">current
+                                    page</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
     <div class="container-fluid">
-        <div class="header-container">
-            <header>
-                <nav class="navbar navbar-expand-md">
-                    <a class="navbar-brand" href="index.html"
-                        aria-label="Logo and link to home">Haunted</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navdropdownmenu"
-                        aria-controls="navdropdownmenu" aria-expanded="false" aria-label="Toggle navigation">
-                        <span><i class="fas fa-bars"></i></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navdropdownmenu">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="index.html" id="navbardropdownmenu" aria-label="dropdown menu for about page"
-                                    role="button" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">About</a>
-                                <div class="dropdown-menu" aria-labelledby="navbardropdownmenu">
-                                    <a class="dropdown-item" href="index.html#about" aria-label="link to about section">About</a>
-                                    <a class="dropdown-item" href="index.html#introduction" aria-label="link to introduction section">Introduction</a>
-                                    <a class="dropdown-item" href="index.html#hauntings" aria-label="link to hauntings section">Hauntings</a>
-                                    <a class="dropdown-item" href="index.html#ghosts" aria-label="link to ghosts section">Ghosts</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="evidence.html" id="navbardropdownmenu2" aria-label="dropdown menu for evidence page"
-                                    role="button" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">Evidence <sup class="badge badge-info">New</sup></a>
-                                <div class="dropdown-menu" aria-labelledby="navbardropdownmenu2">
-                                    <a class="dropdown-item" href="evidence.html" aria-label="link to evidence page">Evidence</a>
-                                    <a class="dropdown-item" href="evidence.html#true-stories" aria-label="link to true stories section">True Stories <sup
-                                            class="badge badge-info">New</sup></a>
-                                    <a class="dropdown-item" href="evidence.html#pictures" aria-label="link to picture evidence section">Pictures</a>
-                                    <a class="dropdown-item" href="evidence.html#videos" aria-label="link to videos section">Videos</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html#resources" aria-label="link to resources section">Resources</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="contact.html">Contact<span
-                                        class="sr-only">current page</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
-        </div>
-
+        <!-- Contact form -->
         <section>
             <div class="row">
                 <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3 text-center">
@@ -110,7 +120,7 @@
             </form>
         </section>
 
-        <!-- Modal -->
+        <!-- Successful submition Modal -->
         <div class="modal" id="sentmodal" role="dialog" tabindex="-1" aria-labelledby="sentmodaltitle"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
@@ -128,10 +138,8 @@
             </div>
         </div>
 
-
-
-        <!----------------------------------Footer-->
-       <footer>
+        <!-- Footer -->
+        <footer>
             <div class="row">
                 <div class="col-8 offset-2">
                     <span class="social">Follow us on social media</span>
@@ -161,9 +169,6 @@
         </footer>
     </div>
 
-
-
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -174,12 +179,11 @@
         integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
         crossorigin="anonymous"></script>
 
-    <!-------------------------Davide Sanfilippo Codepen-->
+    <!-- Davide Sanfilippo Codepen for modal to only appear when form submitted correctly -->
     <script>$('#contactform').on('submit', function (e) {
             $('#sentmodal').modal('show');
             e.preventDefault();
         });</script>
-
 </body>
 
 </html>
