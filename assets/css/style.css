@@ -286,7 +286,7 @@ h3 sup.badge {
 .hidden{
     position: relative;
 }
-input#more-button{
+input#more-button {
   display: none;
 }
 .row.true-stories-row,
@@ -451,11 +451,11 @@ span.social {
         display: none;
     }
     /*---- Chiller on stack overflow ----*/
-    input:checked ~ .hide {
-    display: inline;
+     input:checked ~ .hide {
+       display: inline;
     }
 
-    div.hide.col-md-6.col-lg-4 {
+     div.hide.col-md-6.col-lg-4 {
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -551,6 +551,7 @@ span.social {
 }
  .header-container{
     background: url("../images/image3.jpg") no-repeat bottom -80px center;
+    min-height: 40vh;
      background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
