@@ -248,13 +248,13 @@ transition: transform 600ms;
     margin-top: 25px;
 }
 
-sup{
+p sup{
     color: #753871;
     font-weight: 500;
 }
 
-sup:hover,
-sup:focus {
+p sup:hover,
+p sup:focus {
     color: #01778a;
 }
 
@@ -284,6 +284,10 @@ sup:focus {
 
 .header-container .col-12{
     padding: 0;
+}
+
+h3.badge {
+    font-size:50%;
 }
 
 .hidden{
