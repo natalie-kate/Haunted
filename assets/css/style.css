@@ -56,6 +56,9 @@ section.theories-section {
     background-color: #753871;
     color: #e8feff;  
 }
+.heading-row {
+    padding: 0;
+}
 .badge.badge-info {
     background-color: #01778a;
 }
@@ -277,7 +280,7 @@ p sup{
 .header-container .col-12{
     padding: 0;
 }
-h3.badge {
+h3 sup.badge {
     font-size:50%;
 }
 .hidden{
@@ -415,7 +418,7 @@ footer .footer-link {
 } 
 footer .row{
     padding: 0;
-    margin: 0;
+    margin-top: 10px;
     text-align: center;
 }
 .social i{
