@@ -351,6 +351,7 @@ div.video-evidence {
 /*---- Contact ----*/
 form {
     width: 100%;
+    padding-left: 10px;
 }
 form input {
     margin: 10px 10px;
@@ -386,7 +387,7 @@ form p {
     width: 95%;
 }
 form button.btn {
-    margin-top: 0;
+    margin-top: 5px;
 }
 
 /*---- Modal ----*/
@@ -413,8 +414,9 @@ footer .footer-social {
     padding-right: 0;
 } 
 footer .footer-link {
-    padding: 5px 5px 0 0;
+    padding: 25px 5px 0 0;
     height: 75px;
+    line-height: 1.25;
 } 
 footer .row{
     padding: 0;
@@ -464,6 +466,22 @@ span.social {
         font-size: 0.9rem;
         line-height: 1.2;  
     }   
+    footer .footer-link {
+    padding: 20px 5px 0 0;
+} 
+}
+
+@media(max-width:350px){
+    .social i{
+    font-size: 25px;
+    }
+    span.social {
+    text-transform: none;;
+    }
+    footer .footer-link {
+        line-height: 1;
+        padding: 15px 5px 0 0;
+    }
 }
 
 @media(min-width:769px) {
@@ -518,7 +536,7 @@ span.social {
     font-weight: 700;
     }
     footer .footer-link {
-    padding: 20px 0;
+    line-height: 1.5;
     }
 }
 
