@@ -402,26 +402,28 @@ form button.btn {
 }
 
 /*---- footer ----*/
-footer .col-8 {
+footer .footer-social {
     padding: 0;
     height: 75px;
     text-align: center;
     padding-top: 5px;
+    padding-right: 0;
 } 
-footer .col-2 {
-    padding: 20px 0;
+footer .footer-link {
+    padding: 10px 0;
     height: 75px;
 } 
 footer .row{
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 .social i{
-    font-size: 40px;
+    font-size: 30px;
     padding-left: 10px;
 }
 span.social {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 15px;
   text-transform: uppercase;
 }
@@ -510,8 +512,15 @@ span.social {
     fieldset legend {
     width: 40%;
     }
+    .social i{
+    font-size: 40px;
 }
-
+    span.social {
+    font-weight: 700;
+}
+    footer .footer-link {
+    padding: 20px 0;
+}
 @media(min-width:1000px) {
 .landing-page-container{
     padding: 0;
