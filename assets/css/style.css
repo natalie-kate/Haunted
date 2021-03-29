@@ -152,7 +152,8 @@ a.navbar-brand:focus-visible,
 form input:focus-visible,
 form textarea:focus-visible,
 iframe button:focus-visible,
-iframe a:focus-visible {
+iframe a:focus-visible,
+.col-2 a:focus-visible {
     outline: 3px dotted #01778a;
 }
 
@@ -439,16 +440,28 @@ form button.btn {
 }
 
 /*-------------------footer------------------*/
-footer .col-12{
+footer .col-8 {
     padding: 0;
     height: 75px;
     background-color: #d3d8db;
     text-align: center;
-    margin-top: 10px;
+    padding-top: 5px;
+} 
+
+footer .col-2 {
+    padding: 20px 0;
+    height: 75px;
+    background-color: #d3d8db;
+} 
+
+.col-2 a {
+    color: #753871;
 }
 
 footer .row{
-    padding: 0px;
+    padding: 0;
+    margin: 0;
+    background-color: #d3d8db;
 }
 
 .social i{
