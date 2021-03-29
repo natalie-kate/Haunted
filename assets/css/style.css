@@ -582,6 +582,12 @@ span.social {
         padding-top: 0;
     }
 
+    .navbar-nav, 
+    .dropdown-menu {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
     .hide {
         display: none;
     }
