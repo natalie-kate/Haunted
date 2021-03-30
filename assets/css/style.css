@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
 
 /*---- General ----*/
 html,
@@ -197,8 +197,8 @@ a.navbar-brand {
 /*---- Landing page ----*/
 .landing-page-container{
     padding: 0;
-    background: url("../images/image1.jpg") no-repeat center center;
-    min-height: 80vh;
+    background: url("../images/image1-small.jpg") no-repeat center center;
+    min-height: 70vh;
     text-align: center;
     background-size: cover;
     -webkit-background-size: cover;
@@ -276,7 +276,7 @@ caption sup {
 /*---- Evidence ----*/
 .header-container{
     padding: 0;
-    background: url("../images/image3.jpg") no-repeat bottom center;
+    background: url("../images/image3-small.jpg") no-repeat bottom center;
     min-height: 33vh;
     background-size: cover;
     -webkit-background-size: cover;
@@ -497,6 +497,7 @@ span.social {
     }
     .header-container{
     background: url("../images/image3.jpg") no-repeat bottom -80px center;
+    min-height: 80vh;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
