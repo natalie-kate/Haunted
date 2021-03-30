@@ -265,14 +265,22 @@ The W3C Markup Validator and W3C CSS Validator were used to validate every page 
     <span style="color: grey;">This is one of the main nav menu items and therefore easy to find and navigate to.</span>
 4. As a returning visitor, I want to be able to contact the owner with comments or questions.
     <span style="color: grey;">The contact page is one of the main nav items so is easy to find and navigate to. The 
-    form has prompts to ensure all the required feilds are filled in. </span>
+    form has a text box to enter commentsand/or questions.</span>
 
     - #### Frequent Visitor Goals
 
 1. As a frequent visitor, I want to easily identify new content.
-
-        2. As a frequent visitor, I want to sign up to the mailing list so that i'm informed of new content or features.
-        3. As a frequent visitor, I want to send stories, pictures or videos to be added to the page. 
+    <span style="color: grey;">Bright badges have been used to highlight in the nav which page contains new 
+   content, in the dropdown menu the section also has a badge and when you are taken to this section the new content
+    itself is highlighted with the badge. </span>
+2. As a frequent visitor, I want to sign up to the mailing list so that i'm informed of new content or features.
+    <span style="color: grey;">Contact is one of the main nav items so its easy to find and navigate to and there is a 
+    checkbox to select to be added to the mailing list.</span>
+3. As a frequent visitor, I want to send stories, pictures or videos to be added to the page. 
+    <span style="color: grey;">Contact is one of the main nav items so it is easy to find and navigate to. There is a 
+    text box to add a story and a file upload input for pictures and videos. There is also a call to action button in the 
+    landing page container to "Tell us your true stories", and two in the evidence page to "Share your experiences" and 
+    "Share your photos and pictures"</span>
 
    
 
@@ -312,6 +320,7 @@ The W3C Markup Validator and W3C CSS Validator were used to validate every page 
 
 ### Media
 
+ 
  True story image https://www.pexels.com/@charles-parker
  Header image https://www.pexels.com/@peter-spencer
  Hero image https://www.pexels.com/@phil-964389
