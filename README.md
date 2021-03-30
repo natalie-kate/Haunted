@@ -110,6 +110,9 @@ This website was created for Milestone 1- User Centric Frontend Development proj
         visually more interesting to a user and makes it easier to pick out sections to look at. As an information site I 
         wanted the content to be there for who is interested but also aware that some people will skip over paragraphs of 
         text so tried to use the design to break up the information into easier to digest sections.
+        I chose to make the hero image min-height of 80vh so that there would be a space visible at the bottom of the screen
+        indicating to the user to scroll.
+
 
    ### Wireframes 
 Wireframes were created on Balsamiq (see links below)
@@ -125,16 +128,25 @@ visually more interesting for the user.
 
 On desktop I wanted to use the rule of 3. Some sections have 3 columns of equal width,
 others have 2 columns one of a third and one of two thirds. Again this makes it visually 
-interesting helping visually distinguish between sections and prevents users becoming 
+interesting, helping distinguish between sections and prevents users becoming 
 visually tired.
 
-Difference from these to the final site were not many. 
+Difference from the wireframes to the final site were not many. 
+
 The About and Introduction paragraphs ended up being on top of one another rather 
 than side by side, this was due to the introduction being longer and creating 
 an empty space which didn't look great.
+
 Similarly with the media evidence section, originally the pictures and video 
 were to be side by side but the video column had a lot of white space under 
 it due to the pictures taking up more height.
+
+A picture was also added in to the true stories section for tablet only. This is 
+due to three stories being in one row and the rest in a new row (for hiding on 
+mobile purposes) and so an empty space appeared that needed filled.
+
+I also added another fact box in the further resources section to fill it out, it 
+looked a bit sparse. 
 
 ## Features
 
@@ -165,11 +177,11 @@ Sign up for exclusive content:
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
--   [Javascript] ()
+-   [Javascript] (https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap v???](https://getbootstrap.com/docs/???/getting-started/introduction/)
+1. [Bootstrap v4.6.0](https://getbootstrap.com/docs/4.6.0/getting-started/introduction/)
     - Bootstrap was used for the initial layout and styling before customising it.
 2. [Google Fonts](https://fonts.google.com/)
     - Google fonts were used to import the *INSERT FONT TYPE* 
@@ -196,7 +208,7 @@ The W3C Markup Validator and W3C CSS Validator were used to validate every page 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 -   Lighthouse in devtools
--   Chrome Dev tools
+-   Chrome Dev tools for responsiveness
 
 
 
@@ -208,7 +220,7 @@ The W3C Markup Validator and W3C CSS Validator were used to validate every page 
 
 ### Manual Testing
 
--   The website was viewed with browsers: 
+-   The website was viewed with browsers: Internet explore, Google chrome
 -   Viewed manually on Macbook air 13", Dell 21" HD screen, iphone 11, Dell 17" laptop and Pixel 4XL phone.
 -   Links 
 
@@ -238,6 +250,8 @@ The W3C Markup Validator and W3C CSS Validator were used to validate every page 
 
 
 ### Media
+
+ https://www.pexels.com/@charles-parker
 
 -   
 
