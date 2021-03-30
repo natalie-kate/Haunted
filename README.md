@@ -104,14 +104,20 @@ This website was created for Milestone 1- User Centric Frontend Development proj
         that you would imagine to be haunted without being scary and putting people off the site. Similarly the header 
         image in the other two pages has the heavy purple clouds with the spooky ruins drawing you in. 
         The font-awesome ghost "Casper" is again to highlight that this is a light hearted site, not to be taken too seriously.
-         
+    
+    -   #### Design choices
+        I decided to use pictures, text, table and fact boxes in my design. Different ways of presenting information is 
+        visually more interesting to a user and makes it easier to pick out sections to look at. As an information site I 
+        wanted the content to be there for who is interested but also aware that some people will skip over paragraphs of 
+        text so tried to use the design to break up the information into easier to digest sections.
 
-   ### Wireframes
+   ### Wireframes 
 Wireframes were created on Balsamiq (see links below)
 
 * [Mobile](wireframes/ms1-mobile.pdf)
 * [Tablet](wireframes/ms1-tablet.pdf)
 * [Desktop](wireframes/ms1-desktop.pdf)
+
 
 
 ## Features
