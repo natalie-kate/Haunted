@@ -1,13 +1,12 @@
 # Haunted Website
 
-BADGES?
 
 Here is a link to the live project. (https://natalie-kate.github.io/haunted/)
 
 This website was created for Milestone 1- User Centric Frontend Development project, as part of the Code Institutes diploma in Software development.
  I wanted to create a site that provided information for people interested in the paranormal, in particular ghosts.
 
-![Image showing the website displayed on different screen sizes](Am i responsive image from folder)
+![Image showing the website displayed on different screen sizes](readmeimages/responsive.png)
 
 ## Contents 
 
@@ -164,7 +163,8 @@ looked a bit sparse.
 
 ### Features to implement in the future
 
-Users ability to add pictures, videos and stories directly onto the page. 
+Users ability to add pictures, videos and stories directly onto the page unable to
+at the minute due to my limitations as a software developer.
 
 Haunted House subscription
 Sign up for exclusive content: 
@@ -184,7 +184,7 @@ Sign up for exclusive content:
 1. [Bootstrap v4.6.0](https://getbootstrap.com/docs/4.6.0/getting-started/introduction/)
     - Bootstrap was used for the initial layout and styling before customising it.
 2. [Google Fonts](https://fonts.google.com/)
-    - Google fonts were used to import the *INSERT FONT TYPE* 
+    - Google fonts were used to import the Noto Sans KR and Montserrat. 
 3. [Font Awesome](https://fontawesome.com/)
     - Font Awesome 
 4. [Git](https://git-scm.com/)
@@ -197,6 +197,7 @@ Sign up for exclusive content:
     - TinyJPG was used to optimise the images I used on my site to minimise loading time.
 8. [Am I responsive](http://ami.responsivedesign.is/)
     - This was used to generate the image at the top of this README.
+9. [Codepen]()
 
 
 ## Testing
@@ -206,22 +207,35 @@ Sign up for exclusive content:
 The W3C Markup Validator and W3C CSS Validator were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+
+    Initial testing
+    ![Initial html test](readmeimages/initial-html-test.png)
+    Final testing
+    ![Final html text](readmeimages/final-html-test.png)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+    
+    Initial testing
+    ![Initial css test](readmeimages/initial-css-test.png)
+    Final testing
+    ![Final css text](readmeimages/final-css-test.png)
 -   Lighthouse in devtools
+
 -   Chrome Dev tools for responsiveness
 
 
 
 ### Testing User Stories 
 
--   
-
+ 
    
 
 ### Manual Testing
 
--   The website was viewed with browsers: Internet explore, Google chrome
+-   The website was viewed with browsers: Internet explore, Google chrome, Safari
 -   Viewed manually on Macbook air 13", Dell 21" HD screen, iphone 11, Dell 17" laptop and Pixel 4XL phone.
+-   Friends, family and slack peer review reported no issues. One commment was to increase spacing after 
+    picture section and video heading which I did.
+-   Chome devtools used to test responsiveness, viewed all pages on all of the available devices.
 -   Links 
 
 ### Bugs
