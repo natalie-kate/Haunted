@@ -10,6 +10,7 @@ body{
     overflow-x: hidden;
     font-family: "Montserrat", sans-serif;
     color: #0e0325;
+    line-height: 1.75;
 }
 .container-fluid {
     padding: 0;
@@ -168,7 +169,7 @@ nav.navbar.navbar-expand-md {
 }
 .navbar-collapse{
     text-align: center;
-    margin-top: 12px;
+    margin-top: 5px;
 }
 .navbar-toggler{
     font-size: 30px;
@@ -198,7 +199,7 @@ a.navbar-brand {
 .landing-page-container{
     padding: 0;
     background: url("../images/image1-small.jpg") no-repeat center center;
-    min-height: 70vh;
+    min-height: 75vh;
     text-align: center;
     background-size: cover;
     -webkit-background-size: cover;
