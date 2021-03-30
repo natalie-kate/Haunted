@@ -118,7 +118,23 @@ Wireframes were created on Balsamiq (see links below)
 * [Tablet](wireframes/ms1-tablet.pdf)
 * [Desktop](wireframes/ms1-desktop.pdf)
 
+On mobile I had a one column design to allow nice spacing and easy to read content
 
+On tablet I wanted two columns in some sections just to make the layout 
+visually more interesting for the user.
+
+On desktop I wanted to use the rule of 3. Some sections have 3 columns of equal width,
+others have 2 columns one of a third and one of two thirds. Again this makes it visually 
+interesting helping visually distinguish between sections and prevents users becoming 
+visually tired.
+
+Difference from these to the final site were not many. 
+The About and Introduction paragraphs ended up being on top of one another rather 
+than side by side, this was due to the introduction being longer and creating 
+an empty space which didn't look great.
+Similarly with the media evidence section, originally the pictures and video 
+were to be side by side but the video column had a lot of white space under 
+it due to the pictures taking up more height.
 
 ## Features
 
