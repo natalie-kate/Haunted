@@ -234,7 +234,7 @@ The W3C Markup Validator and W3C CSS Validator were used to validate every page 
     explaining the purpose of the site.</span>
  2. As a first time visitor, I want to be able to easily navigate throughout the site to find content.<br>
    <span style="color: grey;">The nav menu is at the top of all pages with drop down menus to find and jump to the section of 
-   interest. the brand name is also a link 
+   interest. The brand name is also a link back to home.
    In addition a "back to top" link is present in the footer meaning the user doesn't have to scroll back up to 
    the top, which is especially important for the mobile site.</span>
 3. As a first time visitor, I expect to see an attractive, visually appealing site.
@@ -255,14 +255,22 @@ The W3C Markup Validator and W3C CSS Validator were used to validate every page 
    - #### Returning Visitor Goals
 
 1. As a returning visitor, I want to easily identify new content.
-   <span style="color: grey;"></span>
+   <span style="color: grey;">Bright badges have been used to highlight in the nav which page contains new 
+   content, in the dropdown menu the section also has a badge and when you are taken to this section the new content
+    itself is highlighted with the badge.</span>
 2. As a returning visitor, I want to see social media links so that I can follow on my chosen platforms.
+    <span style="color: grey;">At the bottom of each page is the social platform icons with links to the pages. Only 
+    takes you to the social media platform itself as accounts for this website don't exist in real life.</span>
 3. As a returning visitor, I want to see recommended resources to learn more.
+    <span style="color: grey;">This is one of the main nav menu items and therefore easy to find and navigate to.</span>
 4. As a returning visitor, I want to be able to contact the owner with comments or questions.
+    <span style="color: grey;">The contact page is one of the main nav items so is easy to find and navigate to. The 
+    form has prompts to ensure all the required feilds are filled in. </span>
 
     - #### Frequent Visitor Goals
 
-        1. As a frequent visitor, I want to easily identify new content.
+1. As a frequent visitor, I want to easily identify new content.
+
         2. As a frequent visitor, I want to sign up to the mailing list so that i'm informed of new content or features.
         3. As a frequent visitor, I want to send stories, pictures or videos to be added to the page. 
 
@@ -304,7 +312,9 @@ The W3C Markup Validator and W3C CSS Validator were used to validate every page 
 
 ### Media
 
- https://www.pexels.com/@charles-parker
+ True story image https://www.pexels.com/@charles-parker
+ Header image https://www.pexels.com/@peter-spencer
+ Hero image https://www.pexels.com/@phil-964389
 
 -   
 
