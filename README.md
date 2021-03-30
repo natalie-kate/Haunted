@@ -286,11 +286,13 @@ The W3C Markup Validator and W3C CSS Validator were used to validate every page 
 
 ### Manual Testing
 
--   The website was viewed with browsers: Internet explore, Google chrome, Safari
+-   The website was viewed with browsers: Internet explorer, Google chrome, Safari, Microsoft Edge, Chrome for 
+    android, Firefox and Opera. Viewed all three pages on each and checked the links. Found that the contact form 
+    link to resource section was wrong so that was amended.
 -   Viewed manually on Macbook air 13", Dell 21" HD screen, iphone 11, Dell 17" laptop and Pixel 4XL phone.
 -   Friends, family and slack peer review reported no issues. One commment was to increase spacing after 
-    picture section and video heading which I did.
--   Chome devtools used to test responsiveness, viewed all pages on all of the available devices.
+    picture section and video heading which I did. 
+-   Chrome devtools used to test responsiveness, viewed all pages on all of the available devices.
 -   Links 
 
 ### Bugs
