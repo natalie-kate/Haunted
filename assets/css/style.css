@@ -309,7 +309,7 @@ div.video-evidence {
 }
 .picture-evidence h2,
 .video-evidence h2 {
-    margin: 10px;
+    margin: 20px;
 }
 
 /*---- Resource section ----*/
@@ -340,6 +340,7 @@ div.video-evidence {
     font-size: 1rem;   
 }
 .resources ul {
+    margin-top: 10px;
     list-style-type: none;
     padding-left: 0;
     font-size: 20px;
@@ -347,6 +348,7 @@ div.video-evidence {
 .fact-box h4 {
     font-size: 32px;
 }
+
 
 /*---- Contact ----*/
 form {
@@ -543,7 +545,7 @@ span.social {
 @media(min-width:1000px) {
 .landing-page-container{
     padding: 0;
-    background: url("../images/image1.jpg") no-repeat top center;
+    background: url("../images/image1.jpg") no-repeat top -130px center;
      background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
