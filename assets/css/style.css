@@ -76,7 +76,9 @@ a:hover,
 a:focus,
 .fa-ghost:focus,
 .social i:hover,
-.social i:focus {
+.social i:focus,
+.introduction-image a:hover,
+.introduction-image a:focus {
     color: #0e0325;
 }
 a.navbar-brand:hover,
@@ -113,7 +115,9 @@ iframe a:focus-visible,
     text-decoration: none;
 }
 p sup:hover,
-p sup:focus {
+p sup:focus,
+caption sup:hover,
+caption sup:focus  {
     color: #01778a;
 }
 /*---- www.joshwcomeau.com ----*/
@@ -143,7 +147,8 @@ p sup,
 .resource-image a,
 .modal-content p,
 .col-2 a,
-.social i {
+.social i,
+caption sup {
  color: #753871;
 }
 a.navbar-brand, 
@@ -250,7 +255,8 @@ button.my-btn {
 .ghosts table{
     margin-top: 25px;
 }
-p sup{
+p sup,
+caption sup {
     font-weight: 500;
 }
 
