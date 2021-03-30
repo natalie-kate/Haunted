@@ -77,7 +77,7 @@ a:focus,
 .fa-ghost:focus,
 .social i:hover,
 .social i:focus {
-    color: #381936;
+    color: #0e0325;
 }
 a.navbar-brand:hover,
 a.navbar-brand:focus,
@@ -148,7 +148,7 @@ p sup,
 }
 a.navbar-brand, 
 .nav-link.active {
- color: #381936;
+ color: #0e0325;
 }
 .modal-content h3,
 .fa-ghost {
@@ -256,7 +256,7 @@ p sup{
 
 /*---- Theories ----*/
 .fact-box{
-    border: solid 5px #381936;
+    border: solid 5px #0e0325;
     border-radius: 15px;
     text-align: center;
     padding: 30px;
@@ -264,7 +264,7 @@ p sup{
     font-size: 1.2rem;
     margin-top: 15px;
     background-color: #e8feff;
-    color: #381936;
+    color: #0e0325;
 }
 
 /*---- Evidence ----*/
