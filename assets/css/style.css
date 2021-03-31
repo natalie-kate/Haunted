@@ -78,7 +78,9 @@ a:focus,
 .social i:hover,
 .social i:focus,
 .introduction-image a:hover,
-.introduction-image a:focus {
+.introduction-image a:focus,
+.video a:hover,
+.video a:focus {
     color: #0e0325;
 }
 a.navbar-brand:hover,
@@ -106,7 +108,8 @@ form input:focus-visible,
 form textarea:focus-visible,
 iframe button:focus-visible,
 iframe a:focus-visible,
-.col-2 a:focus-visible {
+.col-2 a:focus-visible,
+.video a:focus-visible {
     outline: 3px dotted #01778a;
 }
 .resources ul a:hover,
@@ -148,7 +151,8 @@ p sup,
 .modal-content p,
 .col-2 a,
 .social i,
-caption sup {
+caption sup,
+.video a {
  color: #753871;
 }
 a.navbar-brand, 
