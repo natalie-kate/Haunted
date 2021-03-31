@@ -237,14 +237,14 @@ button.my-btn {
     text-align: center;
 }
 .introduction-image img{
-   width: auto;
+    width: auto;
    height: 400px;
    padding: 0px;  
    object-fit: cover;   
    position: absolute;     
    display: inline;       
    left: 50%;                   
-   transform: translate(-50%); 
+   transform: translate(-50%);   
 }
 .introduction-image p {
     padding-top: 400px;
@@ -317,11 +317,19 @@ div.video-evidence {
 .video-evidence h2 {
     margin: 20px;
 }
+.video {
+    padding: 0;
+}
+iframe {
+        width: 320px;
+        height: 177px;
+    }
 
 /*---- Resource section ----*/
 .resource-image {
     text-align: center;
     position: relative;
+    overflow: hidden;
 }
 .resource-image img {
    width: auto;
@@ -332,11 +340,11 @@ div.video-evidence {
    display: inline; 
    left: 50%;                   
    transform: translate(-50%); 
+   margin-top: 10px;
 }
 .resource-image p {
     padding-top: 250px;
 }
-
 .resource-image a {
     font-size: 16px;
 }
@@ -459,6 +467,9 @@ span.social {
     button.my-btn {
         border: 5px solid #753871;
     }
+    .resource.fact-box {
+        margin: 15px 25px 0 25px;
+    }
     
     /*---- Chiller on stack overflow ----*/
     .hide {
@@ -477,7 +488,10 @@ span.social {
     }   
     footer .footer-link {
     padding: 20px 5px 0 0;
-} 
+    } 
+    .video p {
+        padding: 0 40px;
+    }
 }
 
 @media(max-width:350px){
@@ -491,8 +505,14 @@ span.social {
         line-height: 1;
         padding: 15px 5px 0 0;
     }
-    iframe {
+    .video iframe {
         width: 90vw;
+    }
+    .video p {
+        padding: 0;
+    }
+    .resource.fact-box {
+        margin: 15px 0;
     }
 }
 
@@ -551,6 +571,16 @@ span.social {
     footer .footer-link {
     line-height: 1.5;
     }
+    .video iframe {
+        width: 340px;
+        height: 189px;
+    }
+    .video p {
+        padding: 0 10px;
+    }
+    .video {
+        padding: 0;
+    }
 }
 
 @media(min-width:1000px) {
@@ -570,6 +600,13 @@ span.social {
     -moz-background-size: cover;
     -o-background-size: cover;
  }
+ .video iframe {
+        width: 320px;
+        height: 177px;
+    }
+ .video p {
+        padding: 0 5px;
+    }
 }
 
 @media(min-width:1400px) {
@@ -588,6 +625,13 @@ span.social {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    }
+ .video iframe {
+        width: 450px;
+        height: 250px;
+    }
+ .video p {
+        padding: 0 20px;
     }
 }
 
@@ -612,6 +656,13 @@ span.social {
     .d-none {
         padding-left: 60px;
         padding-right: 60px;
+    }
+    .video iframe {
+        width: 560px;
+        height: 315px;
+    }
+    .video p {
+        padding: 0 35px;
     }
 }
 
