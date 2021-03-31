@@ -226,7 +226,7 @@ button.my-btn {
     background-color: #0e0325;
     color: #e8feff;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border: none;
 }
 
@@ -453,6 +453,12 @@ span.social {
         font-size: 16px;
         line-height: 1.25;
     }
+    a.my-btn,
+    input.my-btn,
+    label.my-btn,
+    button.my-btn {
+        border: 5px solid #753871;
+    }
     
     /*---- Chiller on stack overflow ----*/
     .hide {
@@ -484,6 +490,9 @@ span.social {
     footer .footer-link {
         line-height: 1;
         padding: 15px 5px 0 0;
+    }
+    iframe {
+        width: 90vw;
     }
 }
 
