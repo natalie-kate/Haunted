@@ -462,11 +462,6 @@ span.social {
      input:checked ~ .hide {
        display: inline;
     }
-
-     div.hide.col-md-6.col-lg-4 {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
     table td,
     table th,
     table {
