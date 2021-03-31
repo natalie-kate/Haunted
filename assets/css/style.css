@@ -598,7 +598,7 @@ span.social {
     -o-background-size: cover;
 }
  .header-container{
-    background: url("../images/image3.jpg") no-repeat bottom -80px center;
+    background: url("../images/image3.jpg") no-repeat bottom -100px center;
     min-height: 40vh;
      background-size: cover;
     -webkit-background-size: cover;
