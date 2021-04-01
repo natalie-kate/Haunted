@@ -243,6 +243,36 @@ Testing and results can be found [here](testing.md)
 
 ## Deployment
 
+ - ### Github pages
+
+ I deployed my project to gihub pages by:
+
+   (a) Logged in to github and opened my [repository](https://github.com/natalie-kate/haunted)<br>
+   (b) From here clicked settings, see picture below.
+   ![Image showing where settings is in repository](assets/readmeimages/settings.png)
+   (c) In settings scrolled down to Github pages, here under source branch I selected Master 
+   and kept the default root and then clicked save.
+   ![Image showing the github pages options](assets/readmeimages/source.png) <br>
+   (d) After a minute or two the page has now published and the site address is available in the github page section.
+   ![Image showing that the site has been successfully published](assets/readmeimages/published.png)
+
+ - ### Forking
+   (a) To fork my project sign in to Github and go to my [repository](https://github.com/natalie-kate/haunted)<br>
+   (b) Above and to the right of the settings there are three options and the far right one says Fork, select this.
+   (c) The fork is now in your repositories.
+
+
+ - ### Clone
+   To clone my project sign in to Github and go to my [repository](https://github.com/natalie-kate/haunted)<br>
+   * Clone using command line
+     + Next to the green Gitpod button is a button that says code, select this. There is a few options as to how you 
+       would like to clone, if you choose https, SSH or Github CLI, select the clipbard icon to copy the URL.
+     + In your workspace that you've created, in the terminal , type git clone, paste the URL and enter.
+   * Desktop Github
+     + If you choose to clone by selecting open with desktop Github, it will guide you through the clone with prompts.<br>
+   For more information or troubleshooting see the Github documentation 
+   [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#about-cloning-a-repository)
+   
 ## Credits
 
 ### Code
