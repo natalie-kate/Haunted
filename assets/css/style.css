@@ -106,9 +106,7 @@ a.navbar-brand:focus-visible,
 .resources ul a:focus-visible,
 form input:focus-visible,
 form textarea:focus-visible,
-iframe button:focus-visible,
-iframe a:focus-visible,
-.col-2 a:focus-visible,
+.footer-link a:focus-visible,
 .video a:focus-visible {
     outline: 3px dotted #01778a;
 }
