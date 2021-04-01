@@ -205,7 +205,7 @@ could be included for initial launch.
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
--   [Javascript] (https://en.wikipedia.org/wiki/JavaScript)
+-   [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
 
@@ -214,23 +214,23 @@ could be included for initial launch.
 2. [Google Fonts](https://fonts.google.com/)
     - Google fonts were used to import the Noto Sans KR and Montserrat. 
 3. [Font Awesome](https://fontawesome.com/)
-    - Font Awesome was used for the social media icons and section icons on evidence page.
+    - Social media icons in footer and section icons on evidence page.
 4. [Git](https://git-scm.com/)
-    - Git for version control.
+    - Version control.
 5. [GitHub](https://github.com/)
-    - GitHub for storing code and deploying the site.
+    - For storing code and deploying the site.
 6. [Gitpod](https://www.gitpod.io/)
     - Used for editing my code.
 7. [Balsamiq](https://balsamiq.com/)
-    - Balsamiq used for wireframes.
+    - Wireframe creation
 8. [TinyJPG](https://tinyjpg.com/)
     - TinyJPG was used to optimise the images I used on my site to minimise loading time.
 9. [Am I responsive](http://ami.responsivedesign.is/)
     - This was used to generate the image at the top of this README.
 10. [Codepen](https://codepen.io/your-work)
-   - Codepen was used to try out and edit the read more button.
+       - Codepen was used to try out and edit the read more button.
 11. [Chrome devtools](https://developer.chrome.com/docs/devtools/)
-   - This was used massively throughout development to troubleshoot, try out changes before 
+    - This was used massively throughout development to troubleshoot, try out changes before 
    changing code, to test responsiveness and for testing performance of the final site with lighthouse. 
 
 
@@ -252,23 +252,36 @@ Testing and results can be found [here](testing.md)
 
 ### Content
 
--   
-
--   README layout from https://github.com/Code-Institute-Solutions/SampleREADME
+-   Content was created by Natalie Alexander, using information from the following refernces that have been linked to in the content itself..
+     * (1)https://www.collinsdictionary.com/dictionary/english/paranormal
+     * (2)https://www.livescience.com/26697-are-ghosts-real.html
+     * (3)http://www.victorianweb.org/victorian/religion/spirit.html
+     * (4)https://www.livescience.com/26697-are-ghosts-real.html
+     * (5)https://info.umkc.edu/unews/ghosts-and-grief-umkc-professor-discusses-supernatural-beliefs-around-the-world/
+     * (6)https://www.sciencedirect.com/science/article/abs/pii/S0160738310001209
+     * (7)https://www.researchgate.net/publication/291333882_Ghostly_Encounters_The_Hauntings_of_Everyday_Life
+     * (8)https://www.goodreads.com/book/show/2244062.The_Complete_Book_of_Ghosts
+     * (9)https://inews.co.uk/news/science/are-ghosts-real-rational-theories-sightings-sceptics-halloween-356151 
+-   README.md and TESTING.md layout and content took ideas and inspiration from:
+    * [Code institute](https://github.com/Code-Institute-Solutions/SampleREADME)
+    * [Daisy McGirr](https://github.com/Daisy-McG/MilestoneProject-1/blob/master/README.md)
+    * [Richard Henyash](https://github.com/richardhenyash/artofnht/blob/darktheme/README.md)
+    * [byllsa](https://github.com/byIlsa/Aloy-from-outcast-to-heroine)
 
 
 ### Media
 
- 
- True story image https://www.pexels.com/@charles-parker
- Header image https://www.pexels.com/@peter-spencer
- Hero image https://www.pexels.com/@phil-964389
-
--   
-
--  
-
--   
+ - Picture evidence pictures from [Wiki commons](https://commons.wikimedia.org/wiki/Category:Spirit_photography)
+ - True story image [Charles Parker, Pexels](https://www.pexels.com/@charles-parker)
+ - Header image [Peter Spencer, Pexels](https://www.pexels.com/@peter-spencer)
+ - Hero image [Phil, Pexels](https://www.pexels.com/@phil-964389
+ - Introduction image [Teksomilika, Freepik](https://www.freepik.com/teksomolika) 
+ - Further resources image [Erik McLean, pexels](https://www.pexels.com/@introspectivedsgn)
+ - Youtube videos from:
+   * [Lainey & Ben](https://www.youtube.com/channel/UCvLU692Wv1T9Qjz96YVhLtg)
+   * [Nukes top 5](https://www.youtube.com/channel/UCBnbnH7DGXT9yBBVFbZeIwQ)
+   * [Sabia el](https://www.youtube.com/channel/UCgoIgr6MekEKM3hRnaZc9rQ)
+   * [Elvis and Khaleesi](https://www.youtube.com/channel/UCpjDFtZdjDuAzE0H-c2rxoQ)
 
 
 ### Acknowledgements
