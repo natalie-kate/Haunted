@@ -214,18 +214,24 @@ could be included for initial launch.
 2. [Google Fonts](https://fonts.google.com/)
     - Google fonts were used to import the Noto Sans KR and Montserrat. 
 3. [Font Awesome](https://fontawesome.com/)
-    - Font Awesome 
+    - Font Awesome was used for the social media icons and section icons on evidence page.
 4. [Git](https://git-scm.com/)
-    - Git 
+    - Git for version control.
 5. [GitHub](https://github.com/)
-    - GitHub 
-6. [Balsamiq](https://balsamiq.com/)
-    - Balsamiq
-7. [TinyJPG](https://tinyjpg.com/)
+    - GitHub for storing code and deploying the site.
+6. [Gitpod](https://www.gitpod.io/)
+    - Used for editing my code.
+7. [Balsamiq](https://balsamiq.com/)
+    - Balsamiq used for wireframes.
+8. [TinyJPG](https://tinyjpg.com/)
     - TinyJPG was used to optimise the images I used on my site to minimise loading time.
-8. [Am I responsive](http://ami.responsivedesign.is/)
+9. [Am I responsive](http://ami.responsivedesign.is/)
     - This was used to generate the image at the top of this README.
-9. [Codepen]()
+10. [Codepen](https://codepen.io/your-work)
+   - Codepen was used to try out and edit the read more button.
+11. [Chrome devtools](https://developer.chrome.com/docs/devtools/)
+   - This was used massively throughout development to troubleshoot, try out changes before 
+   changing code, to test responsiveness and for testing performance of the final site with lighthouse. 
 
 
 ## Testing
