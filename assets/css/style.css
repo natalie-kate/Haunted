@@ -94,6 +94,11 @@ a.navbar-brand:focus,
     color: #e8feff;
     background-color: #0e0325;
 }
+
+.dropdown-item:active {
+    background-color: #d3d8db;
+    outline: none;
+}
 .dropdown-item:focus-visible,
 .navbar .nav-link:focus-visible,
 .navbar-toggler:focus-visible,
@@ -196,7 +201,7 @@ a.navbar-brand {
 }
 
 /*---- Landing page ----*/
-.landing-page-container{
+.landing-page-container {
     padding: 0;
     background: url("../images/image1-small.jpg") no-repeat center center;
     min-height: 75vh;
@@ -206,7 +211,7 @@ a.navbar-brand {
     -moz-background-size: cover;
     -o-background-size: cover;
 }
-.title-slogan-container{
+.title-slogan-container {
     padding: 0;
     background-color: rgba(206, 211, 214, 0.5);
     text-align: center; 
@@ -214,11 +219,11 @@ a.navbar-brand {
     border-radius: 10px;  
 }
 .page-title h1,
-strong{
-    font-weight: 900;
+strong {
+    font-weight: 700;
 }
-.fa-ghost{
-    font-size: 60px;
+.fa-ghost {
+    font-size: 50px;
 }
 a.my-btn,
 input.my-btn,
@@ -533,6 +538,13 @@ span.social {
     .title-slogan-container{
     margin-top: 20vh;
     }   
+    .page-title h1,
+    strong{
+    font-weight: 900;
+    }
+    .fa-ghost{
+        font-size: 60px;
+    }
     .col-12,
     .col-10,
     .col-8,
