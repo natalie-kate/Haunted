@@ -25,6 +25,8 @@ This website was created for Milestone 1- User Centric Frontend Development proj
    * [Languages used](#languages-used)
    * [Frameworks, Libraries & Programs Used](#frameworks-,-libraries-&-programs-used)
 
+- [Challenges](#challenges)
+
 - [Testing](#testing)
    * [Automated Testing](#automated-testing)
    * [Testing User Stories](#testing-user-stories)
@@ -233,11 +235,11 @@ could be included for initial launch.
     - This was used massively throughout development to troubleshoot, try out changes before 
    changing code, to test responsiveness and for testing performance of the final site with lighthouse. 
 
+## Challenges 
 
 ## Testing
 
 Testing and results can be found [here](testing.md)
-
 
 ## Deployment
 
@@ -245,9 +247,20 @@ Testing and results can be found [here](testing.md)
 
 ### Code
 
--   
+-   [Bootstrap4](https://getbootstrap.com/docs/4.1/getting-started/introduction/): Bootstrap Library used for the layout and styling. Most prominantly seen in the 
+    nav bar as I was having issues with it, see challenges section above.
+-   Chiller on stack overflow for hide button [answer](https://stackoverflow.com/questions/42267467/how-to-toggle-effect-in-div-using-only-css)
+    used bits of his code which are marked in CSS.
+-   Josh Comeau for his button animation code and the media query for reduced motion preference. [Article](https://www.joshwcomeau.com/animation/css-transitions/)
+-   Davide Sanfilippo javascript for modal to only appear when form submitted correctly. [Codepen](https://codepen.io/dasan/pen/vqaLPe)
+-   Centering image in div code I used was a combination of two answers on stack overflow:
+                                position: absolute;     
+                                display: inline;       
+                                left: 50%;                   
+                                transform: translate(-50%);  
+-   Escaping rows fix added to body. From stack overflow: width: 100%;
+                                                          overflow-x: hidden;
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.1/getting-started/introduction/): Bootstrap Library used for the layout and styling.
 
 
 ### Content
@@ -262,19 +275,18 @@ Testing and results can be found [here](testing.md)
      * (7)https://www.researchgate.net/publication/291333882_Ghostly_Encounters_The_Hauntings_of_Everyday_Life
      * (8)https://www.goodreads.com/book/show/2244062.The_Complete_Book_of_Ghosts
      * (9)https://inews.co.uk/news/science/are-ghosts-real-rational-theories-sightings-sceptics-halloween-356151 
--   README.md and TESTING.md layout and content took ideas and inspiration from:
+-   README and TESTING took ideas and inspiration for layout and content from these excellent MS1s:
     * [Code institute](https://github.com/Code-Institute-Solutions/SampleREADME)
     * [Daisy McGirr](https://github.com/Daisy-McG/MilestoneProject-1/blob/master/README.md)
     * [Richard Henyash](https://github.com/richardhenyash/artofnht/blob/darktheme/README.md)
     * [byllsa](https://github.com/byIlsa/Aloy-from-outcast-to-heroine)
-
 
 ### Media
 
  - Picture evidence pictures from [Wiki commons](https://commons.wikimedia.org/wiki/Category:Spirit_photography)
  - True story image [Charles Parker, Pexels](https://www.pexels.com/@charles-parker)
  - Header image [Peter Spencer, Pexels](https://www.pexels.com/@peter-spencer)
- - Hero image [Phil, Pexels](https://www.pexels.com/@phil-964389
+ - Hero image [Phil, Pexels](https://www.pexels.com/@phil-964389)
  - Introduction image [Teksomilika, Freepik](https://www.freepik.com/teksomolika) 
  - Further resources image [Erik McLean, pexels](https://www.pexels.com/@introspectivedsgn)
  - Youtube videos from:
