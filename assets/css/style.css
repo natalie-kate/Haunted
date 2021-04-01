@@ -14,7 +14,6 @@ body{
 .container-fluid {
     padding: 0;
 }
-
 .row{
     width: 100vw;
     margin: auto;
@@ -239,7 +238,7 @@ button.my-btn {
     text-align: center;
 }
 .introduction-image img{
-    width: auto;
+   width: auto;
    height: 400px;
    padding: 0px;  
    object-fit: cover;   
