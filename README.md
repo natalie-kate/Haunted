@@ -13,6 +13,7 @@ This website was created for Milestone 1- User Centric Frontend Development proj
 - [User Experience (UX)](#user-experience)
    * [Site Goals](#site-goals)
    * [User Stories](#user-stories) 
+   * [Structure] (structure)
    * [Design](#design)
    * [Wireframes](#wireframes)
 
@@ -56,12 +57,6 @@ This website was created for Milestone 1- User Centric Frontend Development proj
    - As the site owner I want to build up a media presence and fan base to ultimately capitalise on that by introducing a 
      subscription club.
 
-   ### Structure
-   I decided that it would make sense to have three pages wih different sections on the home/about and evidence page.
-   The information took two distinct groups, that of information (Home/about page) and that of evidence. I also believe 
-   that on a site that is informational at its core that encouraging users to pursue this possibly new interest through
-   further resources 
-
    ### User Stories
 
    - #### First Time Visitor 
@@ -84,6 +79,23 @@ This website was created for Milestone 1- User Centric Frontend Development proj
         1. As a frequent visitor, I want to easily identify new content.
         2. As a frequent visitor, I want to sign up to the mailing list so that i'm informed of new content or features.
         3. As a frequent visitor, I want to send stories, pictures or videos to be added to the page.
+
+   ### Structure
+   I decided that it would make sense to have three pages with different sections on the home/about and evidence page.
+   The content took two distinct groups, that of information (Home/about page) and that of evidence. I also believe 
+   that on a site that is informational at its core that encouraging users to pursue this possibly new interest through
+   further resources is important. As it didn't warrant a page to itself, due to its size, I chose to put this after the 
+   video evidence as a few of the resources were to the channels that the videos themselves came from, so i thought this would 
+   flow nicely. I did however give it its own listing in the navbar due to it being important for users to find and I also think 
+   this section will become larger over time and will end up as its own page eventually.
+   Contact form I chose to put on its own page instead of a modal as I wanted a decently sized text area for people to write in 
+   and to have a confirmation modal to pop up on successful submission. In addition this page will have the sign in portal for paid 
+   subscribers in the future.
+   All pages should have a nav menu at the top and a footer at the bottom with the social links as this is what users expect 
+   and they will therefore be able to navigate intuitively. On small screens the navigation menu will collapse into the burger 
+   icon on the right hand side of the screen with the brand name on the left. 
+   I decided to include a Home and About menu item even though they are the same page as people expect home and about to be 
+   listed. If I took away Home people may not be sure how to get back to the beginning from other pages. 
 
    - ### Design
 
@@ -154,6 +166,7 @@ mobile purposes) and so an empty space appeared that needed filled.
 
 I also added another fact box in the further resources section to fill it out, it 
 looked a bit sparse. 
+
 
 ## Features
 
