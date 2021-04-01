@@ -94,6 +94,10 @@ a.navbar-brand:focus,
     color: #e8feff;
     background-color: #0e0325;
 }
+.dropdown-item:active {
+    background-color: #d3d8db;
+    outline: none;
+}
 .dropdown-item:focus-visible,
 .navbar .nav-link:focus-visible,
 .navbar-toggler:focus-visible,
