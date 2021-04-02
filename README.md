@@ -261,7 +261,27 @@ could be included for initial launch.
      then tried changing the image file size as it was quite large.<br><span style="color: grey;"> Solution: background-color
      was overiding the background-image, I wasn't loving the background having a color as it was a bit much so just removed 
      it. If I was keeping it I would have give the image a z-index.</span>
-   - 
+   - Read more button
+       * Tried doing it with the button element, along with the stack overflow code for hiding and then unhiding a div. This
+        didn't work and so I used the stack overflow code, this time including styling the input label to look like a button. 
+        I had given all my divs to be hidden bootstrap classes for the different screen sizes including d-none. Tried to target 
+        the d-none to unhide upon clicking. This did not work, I realised from the stack overflow example that the stories, 
+        input and label all have to be within the same div to work, so removed all the bootstrap classes gave them all a class 
+        of .hide and enclosed them all in one parent div. The button now worked but I now had to style them to be resposnsive 
+        in the same way as the three stories shown across all devices that had bootstrap classes.<br>
+        <span style="color: grey;">Solution: Ended up reverting back to bootstrap classes and using a media query for smaller 
+        screens to hide and unhide the div rather than that being the default style. I then could add my bootstrap classes back in
+        and just hide the button on medium and large screens. As the hidden stories were in a new row, this created a gap on the 
+        medium screens, so I filled this with an image.
+    - Realised I had a horizontal scroll, Thought it was the nav as the content box seemed to be outwith the screen size. Tried 
+      to move things about, removed the right align, changed about the .row and .col classes, this didn't help. Commented out the 
+      nav entirely and the scrolling issue was still there. This led me to realise that all my rows were escaping the container.<br>
+      <span style="color: grey;">Solution: Found on stack overflow to target row with 100vh and body & html with width: 100% and 
+      overflow-x: hidden. This seemed to fix the scrolling even though I couldn't see any content that was overflowing to cause it. 
+      Upon further research I found that rows by default have a margin of -15px and the containers default margin counteracts it. 
+      Thus changing my container-fluid to margin: 0 so that my background image would reach the edge caused the issue. I ended up
+      taking the nav out of the container-fluid as by default nav is responsive and doesn't need to be in a container.
+
    
      
 
