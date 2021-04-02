@@ -237,6 +237,33 @@ could be included for initial launch.
    changing code, to test responsiveness and for testing performance of the final site with lighthouse. 
 
 ## Challenges 
+   These are aspects of the development that took me a while to figure out due to inexperience with 
+   coding and bootstrap. 
+   -  Nav
+        * Could not see the nav toggler icon when in mobile view. Realised that because I hadn't chosen a 
+        nav-dark or nav-light bootstrap class it hadn't given it a colour but that it was there. As I wanted my 
+        own colour scheme anyway I tried to target the toggler with my own colour.<br> <span style="color: grey;">
+        Solution: After a google search stack overflow advice was to swap the bootstrap toggler icon to the font 
+        awesome one and then I could style it.</span>
+        * Getting my menu to align to the right.<br><span style="color: grey;">Solution: ml-auto bootstrap class 
+        applied to the unordered list.</span>
+        * Menu icon not working <br><span style="color: grey;">Solution: Hadn't given an id to the unordered list
+         to target.</span>
+        *
+   - Font awesome ghost icon not displaying.<br><span style="color: grey;">Solution: Font awesome version had updated
+    to 5.15.2 and my link was for the older one.</span>
+   - Image centered in div. Tried img-fluid class, align-items, text-align, align-selfjustify contents, margin 0 auto, 
+     margin auto with container at 33vw, display:flex etc. Searched and found some answers on stack overflow. Used bits 
+     from two answers.<br><span style="color: grey;">Solution: position: absolute; display: inline; left: 50%; transform: 
+     translate(-50%);</span>
+   - Background image not displaying when deployed to github pages. Had heard there could be issues with file paths 
+     which is why you should deploy early in the development which is why I did thankfully. Tried numerous file paths,
+     then tried changing the image file size as it was quite large.<br><span style="color: grey;"> Solution: background-color
+     was overiding the background-image, I wasn't loving the background having a color as it was a bit much so just removed 
+     it. If I was keeping it I would have give the image a z-index.</span>
+   - 
+   
+     
 
 ## Testing
 
@@ -250,11 +277,16 @@ Testing and results can be found [here](testing.md)
 
    (a) Logged in to github and opened my [repository](https://github.com/natalie-kate/haunted)<br>
    (b) From here clicked settings, see picture below.
+
    ![Image showing where settings is in repository](assets/readmeimages/settings.png)
+
    (c) In settings scrolled down to Github pages, here under source branch I selected Master 
    and kept the default root and then clicked save.
+
    ![Image showing the github pages options](assets/readmeimages/source.png) <br>
+
    (d) After a minute or two the page has now published and the site address is available in the github page section.
+
    ![Image showing that the site has been successfully published](assets/readmeimages/published.png)
 
  - ### Forking
@@ -306,7 +338,7 @@ Testing and results can be found [here](testing.md)
      * (7)https://www.researchgate.net/publication/291333882_Ghostly_Encounters_The_Hauntings_of_Everyday_Life
      * (8)https://www.goodreads.com/book/show/2244062.The_Complete_Book_of_Ghosts
      * (9)https://inews.co.uk/news/science/are-ghosts-real-rational-theories-sightings-sceptics-halloween-356151 
--   README and TESTING took ideas and inspiration for layout and content from these excellent MS1s:
+-   README and TESTING took ideas and inspiration for layout and content from these excellent examples:
     * [Code institute](https://github.com/Code-Institute-Solutions/SampleREADME)
     * [Daisy McGirr](https://github.com/Daisy-McG/MilestoneProject-1/blob/master/README.md)
     * [Richard Henyash](https://github.com/richardhenyash/artofnht/blob/darktheme/README.md)
