@@ -202,7 +202,7 @@ a.navbar-brand {
 /*---- Landing page ----*/
 .landing-page-container {
     padding: 0;
-    background: url("../images/image1-small.jpg") no-repeat center center;
+    background: url("../images/image1-xsmall.jpg") no-repeat center center;
     min-height: 75vh;
     text-align: center;
     background-size: cover;
@@ -281,7 +281,7 @@ caption sup {
 /*---- Evidence ----*/
 .header-container{
     padding: 0;
-    background: url("../images/image3-small.jpg") no-repeat bottom center;
+    background: url("../images/image3-xsmall.jpg") no-repeat bottom center;
     min-height: 33vh;
     background-size: cover;
     -webkit-background-size: cover;
@@ -535,17 +535,25 @@ span.social {
     .landing-page-button {
         display: none;
     }
-    .landing-page-container {
-        min-height: 75vh;
-    }
 }
 
 @media(min-width:769px) {
     .page-title h1 {
     font-size: 60px;
     }
+    .landing-page-container {
+    padding: 0;
+    background: url("../images/image1-small.jpg") no-repeat center center;
+    min-height: 80vh;
+    text-align: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover
+    }
+
     .header-container{
-    background: url("../images/image3.jpg") no-repeat bottom -80px center;
+    background: url("../images/image3-small.jpg") no-repeat bottom -80px center;
     min-height: 40vh;
     background-size: cover;
     -webkit-background-size: cover;
@@ -617,14 +625,14 @@ span.social {
 @media(min-width:1000px) {
 .landing-page-container{
     padding: 0;
-    background: url("../images/image1.jpg") no-repeat top -130px center;
+    background: url("../images/image1-small.jpg") no-repeat top -130px center;
      background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 }
  .header-container{
-    background: url("../images/image3.jpg") no-repeat bottom -100px center;
+    background: url("../images/image3-small.jpg") no-repeat bottom -100px center;
     min-height: 40vh;
      background-size: cover;
     -webkit-background-size: cover;
