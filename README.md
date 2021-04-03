@@ -6,7 +6,7 @@ Here is a link to the live project. (https://natalie-kate.github.io/haunted/)
 This website was created for Milestone 1- User Centric Frontend Development project, as part of the Code Institutes diploma in Software development.
 I wanted to create a site that provided information for people interested in the paranormal, in particular ghosts.
 
-![Image showing the website displayed on different screen sizes](assets/readmeimages/responsive.png)
+![Image showing the website displayed on different screen sizes](assets/readme-images/responsive.png)
 
 ## Contents 
 
@@ -108,7 +108,7 @@ I wanted to create a site that provided information for people interested in the
         did find a colour scheme. I wanted to create an atmosphere, not too dark as to create a scary feel, horror is not 
         what we're aiming but not too cheery at the same time. 
 
-        ![Colour scheme](assets/readmeimages/colour-scheme.png)
+        ![Colour scheme](assets/readme-images/colour-scheme.png)
 
         The navy/very dark purple and the purple set the tone. The grey is used for the nav and footer providing contrast 
         for the brand name and menu and was picked from the hero image. The very pale green is used to lift and highlight, 
@@ -312,7 +312,7 @@ Testing and results can be found [here](testing.md)
     (b) This took me to the page below. I selected the code institute template, input a repository name and clicked the 
     green create repository button.<br>
 
-    ![Image showing the create repository page](assets/readmeimages/create.png)
+    ![Image showing the create repository page](assets/readme-images/create.png)
 
     (c) Opened new repository and clicked green Gitpod button to create a workspace in gitpod for editing.
 
@@ -322,16 +322,16 @@ Testing and results can be found [here](testing.md)
     (a) Logged in to github and opened my [repository](https://github.com/natalie-kate/haunted)<br>
     (b) From here clicked settings, see picture below.
 
-    ![Image showing where settings is in repository](assets/readmeimages/settings.png)
+    ![Image showing where settings is in repository](assets/readme-images/settings.png)
 
     (c) In settings scrolled down to Github pages, here under source branch I selected Master 
            and kept the default root and then clicked save.
 
-    ![Image showing the github pages options](assets/readmeimages/source.png) <br>
+    ![Image showing the github pages options](assets/readme-images/source.png) <br>
 
     (d) After a minute or two the page has now published and the site address is available in the github page section.
 
-    ![Image showing that the site has been successfully published](assets/readmeimages/published.png)
+    ![Image showing that the site has been successfully published](assets/readme-images/published.png)
 
  - ### Forking
    (a) To fork my project sign in to Github and go to my [repository](https://github.com/natalie-kate/haunted)<br>
@@ -346,7 +346,7 @@ Testing and results can be found [here](testing.md)
        would like to clone, if you choose https, SSH or Github CLI, select the clipbard icon to copy the URL.
      + In your workspace that you've created, in the terminal , type git clone, paste the URL and enter.
 
-     ![Image showing the cloning options](assets/readmeimages/clone.png)
+     ![Image showing the cloning options](assets/readme-images/clone.png)
    * Desktop Github
      + If you choose to clone by selecting open with desktop Github, it will guide you through the clone with prompts.<br>
    For more information or troubleshooting see the Github documentation 
