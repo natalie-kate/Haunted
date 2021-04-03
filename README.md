@@ -10,10 +10,10 @@ I wanted to create a site that provided information for people interested in the
 
 ## Contents 
 
-- [User Experience (UX)](#user-experience)
+- [User Experience (UX)](#user-experience-(ux))
    * [Site Goals](#site-goals)
    * [User Stories](#user-stories) 
-   * [Structure] (structure)
+   * [Structure](#structure)
    * [Design](#design)
    * [Wireframes](#wireframes)
 
@@ -141,7 +141,7 @@ Wireframes were created on Balsamiq (see links below)
 
 * [Mobile](assets/wireframes/ms1-mobile.pdf)
 * [Tablet](assets/wireframes/ms1-tablet.pdf)
-* [Desktop](assetswireframes/ms1-desktop.pdf)
+* [Desktop](assets/wireframes/ms1-desktop.pdf)
 
 - On mobile I had a one column design to allow nice spacing and easy to read content
 
@@ -249,10 +249,18 @@ could be included for initial launch.
         applied to the unordered list.</span>
         * Menu icon not working <br><span style="color: grey;">Solution: Hadn't given an id to the unordered list
          to target.</span>
-        *
+        * Wanted to style the burger icon menu. Initially had opaqness on nav set to 0.5 but where the navbar and dropdown
+         overlapped was obviously a line of full opaqness and the dropdown didnt fill the full width of the screen. Felt like
+         I had messed up the nav as I had taken the one from whiskey drop and deleted and edited to suit. It was the first 
+         element on my page I had worked on and an empty screen had been daunting so now having issues with it, I deleted 
+         the whole thing and started again using bootstrap documentation to write my own and then ultimately ended up copying 
+         and pasting from bootstrap their nav code and ended up with the same issue.<br> 
+         <span style="color: grey;">Solution: Padding on the navbar was translating to gaps either side of the dropdown,
+         removed this padding, changed colour of nav from 0.5 to fully opaque and a lighter grey as fully opaque had then started 
+         causing contrast issues.
    - Font awesome ghost icon not displaying.<br><span style="color: grey;">Solution: Font awesome version had updated
     to 5.15.2 and my link was for the older one.</span>
-   - Image centered in div. Tried img-fluid class, align-items, text-align, align-selfjustify contents, margin 0 auto, 
+   - Image centered in div. Tried img-fluid class, align-items, text-align, align-self, justify contents, margin 0 auto, 
      margin auto with container at 33vw, display:flex etc. Searched and found some answers on stack overflow. Used bits 
      from two answers.<br><span style="color: grey;">Solution: position: absolute; display: inline; left: 50%; transform: 
      translate(-50%);</span>
@@ -281,37 +289,43 @@ could be included for initial launch.
       Upon further research I found that rows by default have a margin of -15px and the containers default margin counteracts it. 
       Thus changing my container-fluid to margin: 0 so that my background image would reach the edge caused the issue. I ended up
       taking the nav out of the container-fluid as by default nav is responsive and doesn't need to be in a container.
+    - Successful submission modal would pop up for a second and disappear before a user had a chance to read it. Changed button type 
+      from submit to button and removed method and action attributes which brought the modal up but would do that even if the form 
+      hadn't been filled in with the required info (personal info). Found a student that had got a modal on her MS1 and seen that 
+      her mentor had written some Javascript for her, tried it but couldn't get it to work, then tried one I found on codepen and 
+      couldn't get that work to either.<br>
+      <span style="color: grey;">Solution: Javascript code from codepen with the script after the other scripts rather than above 
+      them. And using input type button without the method and action atributes.</span>
 
    
-     
-
 ## Testing
 
 Testing and results can be found [here](testing.md)
 
 ## Deployment
 
+
  - ### Github pages
 
- I deployed my project to gihub pages by:
+       I deployed my project to gihub pages by:
 
-   (a) Logged in to github and opened my [repository](https://github.com/natalie-kate/haunted)<br>
-   (b) From here clicked settings, see picture below.
+       (a) Logged in to github and opened my [repository](https://github.com/natalie-kate/haunted)<br>
+       (b) From here clicked settings, see picture below.
 
-   ![Image showing where settings is in repository](assets/readmeimages/settings.png)
+           ![Image showing where settings is in repository](assets/readmeimages/settings.png)
 
-   (c) In settings scrolled down to Github pages, here under source branch I selected Master 
-   and kept the default root and then clicked save.
+       (c) In settings scrolled down to Github pages, here under source branch I selected Master 
+           and kept the default root and then clicked save.
 
-   ![Image showing the github pages options](assets/readmeimages/source.png) <br>
+          ![Image showing the github pages options](assets/readmeimages/source.png) <br>
 
-   (d) After a minute or two the page has now published and the site address is available in the github page section.
+       (d) After a minute or two the page has now published and the site address is available in the github page section.
 
-   ![Image showing that the site has been successfully published](assets/readmeimages/published.png)
+          ![Image showing that the site has been successfully published](assets/readmeimages/published.png)
 
  - ### Forking
    (a) To fork my project sign in to Github and go to my [repository](https://github.com/natalie-kate/haunted)<br>
-   (b) Above and to the right of the settings there are three options and the far right one says Fork, select this.
+   (b) Above and to the right of the settings there are three options and the far right one says Fork, select this.<br>
    (c) The fork is now in your repositories.
 
 
@@ -322,7 +336,7 @@ Testing and results can be found [here](testing.md)
        would like to clone, if you choose https, SSH or Github CLI, select the clipbard icon to copy the URL.
      + In your workspace that you've created, in the terminal , type git clone, paste the URL and enter.
 
-     ![Image showing the clning options](assets/readmeimages/clone.png)
+     ![Image showing the cloning options](assets/readmeimages/clone.png)
    * Desktop Github
      + If you choose to clone by selecting open with desktop Github, it will guide you through the clone with prompts.<br>
    For more information or troubleshooting see the Github documentation 
@@ -333,7 +347,7 @@ Testing and results can be found [here](testing.md)
 ### Code
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.1/getting-started/introduction/): Bootstrap Library used for the layout and styling. Most prominantly seen in the 
-    nav bar as I was having issues with it, see challenges section above.
+    nav bar as I was having issues with it, see challenges section above and modal. Modal made my own by deleting sections adding an icon and styling.
 -   Chiller on stack overflow for hide button [answer](https://stackoverflow.com/questions/42267467/how-to-toggle-effect-in-div-using-only-css)
     used bits of his code which are marked in CSS.
 -   Josh Comeau for his button animation code and the media query for reduced motion preference. [Article](https://www.joshwcomeau.com/animation/css-transitions/)
