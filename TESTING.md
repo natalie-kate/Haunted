@@ -32,7 +32,6 @@ syntax errors in the project.
     I had missed a bracket in the media attribute of a few source elements so I added them in.
     
     ![Initial evidence html test](assets/testing-images/initial-html-test3.png)
-
     I had put paragraph elements in my iframes to give a message with a link to the video in the event that
     the video would't load. This isn't allowed so I put the paragraph below the iframe and encased them both
     in a div. Styled with media queries to be responsive.
@@ -60,7 +59,7 @@ syntax errors in the project.
     ![Initial css test](assets/testing-images/initial-css-test2.png)
 
     Had wrote display:relative instead of position: relative for an image.
-    Had also put text-decoration: 0 instead of none.
+    Had also put text-decoration: none,  instead of text-decoration: none;
 
     ![Initial css test](assets/testing-images/initial-css-test.png)
 
@@ -68,18 +67,88 @@ syntax errors in the project.
 
     Final testing
 
-    ![Final css text](assets/testing-images/final-css-test.png)
+    ![Final css test](assets/testing-images/final-css-test.png)
 
 -   Lighthouse in devtools
     
-    Landing page
+    * Landing page
 
-    Initial lighthouse score for landing page was Performance 77, Accessible 92, Best Practices 87 and SEO 91
+    + Initial lighthouse score for landing page on desktop was Performance 77, Accessible 92, Best Practices 87 and SEO 91
     From this I added in meta description, keywords and author. rel:noopener to my links and changed an h2 to an h5. 
     I had used in the h2 in my fact-box where I should have used the h5 and styled the font-size. I also had skipped 
-    h3 so I changed the h4's to h3's.
+    h3 so I changed the h4's to h3's. 
+    Went over all my buttons and links ensuring I had aria labels and images had alt text.
+    Due to these changes the rest of my tests had 100% accessibilty, Best Practices and SEO so juts had to focus on 
+    performance.
+
+    + Initial mobile
+
+    ![Initial landing page scores for mobile](assets/testing-images/landing-page-mobile-initial.png)
+
+    + Final desktop
+
+    ![Final landing page scores for desktop](assets/testing-images/landing-page-desktop.png)
+
+    + Final mobile
+
+    ![Final landing page scores for mobile](assets/testing-images/landing-page-mobile.png)
+
+    * Evidence Page
+
+        + Initial desktop
+
+        ![Initial evidence page scores for desktop](assets/testing-images/evidence-desktop-initial.png)
+
+        + Initial mobile
+
+        ![Initial evidence page scores for mobile](assets/testing-images/evidence-mobile-initial.png)
+
+        As this had the worst performance scores focused on this page and in doing so raised the scores of the 
+        other pages also.
+        
+        Lighthouse didn't like that the images didn't have explicit width and height attributes so added them in.
+        Removed scripts from both evidence and index pages as seemed to be a major rendor blocking resource. Helped
+        fractionally but then had to add them back in when I realised I needed them for the bootstrap dropdown 
+        toggled menu to work.
+        Images was still an issue, found an article that mentioned using the loading attribute, so added with a 
+        value of lazy to all my images and iframes. That helped immensely.
+        First contentful paint still slow, mostly this seems to be down to the external CDN's such as bootstrap 
+        and font awesome. Did highlight that one of my image files was still quite large so resized it along with
+        both my main landing page image and header image for mobile screens. 
+
+     + Final desktop
+
+    ![Final evidence page scores for desktop](assets/testing-images/evidence-desktop.png)
+
+    + Final mobile
+
+    ![Final evidence page scores for mobile](assets/testing-images/evidence-mobile.png)
+
+    * Contact Page
+
+    + Desktop, initial and final values didn't change so I have just included the final test results
+
+    ![Contact page scores for desktop](assets/testing-images/contact-desktop.png)
+
+    + Mobile, initial and final values didn't change so I have just included the final test results
+
+    ![Contact page scores for mobile](assets/testing-images/contact-mobile.png)
+
+
 
     
+
+
+
+
+
+
+
+
+
+
+
+
 
 -   Chrome Dev tools for responsiveness
 
