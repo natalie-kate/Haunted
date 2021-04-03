@@ -11,7 +11,8 @@
 
 ## Automated Testing
 
-The W3C Markup Validator and W3C CSS Validator were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator and W3C CSS Validator were used to validate every page of the project to ensure there were no 
+syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
@@ -20,19 +21,33 @@ The W3C Markup Validator and W3C CSS Validator were used to validate every page 
 
     ![Initial index html test](assets/testing-images/initial-html-test.png)
 
+    From this I removed the aria label from the badges, reformatted my comment and removed figcaption from my 
+    picture. Changed the figcaption to paragraph, but did not like either so just made it an img element with a 
+    paragraph below for the attribute.
+
     - evidence.html
 
     ![Initial evidence html test](assets/testing-images/initial-html-test2.png)
+
+    I had missed a bracket in the media attribute of a few source elements so I added them in.
+    
     ![Initial evidence html test](assets/testing-images/initial-html-test3.png)
+
+    I had put paragraph elements in my iframes to give a message with a link to the video in the event that
+    the video would't load. This isn't allowed so I put the paragraph below the iframe and encased them both
+    in a div. Styled with media queries to be responsive.
+    Near the end of the project I re-ran it through and I had to remove loading, width and height attributes from 
+    the source elements. 
     
     - contact.html
 
-    ![Initial evidence html test](assets/testing-images/initial-html-test4.png)
+    ![Initial contact html test](assets/testing-images/initial-html-test4.png)
     
     Final testing (for those that needed fixed)
     - index.html
 
     ![Final html text](assets/testing-images/final-html-test.png)
+
     - evidence.html
 
     ![Final html text](assets/testing-images/final-html-test2.png)
@@ -41,10 +56,30 @@ The W3C Markup Validator and W3C CSS Validator were used to validate every page 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
     
     Initial testing
+
+    ![Initial css test](assets/testing-images/initial-css-test2.png)
+
+    Had wrote display:relative instead of position: relative for an image.
+    Had also put text-decoration: 0 instead of none.
+
     ![Initial css test](assets/testing-images/initial-css-test.png)
+
+    Ran again near end of project and I hadn't put px in some of the font-size styles.
+
     Final testing
+
     ![Final css text](assets/testing-images/final-css-test.png)
+
 -   Lighthouse in devtools
+    
+    Landing page
+
+    Initial lighthouse score for landing page was Performance 77, Accessible 92, Best Practices 87 and SEO 91
+    From this I added in meta description, keywords and author. rel:noopener to my links and changed an h2 to an h5. 
+    I had used in the h2 in my fact-box where I should have used the h5 and styled the font-size. I also had skipped 
+    h3 so I changed the h4's to h3's.
+
+    
 
 -   Chrome Dev tools for responsiveness
 
