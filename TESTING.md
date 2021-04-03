@@ -16,9 +16,28 @@ The W3C Markup Validator and W3C CSS Validator were used to validate every page 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
     Initial testing
-    ![Initial html test](assets/testing-images/initial-html-test.png)
-    Final testing
+    - index.html
+
+    ![Initial index html test](assets/testing-images/initial-html-test.png)
+
+    - evidence.html
+
+    ![Initial evidence html test](assets/testing-images/initial-html-test2.png)
+    ![Initial evidence html test](assets/testing-images/initial-html-test3.png)
+    
+    - contact.html
+
+    ![Initial evidence html test](assets/testing-images/initial-html-test4.png)
+    
+    Final testing (for those that needed fixed)
+    - index.html
+
     ![Final html text](assets/testing-images/final-html-test.png)
+    - evidence.html
+
+    ![Final html text](assets/testing-images/final-html-test2.png)
+
+
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
     
     Initial testing
