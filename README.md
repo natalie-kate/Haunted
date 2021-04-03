@@ -36,6 +36,7 @@ I wanted to create a site that provided information for people interested in the
       + [Existing](#existing)
 
 - [Deployment](#deployment)
+
 - [Credits](#credits)
    * [Code](#code)
    * [Content](#content)
@@ -306,32 +307,31 @@ Testing and results can be found [here](testing.md)
 
  - ### Creation 
 
-       I created this repository by:
-       (a) Logging into github and clicked the green new button.
-       (b) This took me to the page below. I selected the code institute template, input a repository name and clicked the 
-       green create repository button.
+    I created this repository by:<br>
+    (a) Logging into github and clicked the green new button.<br>
+    (b) This took me to the page below. I selected the code institute template, input a repository name and clicked the 
+    green create repository button.<br>
 
-          ![Image showing the create repository page](assets/readmeimages/create.png)
+    ![Image showing the create repository page](assets/readmeimages/create.png)
 
-       (c) Opened new repository and clicked green Gitpod button to create a workspace in gitpod for editing.
+    (c) Opened new repository and clicked green Gitpod button to create a workspace in gitpod for editing.
 
  - ### Github pages
+    I deployed my project to gihub pages by:
 
-       I deployed my project to gihub pages by:
+    (a) Logged in to github and opened my [repository](https://github.com/natalie-kate/haunted)<br>
+    (b) From here clicked settings, see picture below.
 
-       (a) Logged in to github and opened my [repository](https://github.com/natalie-kate/haunted)<br>
-       (b) From here clicked settings, see picture below.
+    ![Image showing where settings is in repository](assets/readmeimages/settings.png)
 
-           ![Image showing where settings is in repository](assets/readmeimages/settings.png)
-
-       (c) In settings scrolled down to Github pages, here under source branch I selected Master 
+    (c) In settings scrolled down to Github pages, here under source branch I selected Master 
            and kept the default root and then clicked save.
 
-          ![Image showing the github pages options](assets/readmeimages/source.png) <br>
+    ![Image showing the github pages options](assets/readmeimages/source.png) <br>
 
-       (d) After a minute or two the page has now published and the site address is available in the github page section.
+    (d) After a minute or two the page has now published and the site address is available in the github page section.
 
-          ![Image showing that the site has been successfully published](assets/readmeimages/published.png)
+    ![Image showing that the site has been successfully published](assets/readmeimages/published.png)
 
  - ### Forking
    (a) To fork my project sign in to Github and go to my [repository](https://github.com/natalie-kate/haunted)<br>
