@@ -16,15 +16,15 @@ The W3C Markup Validator and W3C CSS Validator were used to validate every page 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
     Initial testing
-    ![Initial html test](readmeimages/initial-html-test.png)
+    ![Initial html test](assets/testing-images/initial-html-test.png)
     Final testing
-    ![Final html text](readmeimages/final-html-test.png)
+    ![Final html text](assets/testing-images/final-html-test.png)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
     
     Initial testing
-    ![Initial css test](readmeimages/initial-css-test.png)
+    ![Initial css test](assets/testing-images/initial-css-test.png)
     Final testing
-    ![Final css text](readmeimages/final-css-test.png)
+    ![Final css text](assets/testing-images/final-css-test.png)
 -   Lighthouse in devtools
 
 -   Chrome Dev tools for responsiveness
@@ -51,11 +51,14 @@ The W3C Markup Validator and W3C CSS Validator were used to validate every page 
 4. As a first time visitor, I expect an accessible site.
    <span style="color: grey;">Aria labels, screen reader only text and alternative text have been used throughout the site. 
    Styled the outline of keyboard focus making it more obvious as to where they are on the page and colour ties in with the 
-   other colours on the screen. All colour contrast scores were a pass in chrome dev tools and accessibility score was 100%</span>
+   other colours on the screen. All colour contrast scores were a pass in chrome dev tools and accessibility score was 100%.
+   As the buttons have an animation hover effect added in code in the case of user prefers reduced motion to turn the animation 
+   off but to change colour instead so they still see clickable elements. </span>
 5. As a first time visitor, I expect the site to look good on any device I choose to use.
    <span style="color: grey;">Designed with mobile first in mind, using bootstrap and media queries to ensure that on all screen 
    sizes that the site looks good with no escaping contents or horizontal scrolling and that the hero and header images are positioned 
-   correctly as these are what people see first upon loading so they have to be perfect.</span>
+   correctly as these are what people see first upon loading so they have to be perfect. As mobile users can't see hover effect on 
+   buttons, gave them a border colour to make it clearer that they are clickable.</span>
 
 
 - ### Returning Visitor Goals
