@@ -304,6 +304,16 @@ Testing and results can be found [here](testing.md)
 
 ## Deployment
 
+ - ### Creation 
+
+       I created this repository by:
+       (a) Logging into github and clicked the green new button.
+       (b) This took me to the page below. I selected the code institute template, input a repository name and clicked the 
+       green create repository button.
+
+          ![Image showing the create repository page](assets/readmeimages/create.png)
+
+       (c) Opened new repository and clicked green Gitpod button to create a workspace in gitpod for editing.
 
  - ### Github pages
 
