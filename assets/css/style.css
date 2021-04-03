@@ -202,7 +202,7 @@ a.navbar-brand {
 /*---- Landing page ----*/
 .landing-page-container {
     padding: 0;
-    background: url("../images/image1-xsmall.jpg") no-repeat center center;
+    background: url("../images/image1-xsmall.jpeg") no-repeat center center;
     min-height: 75vh;
     text-align: center;
     background-size: cover;
