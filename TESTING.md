@@ -122,27 +122,27 @@ syntax errors in the project.
 
     ![Final landing page scores for desktop](testing/testing-images/landing-page-desktop.png)
 
-    + Final mobile
+    + Final mobile (see report [here](testing/testing-reports/landing-page-mobile.pdf))
 
     ![Final landing page scores for mobile](testing/testing-images/landing-page-mobile.png)
 
     ##### Evidence page
 
-    + Final desktop
+    + Final desktop (see report [here](testing/testing-reports/evidence-desktop.pdf))
 
     ![Final evidence page scores for desktop](testing/testing-images/evidence-desktop.png)
 
-    + Final mobile
+    + Final mobile (see report [here](testing/testing-reports/evidence-mobile.pdf))
 
     ![Final evidence page scores for mobile](testing/testing-images/evidence-mobile.png)
 
     ##### Contact Page
 
-    + Final Desktop
+    + Final Desktop (see report [here](testing/testing-reports/contact-desktop.pdf))
 
     ![Contact page scores for desktop](testing/testing-images/contact-desktop.png)
 
-    + Final Mobile
+    + Final Mobile (see report [here](testing/testing-reports/contact-mobile.pdf))
 
     ![Contact page scores for mobile](testing/testing-images/contact-mobile.png)
 
