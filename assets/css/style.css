@@ -79,7 +79,11 @@ a:focus,
 .introduction-image a:hover,
 .introduction-image a:focus,
 .video a:hover,
-.video a:focus {
+.video a:focus,
+.footer-link a:focus,
+.footer-link a:hover,
+.resource-image a:hover,
+.resource-image a:focus {
     color: #0e0325;
 }
 a.navbar-brand:hover,
