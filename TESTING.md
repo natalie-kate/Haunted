@@ -230,9 +230,13 @@ syntax errors in the project.
     
 4. As a returning visitor, I want to be able to contact the owner with comments or questions.
     <span style="color: grey;">The contact page is one of the main nav items so is easy to find and navigate to. The 
-    form has a text box to enter comments and/or questions.</span>
+    form has a text box to enter comments and/or questions. The form will ot submit unless the personal (required) details
+    are completed. There is also a feedback modal so that the user knows that their form has been submitted successfully.</span>
 
     ![Image showing comments box](testing/testing-images/text-box.png)
+    ![Image showing fomr prompts](testing/testing-images/prompt.png)
+    ![Image showing modal for successful form submit](testing/testing-images/modal.png)
+
 
 - ### Frequent Visitor Goals
 
@@ -263,18 +267,35 @@ syntax errors in the project.
 
 -   The website was viewed with browsers: Internet explorer, Google chrome, Safari, Microsoft Edge, Firefox
     and Opera. Viewed all three pages on each and checked the following:
-    +
-    + Found that the contact form link to resource section was wrong so that was amended.
+    * Haunted brand takes user back to landing page from the other two pages.
+    * Nav links work from all three pages to all links.
+        + <span style="color: grey;">Theory nav item was missing from both the evidence and contact pages, amended.</span>
+        + <span style="color: grey;">Found that the link to resource section from contact page was wrong, amended.</span>
+    * Clicking the font awesome ghost takes user to True stories section.
+    * Clicking "Tell us your true Stories", "Share your experiences" and "Share your picture and videos" buttons take user to contact page.
+    * The reference links open in a new page, to the correct resource.
+        + <span style="color: grey;">Reference 2 and 4 were to the same website, this is correct but no need for different numbers so all 
+        the numbers changed to reflect this.</span>
+    * The introduction picture attribute opens a new page to freepik.
+    * Social links in footer all open in a new page and work from all three pages.
+    * Back to top link in footer works in all three pages.
+    * Hover effects on Brand, ghost icon, social icons and all links and buttons.
+        + <span style="color: grey;">Hover change of colour on resource page picture attribute and "back to top" link not working, amended.</span>
+    * Video links incase of embedded video not loading, open in a new page and are correct.
+    * Resource links all open in a new page and are correct.
+    * Form will not submit without all three required personal details being completed. Checkboxes work, can only check one, can type in text area,
+      "Choose file" input opens computer files and allows user to add files. On successful form submission, modal appears and can be closed by both
+      close buttons.
 -   Viewed manually on Macbook air 13", Dell 21" HD screen, iphone 11, Dell 17" laptop and Pixel 4XL phone.
 -   Friends, family and slack peer review used. Devices and browsers were iphone 11: Safari (x3), iphone XS Max: Safari,
-    iphone 6: Chrome, iphone XR: safari, iphone 11 Pro: Safari, iphone 10: Safari, Samsung S20 FE: Chrome, Samsung tab 7,
-    Huawei tablet and HP chromebook.
+    iphone 6: Chrome, iphone XR: safari, iphone 11 Pro: Safari, iphone 10: Safari, Samsung S20 FE: Chrome, Samsung S10, Sony Xperia I3: Chrome,
+    Samsung tab 7, Huawei tablet and HP chromebook.
     + <span style="color: grey;"> One commment was to increase spacing after picture section and video heading which I did.</span>
     + <span style="color: grey;"> Another found that the burger icon wasn't working. This was when I had removed the javascript to try
     and improve performance score before realising I needed the javascript for the collapsible menu. Thankfully it was only out for 
     10 minutes </span>
 -   Chrome devtools used to test responsiveness, viewed all pages on all of the available devices.
--   Links 
+-   
 
 ## Bugs
 
