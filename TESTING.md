@@ -19,7 +19,7 @@ syntax errors in the project.
     ### Initial testing
     - index.html
 
-    ![Initial index html test](assets/testing-images/initial-html-test.png)
+    ![Initial index html test](testing/testing-images/initial-html-test.png)
 
     From this I removed the aria label from the badges, reformatted my comment and removed figcaption from my 
     picture. Changed the figcaption to paragraph, but did not like either so just made it an img element with a 
@@ -27,11 +27,11 @@ syntax errors in the project.
 
     - evidence.html
 
-    ![Initial evidence html test](assets/testing-images/initial-html-test2.png)
+    ![Initial evidence html test](testing/testing-images/initial-html-test2.png)
 
     I had missed a bracket in the media attribute of a few source elements so I added them in.
     
-    ![Initial evidence html test](assets/testing-images/initial-html-test3.png)
+    ![Initial evidence html test](testing/testing-images/initial-html-test3.png)
     I had put paragraph elements in my iframes to give a message with a link to the video in the event that
     the video would't load. This isn't allowed so I put the paragraph below the iframe and encased them both
     in a div. Styled with media queries to be responsive.
@@ -40,34 +40,34 @@ syntax errors in the project.
     
     - contact.html
 
-    ![Initial contact html test](assets/testing-images/initial-html-test4.png)
+    ![Initial contact html test](testing/testing-images/initial-html-test4.png)
     
     ### Final testing (for those that needed fixed)
     - index.html
 
-    ![Final html text](assets/testing-images/final-html-test.png)
+    ![Final html text](testing/testing-images/final-html-test.png)
 
     - evidence.html
 
-    ![Final html text](assets/testing-images/final-html-test2.png)
+    ![Final html text](testing/testing-images/final-html-test2.png)
 
 
 -   ## [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
     
     ### Initial testing
 
-    ![Initial css test](assets/testing-images/initial-css-test2.png)
+    ![Initial css test](testing/testing-images/initial-css-test2.png)
 
     Had wrote display:relative instead of position: relative for an image.
     Had also put a comma instead of a semi-colon at the end of text-decoration: none.
 
-    ![Initial css test](assets/testing-images/initial-css-test.png)
+    ![Initial css test](testing/testing-images/initial-css-test.png)
 
     Ran again near end of project and I hadn't put px in some of the font-size styles.
 
     ### Final testing
 
-    ![Final css test](assets/testing-images/final-css-test.png)
+    ![Final css test](testing/testing-images/final-css-test.png)
 
 -   ## [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) in devtools
     
@@ -79,17 +79,17 @@ syntax errors in the project.
     
     + Initial mobile
 
-    ![Initial landing page scores for mobile](assets/testing-images/landing-page-mobile-initial.png)
+    ![Initial landing page scores for mobile](testing/testing-images/landing-page-mobile-initial.png)
 
     #### Evidence Page
 
     + Initial desktop
 
-    ![Initial evidence page scores for desktop](assets/testing-images/evidence-desktop-initial.png)
+    ![Initial evidence page scores for desktop](testing/testing-images/evidence-desktop-initial.png)
 
     + Initial mobile
 
-    ![Initial evidence page scores for mobile](assets/testing-images/evidence-mobile-initial.png)
+    ![Initial evidence page scores for mobile](testing/testing-images/evidence-mobile-initial.png)
 
     #### Contact Page
 
@@ -118,33 +118,33 @@ syntax errors in the project.
 
     #### Landing page
 
-    + Final Desktop (see report [here]())
+    + Final Desktop (see report [here](testing/testing-reports/landing-page-desktop.html))
 
-    ![Final landing page scores for desktop](assets/testing-images/landing-page-desktop.png)
+    ![Final landing page scores for desktop](testing/testing-images/landing-page-desktop.png)
 
     + Final mobile
 
-    ![Final landing page scores for mobile](assets/testing-images/landing-page-mobile.png)
+    ![Final landing page scores for mobile](testing/testing-images/landing-page-mobile.png)
 
     ##### Evidence page
 
     + Final desktop
 
-    ![Final evidence page scores for desktop](assets/testing-images/evidence-desktop.png)
+    ![Final evidence page scores for desktop](testing/testing-images/evidence-desktop.png)
 
     + Final mobile
 
-    ![Final evidence page scores for mobile](assets/testing-images/evidence-mobile.png)
+    ![Final evidence page scores for mobile](testing/testing-images/evidence-mobile.png)
 
     ##### Contact Page
 
     + Final Desktop
 
-    ![Contact page scores for desktop](assets/testing-images/contact-desktop.png)
+    ![Contact page scores for desktop](testing/testing-images/contact-desktop.png)
 
     + Final Mobile
 
-    ![Contact page scores for mobile](assets/testing-images/contact-mobile.png)
+    ![Contact page scores for mobile](testing/testing-images/contact-mobile.png)
 
 
 -   Chrome Dev tools for responsiveness
