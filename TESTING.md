@@ -278,12 +278,17 @@ syntax errors in the project.
         the numbers changed to reflect this.</span>
     * The two pictures that required an attribute had links that opened in a new page to the correct places.
     * Social links in footer all open in a new page and work from all three pages.
+       + <span style="color: grey;">When trying to open with internet explorer, kept opening with Microsoft Edge instead, apparently they no 
+       longer work with Internet explorer.Ensured it wasnt my link by trying to visit the page seperately and it did the same.</span>
     * Back to top link in footer works in all three pages.
     * Hover effects on Brand, ghost icon, social icons and all links and buttons.
         + <span style="color: grey;">Hover change of colour on resource page picture attribute and "back to top" link not working, amended.</span>
+    * "Show me more awesome stories" button works.
     * All embedded videos play with controls and not automatically.
     * Video links incase of embedded video not loading, open in a new page and are correct.
+        + <span style="color: grey;">Internet explorer issue same as social links.</span>
     * Resource links all open in a new page and are correct.
+        <span style="color: grey;">Internet explorer issue same as social links for the youtube resources, the others opened fine.</span>
     * Form will not submit without all three required personal details being completed. Checkboxes work, can only check one, can type in text area,
       "Choose file" input opens computer files and allows user to add files. On successful form submission, modal appears and can be closed by both
       close buttons.
