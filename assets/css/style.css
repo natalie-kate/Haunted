@@ -631,14 +631,14 @@ span.social {
 @media(min-width:1000px) {
 .landing-page-container{
     padding: 0;
-    background: url("../images/image1-small.jpg") no-repeat top -130px center;
+    background: url("../images/image1.jpg") no-repeat top -130px center;
      background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 }
  .header-container{
-    background: url("../images/image3-small.jpg") no-repeat bottom -100px center;
+    background: url("../images/image3.jpg") no-repeat bottom -100px center;
     min-height: 40vh;
      background-size: cover;
     -webkit-background-size: cover;
