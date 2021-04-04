@@ -118,7 +118,7 @@ syntax errors in the project.
 
     #### Landing page
 
-    + Final Desktop (see report [here](landing-page-desktop.html)
+    + Final Desktop (see report [here](testing/testing-reports/landing-page-desktop.pdf))
 
     ![Final landing page scores for desktop](testing/testing-images/landing-page-desktop.png)
 
