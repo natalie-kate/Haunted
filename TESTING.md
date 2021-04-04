@@ -126,7 +126,7 @@ syntax errors in the project.
 
     ![Final landing page scores for mobile](testing/testing-images/landing-page-mobile.png)
 
-    ##### Evidence page
+    #### Evidence page
 
     + Final desktop (see report [here](testing/testing-reports/evidence-desktop.pdf))
 
@@ -136,7 +136,7 @@ syntax errors in the project.
 
     ![Final evidence page scores for mobile](testing/testing-images/evidence-mobile.png)
 
-    ##### Contact Page
+    #### Contact Page
 
     + Final Desktop (see report [here](testing/testing-reports/contact-desktop.pdf))
 
@@ -146,10 +146,6 @@ syntax errors in the project.
 
     ![Contact page scores for mobile](testing/testing-images/contact-mobile.png)
 
-
--   Chrome Dev tools for responsiveness
-
-
 ## Testing User Stories 
 
 - ### First Time Visitor 
@@ -158,27 +154,55 @@ syntax errors in the project.
    <span style="color: grey;">The content overlay has a ghost icon that links to ghost stories, slogan of "Do you
     believe in Ghosts", and directly below is an About paragraph with the first sentence 
     explaining the purpose of the site.</span>
+
+    ![Image showing landing page](testing/testing-images/mobile2.png)
+    
  2. As a first time visitor, I want to be able to easily navigate throughout the site to find content.<br>
    <span style="color: grey;">The nav menu is at the top of all pages with drop down menus to find and jump to the section of 
    interest. The brand name is also a link back to home.
-   In addition a "back to top" link is present in the footer meaning the user doesn't have to scroll back up to 
-   the top, which is especially important for the mobile site.</span>
+
+    ![Image showing navbar](testing/testing-images/nav.png)  ![Image showing dropdown menu](testing/testing-images/menu.png)
+
+    In addition a "back to top" link is present in the footer meaning the user doesn't have to scroll back up to 
+    the top, which is especially important for the mobile site.</span>
+
+    ![Image showing back to top link](testing/testing-images/social.png)
+
 3. As a first time visitor, I expect to see an attractive, visually appealing site.
     <span style="color: grey;">Used blocks of colour as the background colours for section headings to break up the page,
     and highlight a new section. Information is presented in different formats and hover effects draw attention to links 
     and call to action buttons. The same colours were consistantly used across the site for predicatability and simplicity 
     and doesn't look too busy which can be off putting.</span>
+
+    ![Image showing section heading and fact box](testing/testing-images/information-formats.png)
+    ![Image showing text and table content](testing/testing-images/information-formats2.png)
+
 4. As a first time visitor, I expect an accessible site.
    <span style="color: grey;">Aria labels, screen reader only text and alternative text have been used throughout the site. 
    Styled the outline of keyboard focus making it more obvious as to where they are on the page and colour ties in with the 
    other colours on the screen. All colour contrast scores were a pass in chrome dev tools and accessibility score was 100%.
    As the buttons have an animation hover effect added in code in the case of user prefers reduced motion to turn the animation 
    off but to change colour instead so they still see clickable elements. </span>
+
+   ![Image showing keyboard focus style](testing/testing-images/keyboard-focus.png)
+
 5. As a first time visitor, I expect the site to look good on any device I choose to use.
    <span style="color: grey;">Designed with mobile first in mind, using bootstrap and media queries to ensure that on all screen 
    sizes that the site looks good with no escaping contents or horizontal scrolling and that the hero and header images are positioned 
    correctly as these are what people see first upon loading so they have to be perfect. As mobile users can't see hover effect on 
    buttons, gave them a border colour to make it clearer that they are clickable.</span>
+
+   ![Image showing mobile landing page with style button](testing/testing-images/mobile2.png) 
+   ![Image showing mobile evidence page](testing/testing-images/mobile1.png) 
+   ![Image showing mobile contact page](testing/testing-images/mobile3.png)
+
+   ![Image showing tablet landing page](testing/testing-images/tablet1.png) 
+   ![Image showing tablet evidence page](testing/testing-images/tablet2.png) 
+   ![Image showing tablet contact page](testing/testing-images/tablet3.png)
+
+   ![Image showing desktop landing page](testing/testing-images/desktop1.png) 
+   ![Image showing desktop evidence page](testing/testing-images/desktop2.png) 
+   ![Image showing desktop contact page](testing/testing-images/desktop3.png)
 
 
 - ### Returning Visitor Goals
@@ -187,14 +211,25 @@ syntax errors in the project.
    <span style="color: grey;">Bright badges have been used to highlight in the nav which page contains new 
    content, in the dropdown menu the section also has a badge and when you are taken to this section the new content
     itself is highlighted with the badge.</span>
+
+    ![Image showing new content badges](testing/testing-images/menu.png)
+
 2. As a returning visitor, I want to see social media links so that I can follow on my chosen platforms.
     <span style="color: grey;">At the bottom of each page is the social platform icons with links to the pages. Only 
     takes you to the social media platform itself as accounts for this website don't exist in real life.</span>
+
+    ![Image showing social media links](testing/testing-images/social.png)
+
 3. As a returning visitor, I want to see recommended resources to learn more.
     <span style="color: grey;">This is one of the main nav menu items and therefore easy to find and navigate to.</span>
+
+    ![Image showing further resources section](testing/testing-images/resources.png)
+    
 4. As a returning visitor, I want to be able to contact the owner with comments or questions.
     <span style="color: grey;">The contact page is one of the main nav items so is easy to find and navigate to. The 
-    form has a text box to enter commentsand/or questions.</span>
+    form has a text box to enter comments and/or questions.</span>
+
+    ![Image showing comments box](testing/testing-images/text-box.png)
 
 - ### Frequent Visitor Goals
 
@@ -202,16 +237,24 @@ syntax errors in the project.
     <span style="color: grey;">Bright badges have been used to highlight in the nav which page contains new 
    content, in the dropdown menu the section also has a badge and when you are taken to this section the new content
     itself is highlighted with the badge. </span>
+
+    ![Image showing new content badge on he new content](testing/testing-images/badge.png)
+
 2. As a frequent visitor, I want to sign up to the mailing list so that i'm informed of new content or features.
     <span style="color: grey;">Contact is one of the main nav items so its easy to find and navigate to and there is a 
     checkbox to select to be added to the mailing list.</span>
+
+    ![Image showing checkbox to sign up to mailing list](testing/testing-images/mailing-list.png)
+
 3. As a frequent visitor, I want to send stories, pictures or videos to be added to the page. 
     <span style="color: grey;">Contact is one of the main nav items so it is easy to find and navigate to. There is a 
     text box to add a story and a file upload input for pictures and videos. There is also a call to action button in the 
     landing page container to "Tell us your true stories", and two in the evidence page to "Share your experiences" and 
     "Share your photos and pictures"</span>
 
-   
+    ![Image showing call to action button on landing page](testing/testing-images/landing-page-button.png)
+    ![Image showing call to action button in true story section](testing/testing-images/true-story-button.png)
+    ![Image showing call to action button in media evidence section](testing/testing-images/media-evidence-button.png)
 
 ## Manual Testing
 
