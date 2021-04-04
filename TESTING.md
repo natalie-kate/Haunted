@@ -276,11 +276,12 @@ syntax errors in the project.
     * The reference links open in a new page, to the correct resource.
         + <span style="color: grey;">Reference 2 and 4 were to the same website, this is correct but no need for different numbers so all 
         the numbers changed to reflect this.</span>
-    * The introduction picture attribute opens a new page to freepik.
+    * The two pictures that required an attribute had links that opened in a new page to the correct places.
     * Social links in footer all open in a new page and work from all three pages.
     * Back to top link in footer works in all three pages.
     * Hover effects on Brand, ghost icon, social icons and all links and buttons.
         + <span style="color: grey;">Hover change of colour on resource page picture attribute and "back to top" link not working, amended.</span>
+    * All embedded videos play with controls and not automatically.
     * Video links incase of embedded video not loading, open in a new page and are correct.
     * Resource links all open in a new page and are correct.
     * Form will not submit without all three required personal details being completed. Checkboxes work, can only check one, can type in text area,
