@@ -6,7 +6,7 @@ Here is a link to the live project. (https://natalie-kate.github.io/haunted/)
 This website was created for Milestone 1- User Centric Frontend Development project, as part of the Code Institutes diploma in Software development.
 I wanted to create a site that provided information for people interested in the paranormal, in particular ghosts.
 
-![Image showing the website displayed on different screen sizes](assets/readme-images/responsive.png)
+![Image showing the website displayed on different screen sizes](readme-assets/readme-images/responsive.png)
 
 ## Contents 
 
