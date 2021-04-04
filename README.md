@@ -108,7 +108,7 @@ I wanted to create a site that provided information for people interested in the
         did find a colour scheme. I wanted to create an atmosphere, not too dark as to create a scary feel, horror is not 
         what we're aiming but not too cheery at the same time. 
 
-        ![Colour scheme](assets/readme-images/colour-scheme.png)
+        ![Colour scheme](readme-assets/readme-images/colour-scheme.png)
 
         The navy/very dark purple and the purple set the tone. The grey is used for the nav and footer providing contrast 
         for the brand name and menu and was picked from the hero image. The very pale green is used to lift and highlight, 
@@ -140,9 +140,9 @@ I wanted to create a site that provided information for people interested in the
    ### Wireframes 
 Wireframes were created on Balsamiq (see links below)
 
-* [Mobile](assets/wireframes/ms1-mobile.pdf)
-* [Tablet](assets/wireframes/ms1-tablet.pdf)
-* [Desktop](assets/wireframes/ms1-desktop.pdf)
+* [Mobile](readme-assets/wireframes/ms1-mobile.pdf)
+* [Tablet](readme-assets/wireframes/ms1-tablet.pdf)
+* [Desktop](readme-assets/wireframes/ms1-desktop.pdf)
 
 - On mobile I had a one column design to allow nice spacing and easy to read content
 
@@ -271,7 +271,7 @@ could be included for initial launch.
      was overiding the background-image, I wasn't loving the background having a color as it was a bit much so just removed 
      it. If I was keeping it I would have give the image a z-index.</span>
    - Read more button
-       * Tried doing it with the button element, along with the stack overflow code for hiding and then unhiding a div. This
+        Tried doing it with the button element, along with the stack overflow code for hiding and then unhiding a div. This
         didn't work and so I used the stack overflow code, this time including styling the input label to look like a button. 
         I had given all my divs to be hidden bootstrap classes for the different screen sizes including d-none. Tried to target 
         the d-none to unhide upon clicking. This did not work, I realised from the stack overflow example that the stories, 
@@ -301,7 +301,7 @@ could be included for initial launch.
    
 ## Testing
 
-Testing and results can be found [here](testing.md)
+Testing and results can be found [here](TESTING.md)
 
 ## Deployment
 
@@ -312,7 +312,7 @@ Testing and results can be found [here](testing.md)
     (b) This took me to the page below. I selected the code institute template, input a repository name and clicked the 
     green create repository button.<br>
 
-    ![Image showing the create repository page](assets/readme-images/create.png)
+    ![Image showing the create repository page](readme-assets/readme-images/create.png)
 
     (c) Opened new repository and clicked green Gitpod button to create a workspace in gitpod for editing.
 
@@ -322,16 +322,16 @@ Testing and results can be found [here](testing.md)
     (a) Logged in to github and opened my [repository](https://github.com/natalie-kate/haunted)<br>
     (b) From here clicked settings, see picture below.
 
-    ![Image showing where settings is in repository](assets/readme-images/settings.png)
+    ![Image showing where settings is in repository](readme-assets/readme-images/settings.png)
 
     (c) In settings scrolled down to Github pages, here under source branch I selected Master 
            and kept the default root and then clicked save.
 
-    ![Image showing the github pages options](assets/readme-images/source.png) <br>
+    ![Image showing the github pages options](readme-assets/readme-images/source.png) <br>
 
     (d) After a minute or two the page has now published and the site address is available in the github page section.
 
-    ![Image showing that the site has been successfully published](assets/readme-images/published.png)
+    ![Image showing that the site has been successfully published](readme-assets/readme-images/published.png)
 
  - ### Forking
    (a) To fork my project sign in to Github and go to my [repository](https://github.com/natalie-kate/haunted)<br>
@@ -346,18 +346,19 @@ Testing and results can be found [here](testing.md)
        would like to clone, if you choose https, SSH or Github CLI, select the clipbard icon to copy the URL.
      + In your workspace that you've created, in the terminal , type git clone, paste the URL and enter.
 
-     ![Image showing the cloning options](assets/readme-images/clone.png)
+     ![Image showing the cloning options](readme-assets/readme-images/clone.png)
    * Desktop Github
      + If you choose to clone by selecting open with desktop Github, it will guide you through the clone with prompts.<br>
-   For more information or troubleshooting see the Github documentation 
-   [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#about-cloning-a-repository)
+
+For more information or troubleshooting see the Github documentation 
+[here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#about-cloning-a-repository)
    
 ## Credits
 
 ### Code
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.1/getting-started/introduction/): Bootstrap Library used for the layout and styling. Most prominantly seen in the 
-    nav bar as I was having issues with it, see challenges section above and modal. Modal made my own by deleting sections adding an icon and styling.
+    nav bar as I was having issues with it (see challenges section above) and in the modal. Modal made my own by deleting sections adding an icon and styling.
 -   Chiller on stack overflow for hide button [answer](https://stackoverflow.com/questions/42267467/how-to-toggle-effect-in-div-using-only-css)
     used bits of his code which are marked in CSS.
 -   Josh Comeau for his button animation code and the media query for reduced motion preference. [Article](https://www.joshwcomeau.com/animation/css-transitions/)
