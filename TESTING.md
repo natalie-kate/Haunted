@@ -2,6 +2,9 @@
 
 ## Contents 
    - [Automated Testing](#automated-testing)
+      * [HTML validation](#w3c-markup-validator)
+      * [CSS validation](#w3c-css-validator)
+      * [Lighthouse testing](#lighthouse-in-devtools)
    - [Testing User Stories](#testing-user-stories)
    - [Manual testing](#manual-testing)
    - [Bugs](#bugs)
@@ -252,18 +255,24 @@ syntax errors in the project.
     landing page container to "Tell us your true stories", and two in the evidence page to "Share your experiences" and 
     "Share your photos and pictures"</span>
 
-    ![Image showing call to action button on landing page](testing/testing-images/landing-page-button.png)
+    ![Image showing call to action button on landing page](testing/testing-images/landing-button.png)
     ![Image showing call to action button in true story section](testing/testing-images/true-story-button.png)
     ![Image showing call to action button in media evidence section](testing/testing-images/media-evidence-button.png)
 
 ## Manual Testing
 
--   The website was viewed with browsers: Internet explorer, Google chrome, Safari, Microsoft Edge, Chrome for 
-    android, Firefox and Opera. Viewed all three pages on each and checked the links. Found that the contact form 
-    link to resource section was wrong so that was amended.
+-   The website was viewed with browsers: Internet explorer, Google chrome, Safari, Microsoft Edge, Firefox
+    and Opera. Viewed all three pages on each and checked the following:
+    +
+    + Found that the contact form link to resource section was wrong so that was amended.
 -   Viewed manually on Macbook air 13", Dell 21" HD screen, iphone 11, Dell 17" laptop and Pixel 4XL phone.
--   Friends, family and slack peer review reported no issues. One commment was to increase spacing after 
-    picture section and video heading which I did. 
+-   Friends, family and slack peer review used. Devices and browsers were iphone 11: Safari (x3), iphone XS Max: Safari,
+    iphone 6: Chrome, iphone XR: safari, iphone 11 Pro: Safari, iphone 10: Safari, Samsung S20 FE: Chrome, Samsung tab 7,
+    Huawei tablet and HP chromebook.
+    + <span style="color: grey;"> One commment was to increase spacing after picture section and video heading which I did.</span>
+    + <span style="color: grey;"> Another found that the burger icon wasn't working. This was when I had removed the javascript to try
+    and improve performance score before realising I needed the javascript for the collapsible menu. Thankfully it was only out for 
+    10 minutes </span>
 -   Chrome devtools used to test responsiveness, viewed all pages on all of the available devices.
 -   Links 
 
