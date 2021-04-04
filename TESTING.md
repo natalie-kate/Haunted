@@ -14,9 +14,9 @@
 The W3C Markup Validator and W3C CSS Validator were used to validate every page of the project to ensure there were no 
 syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+-   ## [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
-    Initial testing
+    ### Initial testing
     - index.html
 
     ![Initial index html test](assets/testing-images/initial-html-test.png)
@@ -42,7 +42,7 @@ syntax errors in the project.
 
     ![Initial contact html test](assets/testing-images/initial-html-test4.png)
     
-    Final testing (for those that needed fixed)
+    ### Final testing (for those that needed fixed)
     - index.html
 
     ![Final html text](assets/testing-images/final-html-test.png)
@@ -52,40 +52,73 @@ syntax errors in the project.
     ![Final html text](assets/testing-images/final-html-test2.png)
 
 
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+-   ## [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
     
-    Initial testing
+    ### Initial testing
 
     ![Initial css test](assets/testing-images/initial-css-test2.png)
 
     Had wrote display:relative instead of position: relative for an image.
-    Had also put text-decoration: none,  instead of text-decoration: none;
+    Had also put a comma instead of a semi-colon at the end of text-decoration: none.
 
     ![Initial css test](assets/testing-images/initial-css-test.png)
 
     Ran again near end of project and I hadn't put px in some of the font-size styles.
 
-    Final testing
+    ### Final testing
 
     ![Final css test](assets/testing-images/final-css-test.png)
 
--   Lighthouse in devtools
+-   ## [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) in devtools
     
-    * Landing page
+    ### Initial scores 
+
+    #### Landing page
 
     + Initial lighthouse score for landing page on desktop was Performance 77, Accessible 92, Best Practices 87 and SEO 91
-    From this I added in meta description, keywords and author. rel:noopener to my links and changed an h2 to an h5. 
-    I had used in the h2 in my fact-box where I should have used the h5 and styled the font-size. I also had skipped 
-    h3 so I changed the h4's to h3's. 
-    Went over all my buttons and links ensuring I had aria labels and images had alt text.
-    Due to these changes the rest of my tests had 100% accessibilty, Best Practices and SEO so juts had to focus on 
-    performance.
-
+    
     + Initial mobile
 
     ![Initial landing page scores for mobile](assets/testing-images/landing-page-mobile-initial.png)
 
-    + Final desktop
+    #### Evidence Page
+
+    + Initial desktop
+
+    ![Initial evidence page scores for desktop](assets/testing-images/evidence-desktop-initial.png)
+
+    + Initial mobile
+
+    ![Initial evidence page scores for mobile](assets/testing-images/evidence-mobile-initial.png)
+
+    #### Contact Page
+
+    + Desktop and mobile initial and final values didn't change much so I have just included the final test results
+
+    ### Actions taken
+
+    From these scores I added in meta description, keywords and author. rel:noopener to my extenal links and changed 
+    an h2 to an h5. I had used in the h2 in my fact-box where I should have used the h5 and styled the font-size. I 
+    also had skipped h3 so I changed the h4's to h3's. Went over all my buttons and links ensuring I had aria labels 
+    and images had alt text, darkened the badge colour to increase contrast. Due to these changes the rest of my 
+    tests had 100% accessibilty, Best Practices and SEO so just had to focus on performance.
+    
+    Lighthouse didn't like that the images didn't have explicit width and height attributes so added them in.
+    Removed scripts from both evidence and index pages as seemed to be a major rendor blocking resource. Helped
+    fractionally but then had to add them back in when I realised I needed them for the bootstrap dropdown 
+    toggled menu to work.
+
+    Images were still an issue, found an article that mentioned using the loading attribute, so added with a 
+    value of lazy to all my images and iframes. That helped immensely.
+    First contentful paint still slow, mostly this seems to be down to the external CDN's such as bootstrap 
+    and font awesome. Did highlight that one of my image files was still quite large so resized image 15, along with
+    both my main landing page image and header image for mobile screens. 
+
+    ### Final test 
+
+    #### Landing page
+
+    + Final Desktop (see report [here]())
 
     ![Final landing page scores for desktop](assets/testing-images/landing-page-desktop.png)
 
@@ -93,30 +126,9 @@ syntax errors in the project.
 
     ![Final landing page scores for mobile](assets/testing-images/landing-page-mobile.png)
 
-    * Evidence Page
+    ##### Evidence page
 
-        + Initial desktop
-
-        ![Initial evidence page scores for desktop](assets/testing-images/evidence-desktop-initial.png)
-
-        + Initial mobile
-
-        ![Initial evidence page scores for mobile](assets/testing-images/evidence-mobile-initial.png)
-
-        As this had the worst performance scores focused on this page and in doing so raised the scores of the 
-        other pages also.
-        
-        Lighthouse didn't like that the images didn't have explicit width and height attributes so added them in.
-        Removed scripts from both evidence and index pages as seemed to be a major rendor blocking resource. Helped
-        fractionally but then had to add them back in when I realised I needed them for the bootstrap dropdown 
-        toggled menu to work.
-        Images was still an issue, found an article that mentioned using the loading attribute, so added with a 
-        value of lazy to all my images and iframes. That helped immensely.
-        First contentful paint still slow, mostly this seems to be down to the external CDN's such as bootstrap 
-        and font awesome. Did highlight that one of my image files was still quite large so resized it along with
-        both my main landing page image and header image for mobile screens. 
-
-     + Final desktop
+    + Final desktop
 
     ![Final evidence page scores for desktop](assets/testing-images/evidence-desktop.png)
 
@@ -124,30 +136,15 @@ syntax errors in the project.
 
     ![Final evidence page scores for mobile](assets/testing-images/evidence-mobile.png)
 
-    * Contact Page
+    ##### Contact Page
 
-    + Desktop, initial and final values didn't change so I have just included the final test results
+    + Final Desktop
 
     ![Contact page scores for desktop](assets/testing-images/contact-desktop.png)
 
-    + Mobile, initial and final values didn't change so I have just included the final test results
+    + Final Mobile
 
     ![Contact page scores for mobile](assets/testing-images/contact-mobile.png)
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
 
 
 -   Chrome Dev tools for responsiveness
