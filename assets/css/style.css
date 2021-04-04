@@ -392,7 +392,7 @@ fieldset label{
     margin-bottom: 5px;
 }
 fieldset legend {
-    width: 90%;
+    width: 60%;
     text-align: center;
 }
 textarea {
@@ -535,6 +535,9 @@ span.social {
     .landing-page-button {
         display: none;
     }
+    fieldset legend {
+    width: 90%;
+    }
 }
 
 @media(min-width:769px) {
@@ -551,7 +554,6 @@ span.social {
     -moz-background-size: cover;
     -o-background-size: cover
     }
-
     .header-container{
     background: url("../images/image3-small.jpg") no-repeat bottom -80px center;
     min-height: 40vh;
