@@ -35,6 +35,7 @@ syntax errors in the project.
     I had missed a bracket in the media attribute of a few source elements so I added them in.
     
     ![Initial evidence html test](testing/testing-images/initial-html-test3.png)
+    
     I had put paragraph elements in my iframes to give a message with a link to the video in the event that
     the video would't load. This isn't allowed so I put the paragraph below the iframe and encased them both
     in a div. Styled with media queries to be responsive.
@@ -104,7 +105,7 @@ syntax errors in the project.
     an h2 to an h5. I had used in the h2 in my fact-box where I should have used the h5 and styled the font-size. I 
     also had skipped h3 so I changed the h4's to h3's. Went over all my buttons and links ensuring I had aria labels 
     and images had alt text, darkened the badge colour to increase contrast. Due to these changes the rest of my 
-    tests had 100% accessibilty, Best Practices and SEO so just had to focus on performance.
+    tests had 100% accessibility, Best Practices and SEO so just had to focus on performance.
     
     Lighthouse didn't like that the images didn't have explicit width and height attributes so added them in.
     Removed scripts from both evidence and index pages as seemed to be a major rendor blocking resource. Helped
@@ -174,7 +175,7 @@ syntax errors in the project.
 3. As a first time visitor, I expect to see an attractive, visually appealing site.
     <span style="color: grey;">Used blocks of colour as the background colours for section headings to break up the page,
     and highlight a new section. Information is presented in different formats and hover effects draw attention to links 
-    and call to action buttons. The same colours were consistantly used across the site for predicatability and simplicity 
+    and call to action buttons. The same colours were consistently used across the site for predictability and simplicity 
     and doesn't look too busy which can be off putting.</span>
 
     ![Image showing section heading and fact box](testing/testing-images/information-formats.png)
@@ -230,11 +231,11 @@ syntax errors in the project.
     
 4. As a returning visitor, I want to be able to contact the owner with comments or questions.
     <span style="color: grey;">The contact page is one of the main nav items so is easy to find and navigate to. The 
-    form has a text box to enter comments and/or questions. The form will ot submit unless the personal (required) details
+    form has a text box to enter comments and/or questions. The form will not submit unless the personal (required) details
     are completed. There is also a feedback modal so that the user knows that their form has been submitted successfully.</span>
 
     ![Image showing comments box](testing/testing-images/text-box.png)
-    ![Image showing fomr prompts](testing/testing-images/prompt.png)
+    ![Image showing form prompts](testing/testing-images/prompt.png)
     ![Image showing modal for successful form submit](testing/testing-images/modal.png)
 
 
@@ -279,7 +280,7 @@ syntax errors in the project.
     * The two pictures that required an attribute had links that opened in a new page to the correct places.
     * Social links in footer all open in a new page and work from all three pages.
        + <span style="color: grey;">When trying to open with internet explorer, kept opening with Microsoft Edge instead, apparently they no 
-       longer work with Internet explorer. Ensured it wasn't my link by trying to visit the page seperately and it did the same.</span>
+       longer work with Internet explorer. Ensured it wasn't my link by trying to visit the page separately and it did the same.</span>
     * Back to top link in footer works in all three pages.
     * Hover effects on Brand, ghost icon, social icons and all links and buttons.
         + <span style="color: grey;">Hover change of colour on resource page picture attribute and "back to top" link not working, amended.</span>
@@ -292,12 +293,12 @@ syntax errors in the project.
     * Form will not submit without all three required personal details being completed. Checkboxes work, can only check one, can type in text area,
       "Choose file" input opens computer files and allows user to add files. On successful form submission, modal appears and can be closed by both
       close buttons.
-        + <span style="color: grey;">Form legend not centered on Internet Explorer or Firefox, added the bootstrap class text-center. This did
+        + <span style="color: grey;">Form legend not centred on Internet Explorer or Firefox, added the bootstrap class text-center. This did
           not fix it.</span>
 -   Friends, family and slack peer review used. Devices and browsers were iphone 11: Safari (x3), iphone XS Max: Safari,
     iphone 6: Chrome, iphone XR: safari, iphone 11 Pro: Safari, iphone 10: Safari, Samsung S20 FE: Chrome, Samsung S10, Sony Xperia I3: Chrome,
     Samsung tab 7, Huawei tablet and HP chromebook.
-    + <span style="color: grey;"> One commment was to increase spacing after picture section and video heading which I did.</span>
+    + <span style="color: grey;"> One comment was to increase spacing after picture section and video heading which I did.</span>
     + <span style="color: grey;"> Another found that the burger icon wasn't working. This was when I had removed the javascript to try
     and improve performance score before realising I needed the javascript for the collapsible menu. Thankfully it was only out for 
     10 minutes </span>
@@ -317,23 +318,25 @@ syntax errors in the project.
    - Toggle menu dropdown was going behind header text so added z-index: 1. Dropdown menu was moving
     the content below down which didn't look nice so changed position to absolute which I found by playing
     with devtools.
-    Also in mobile it was taking up alot of real estate so decreased font-size and line-height.
+    Also in mobile it was taking up a lot of real estate so decreased font-size and line-height.
    - Found one of the new badges on the True Stories was going into the second line between screen sizes
     980 to 1030 so changed font size from 75% to 55% for the h3's only.
    - Iphone 5 footer content not contained, reduced size of icons and font-weight of span. Media query
     wrote to increase again on bigger screens.
    - Footer was still escaping for galaxy fold so added in a media query for screens less than 350px.
-   - On ipad Pro there wa a gap below hero image on landing page and About header. Changed positioning 
+   - On ipad Pro there was a gap below hero image on landing page and About header. Changed positioning 
     of background image that was in media query from top to bottom.
    - Hero image and header image looking pixelated where the xsmall version is being used. Have changed back 
-     to small will change again if I find a solution as will effect my performance scores. Similarly the small 
-     version is looking pixelated on screens above 1000px so have changed to original image at this point.
+     to small will change again if I find a solution as will effect my performance scores. Solution: Added 
+     in media query for screens smaller than 450px (majority of mobiles) to use the xsmall versions of the
+     main images. Looks pixelated on devtools but fine on phones themselves. Similarly the small 
+     version is looking pixelated on screens above 1000px so have changed to original image at this point. 
    - Testing on mobile when realised that the read more button wasn't working. After two and a half hours of
     going back the stack overflow example and playing about in code pen, realised I had put the input and 
     label in its own div so that i could apply bootstrap classes to it for positioning. So after playing 
     about with it put the input and label along with the hidden stories in one big div and applied the 
     bootstrap col class directly to the label. 
-  - On mobile after cicking the "Show me more awesome stories" button, there should be another button to share 
+  - On mobile after clicking the "Show me more awesome stories" button, there should be another button to share 
     your experiences. Realised this was not appearing on mobile as wasn't included within the hidden-stories row
     div. Moved the closing tag.
   - Realised that on some of the mobile devices, start of the about section couldn't be seen upon loading, 
@@ -341,7 +344,7 @@ syntax errors in the project.
     the content that was causing it to take up too much room. So for screen sizes less that 350px reduced size of 
     fonts of h1, h2, icon, margin-top of slogan container and removed the call to action button. As there are numerous 
     ways to go to contact page felt that this was justifiable.
-    
+
    ### Existing
 
-   - Table legend not centered on Internet explorer and Firefox.
+   - Table legend not centred on Internet explorer and Firefox.
