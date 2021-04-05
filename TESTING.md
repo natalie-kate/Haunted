@@ -326,13 +326,22 @@ syntax errors in the project.
    - On ipad Pro there wa a gap below hero image on landing page and About header. Changed positioning 
     of background image that was in media query from top to bottom.
    - Hero image and header image looking pixelated where the xsmall version is being used. Have changed back 
-     to small will change again if I find a solution as will effect my performance scores.
+     to small will change again if I find a solution as will effect my performance scores. Similarly the small 
+     version is looking pixelated on screens above 1000px so have changed to original image at this point.
    - Testing on mobile when realised that the read more button wasn't working. After two and a half hours of
     going back the stack overflow example and playing about in code pen, realised I had put the input and 
     label in its own div so that i could apply bootstrap classes to it for positioning. So after playing 
     about with it put the input and label along with the hidden stories in one big div and applied the 
     bootstrap col class directly to the label. 
-
+  - On mobile after cicking the "Show me more awesome stories" button, there should be another button to share 
+    your experiences. Realised this was not appearing on mobile as wasn't included within the hidden-stories row
+    div. Moved the closing tag.
+  - Realised that on some of the mobile devices, start of the about section couldn't be seen upon loading, 
+    therefore the landing page container was taking up too much room. Changed it to 75vh but realised that it was 
+    the content that was causing it to take up too much room. So for screen sizes less that 350px reduced size of 
+    fonts of h1, h2, icon, margin-top of slogan container and removed the call to action button. As there are numerous 
+    ways to go to contact page felt that this was justifiable.
+    
    ### Existing
 
    - Table legend not centered on Internet explorer and Firefox.
