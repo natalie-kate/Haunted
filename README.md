@@ -6,7 +6,7 @@ Here is a link to the live project. (https://natalie-kate.github.io/haunted/)
 This website was created for Milestone 1- User Centric Frontend Development project, as part of the Code Institutes diploma in Software development.
 I wanted to create a site that provided information for people interested in the paranormal, in particular ghosts.
 
-![Image showing the website displayed on different screen sizes](readme-assets/readme-images/responsive.png)
+![Image showing the website displayed on different screen sizes](assets/readme-assets/readme-images/responsive.png)
 
 ## Contents 
 
@@ -108,7 +108,7 @@ I wanted to create a site that provided information for people interested in the
         did find a colour scheme. I wanted to create an atmosphere, not too dark as to create a scary feel, horror is not 
         what we're aiming but not too cheery at the same time. 
 
-        ![Colour scheme](readme-assets/readme-images/colour-scheme.png)
+        ![Colour scheme](assets/readme-assets/readme-images/colour-scheme.png)
 
         The navy/very dark purple and the purple set the tone. The grey is used for the nav and footer providing contrast 
         for the brand name and menu and was picked from the hero image. The very pale green is used to lift and highlight, 
@@ -142,9 +142,9 @@ I wanted to create a site that provided information for people interested in the
    ### Wireframes 
 Wireframes were created on Balsamiq (see links below)
 
-* [Mobile](readme-assets/wireframes/ms1-mobile.pdf)
-* [Tablet](readme-assets/wireframes/ms1-tablet.pdf)
-* [Desktop](readme-assets/wireframes/ms1-desktop.pdf)
+* [Mobile](assets/readme-assets/wireframes/ms1-mobile.pdf)
+* [Tablet](assets/readme-assets/wireframes/ms1-tablet.pdf)
+* [Desktop](assets/readme-assets/wireframes/ms1-desktop.pdf)
 
 - On mobile I had a one column design to allow nice spacing and easy to read content
 
@@ -284,7 +284,7 @@ could be included for initial launch.
         screens to hide and unhide the div rather than that being the default style. I then could add my bootstrap classes back in
         and just hide the button on medium and large screens. As the hidden stories were in a new row, this created a gap on the 
         medium screens, so I filled this with an image.
-    - Realised I had a horizontal scroll, Thought it was the nav as the content box seemed to be out with the screen size. Tried 
+   - Realised I had a horizontal scroll, Thought it was the nav as the content box seemed to be out with the screen size. Tried 
       to move things about, removed the right align, changed about the .row and .col classes, this didn't help. Commented out the 
       nav entirely and the scrolling issue was still there. This led me to realise that all my rows were escaping the container.<br>
       <span style="color: grey;">Solution: Found on stack overflow to target row with 100vh and body & html with width: 100% and 
@@ -292,7 +292,7 @@ could be included for initial launch.
       Upon further research I found that rows by default have a margin of -15px and the containers default margin counteracts it. 
       Thus changing my container-fluid to margin: 0 so that my background image would reach the edge caused the issue. I ended up
       taking the nav out of the container-fluid as by default nav is responsive and doesn't need to be in a container.
-    - Successful submission modal would pop up for a second and disappear before a user had a chance to read it. Changed button type 
+   - Successful submission modal would pop up for a second and disappear before a user had a chance to read it. Changed button type 
       from submit to button and removed method and action attributes which brought the modal up but would do that even if the form 
       hadn't been filled in with the required info (personal info). Found a student that had got a modal on her MS1 and seen that 
       her mentor had written some Javascript for her, tried it but couldn't get it to work, then tried one I found on codepen and 
@@ -314,7 +314,7 @@ Testing and results can be found [here](TESTING.md)
     (b) This took me to the page below. I selected the code institute template, input a repository name and clicked the 
     green create repository button.<br>
 
-    ![Image showing the create repository page](readme-assets/readme-images/create.png)
+    ![Image showing the create repository page](assets/readme-assets/readme-images/create.png)
 
     (c) Opened new repository and clicked green Gitpod button to create a workspace in Gitpod for editing.
 
@@ -324,16 +324,16 @@ Testing and results can be found [here](TESTING.md)
     (a) Logged in to Github and opened my [repository](https://github.com/natalie-kate/haunted)<br>
     (b) From here clicked settings, see picture below.
 
-    ![Image showing where settings is in repository](readme-assets/readme-images/settings.png)
+    ![Image showing where settings is in repository](assets/readme-assets/readme-images/settings.png)
 
     (c) In settings scrolled down to Github pages, here under source branch I selected Master 
            and kept the default root and then clicked save.
 
-    ![Image showing the Github pages options](readme-assets/readme-images/source.png) <br>
+    ![Image showing the Github pages options](assets/readme-assets/readme-images/source.png) <br>
 
     (d) After a minute or two the page has now published and the site address is available in the Github page section.
 
-    ![Image showing that the site has been successfully published](readme-assets/readme-images/published.png)
+    ![Image showing that the site has been successfully published](assets/readme-assets/readme-images/published.png)
 
  - ### Forking
    (a) To fork my project sign in to Github and go to my [repository](https://github.com/natalie-kate/haunted)<br>
@@ -348,7 +348,7 @@ Testing and results can be found [here](TESTING.md)
        would like to clone, if you choose https, SSH or Github CLI, select the clipboard icon to copy the URL.
      + In your workspace that you've created, in the terminal , type git clone, paste the URL and enter.
 
-     ![Image showing the cloning options](readme-assets/readme-images/clone.png)
+     ![Image showing the cloning options](assets/readme-assets/readme-images/clone.png)
    * Desktop Github
      + If you choose to clone by selecting open with desktop Github, it will guide you through the clone with prompts.<br>
 
