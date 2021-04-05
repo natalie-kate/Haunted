@@ -135,7 +135,9 @@ I wanted to create a site that provided information for people interested in the
     text so tried to use the design to break up the information into easier to digest sections.
     I chose to make the hero image min-height of 80vh so that there would be a space visible at the bottom of the screen
     indicating to the user to scroll.
-
+    Made the decision to have the CTA button to "share your experiences" within the hidden content on mobiles as two buttons on
+    top of one another didn't look nice. Users that have a story to tell will be interested in reading others and so will see it 
+    when they press the read more button. 
 
    ### Wireframes 
 Wireframes were created on Balsamiq (see links below)
@@ -265,7 +267,7 @@ could be included for initial launch.
      margin auto with container at 33vw, display:flex etc. Searched and found some answers on stack overflow. Used bits 
      from two answers.<br><span style="color: grey;">Solution: position: absolute; display: inline; left: 50%; transform: 
      translate(-50%);</span>
-   - Background image not displaying when deployed to github pages. Had heard there could be issues with file paths 
+   - Background image not displaying when deployed to Github pages. Had heard there could be issues with file paths 
      which is why you should deploy early in the development which is why I did thankfully. Tried numerous file paths,
      then tried changing the image file size as it was quite large.<br><span style="color: grey;"> Solution: background-color
      was overriding the background-image, I wasn't loving the background having a color as it was a bit much so just removed 
@@ -276,7 +278,7 @@ could be included for initial launch.
         I had given all my divs to be hidden bootstrap classes for the different screen sizes including d-none. Tried to target 
         the d-none to unhide upon clicking. This did not work, I realised from the stack overflow example that the stories, 
         input and label all have to be within the same div to work, so removed all the bootstrap classes gave them all a class 
-        of .hide and enclosed them all in one parent div. The button now worked but I now had to style them to be resposnsive 
+        of .hide and enclosed them all in one parent div. The button now worked but I now had to style them to be responsive 
         in the same way as the three stories shown across all devices that had bootstrap classes.<br>
         <span style="color: grey;">Solution: Ended up reverting back to bootstrap classes and using a media query for smaller 
         screens to hide and unhide the div rather than that being the default style. I then could add my bootstrap classes back in
@@ -319,7 +321,7 @@ Testing and results can be found [here](TESTING.md)
  - ### Github pages
     I deployed my project to Gihub pages by:
 
-    (a) Logged in to github and opened my [repository](https://github.com/natalie-kate/haunted)<br>
+    (a) Logged in to Github and opened my [repository](https://github.com/natalie-kate/haunted)<br>
     (b) From here clicked settings, see picture below.
 
     ![Image showing where settings is in repository](readme-assets/readme-images/settings.png)
@@ -343,7 +345,7 @@ Testing and results can be found [here](TESTING.md)
    To clone my project sign in to Github and go to my [repository](https://github.com/natalie-kate/haunted)<br>
    * Clone using command line
      + Next to the green Gitpod button is a button that says code, select this. There is a few options as to how you 
-       would like to clone, if you choose https, SSH or Github CLI, select the clipbard icon to copy the URL.
+       would like to clone, if you choose https, SSH or Github CLI, select the clipboard icon to copy the URL.
      + In your workspace that you've created, in the terminal , type git clone, paste the URL and enter.
 
      ![Image showing the cloning options](readme-assets/readme-images/clone.png)
