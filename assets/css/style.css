@@ -214,6 +214,16 @@ a.navbar-brand {
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+ .landing-page-container {
+    padding: 0;
+    background: url("../images/image1-small.jpg") no-repeat center center;
+    min-height: 75vh;
+    text-align: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover
+}
 .title-slogan-container {
     padding: 0;
     background-color: rgba(206, 211, 214, 0.5);
@@ -291,6 +301,15 @@ caption sup {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+}
+.header-container{
+    padding: 0;
+    background: url("../images/image3-small.jpg") no-repeat bottom center;
+    min-height: 33vh;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;   
 }
 .header-container .col-12{
     padding: 0;
