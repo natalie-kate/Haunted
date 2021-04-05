@@ -206,7 +206,7 @@ a.navbar-brand {
 /*---- Landing page ----*/
 .landing-page-container {
     padding: 0;
-    background: url("../images/image1-xsmall.jpeg") no-repeat center center;
+    background: url("../images/image1-small.je") no-repeat center center;
     min-height: 75vh;
     text-align: center;
     background-size: cover;
@@ -285,7 +285,7 @@ caption sup {
 /*---- Evidence ----*/
 .header-container{
     padding: 0;
-    background: url("../images/image3-xsmall.jpg") no-repeat bottom center;
+    background: url("../images/image3-smalljpgg") no-repeat bottom center;
     min-height: 33vh;
     background-size: cover;
     -webkit-background-size: cover;
