@@ -411,3 +411,4 @@ For more information or troubleshooting see the Github documentation
 -   Code institute. 
 -   My mentor Victor Miclovich
 -   My mini feb 2021 team on slack for their feedback
+-   [Lazy loading article](https://www.sitepoint.com/five-techniques-lazy-load-images-website-performance/)
