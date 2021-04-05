@@ -329,8 +329,9 @@ syntax errors in the project.
    - Hero image and header image looking pixelated where the xsmall version is being used. Have changed back 
      to small will change again if I find a solution as will effect my performance scores. Solution: Added 
      in media query for screens smaller than 450px (majority of mobiles) to use the xsmall versions of the
-     main images. Looks pixelated on devtools but fine on phones themselves. Similarly the small 
-     version is looking pixelated on screens above 1000px so have changed to original image at this point. 
+     main images. Looks pixelated on devtools but fine on phones themselves- Amendment took back out again 
+     hadn't refreshed on phone and was pixelated still. Similarly the small version is looking pixelated on 
+     screens above 1000px so have changed to original image at this point. 
    - Testing on mobile when realised that the read more button wasn't working. After two and a half hours of
     going back the stack overflow example and playing about in code pen, realised I had put the input and 
     label in its own div so that i could apply bootstrap classes to it for positioning. So after playing 
