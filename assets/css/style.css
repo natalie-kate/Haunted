@@ -204,16 +204,6 @@ a.navbar-brand {
 }
 
 /*---- Landing page ----*/
-.landing-page-container {
-    padding: 0;
-    background: url("../images/image1-small.je") no-repeat center center;
-    min-height: 75vh;
-    text-align: center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
  .landing-page-container {
     padding: 0;
     background: url("../images/image1-small.jpg") no-repeat center center;
@@ -293,15 +283,6 @@ caption sup {
 }
 
 /*---- Evidence ----*/
-.header-container{
-    padding: 0;
-    background: url("../images/image3-smalljpgg") no-repeat bottom center;
-    min-height: 33vh;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
 .header-container{
     padding: 0;
     background: url("../images/image3-small.jpg") no-repeat bottom center;
@@ -562,6 +543,26 @@ span.social {
     }
 }
 
+@media(max-width:450px){
+ .landing-page-container {
+    padding: 0;
+    background: url("../images/image1-xsmall.jpeg") no-repeat center center;
+    min-height: 80vh;
+    text-align: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover
+    }
+    .header-container{
+    background: url("../images/image3-xsmall.jpg") no-repeat bottom -20px center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;   
+    }
+}
+
 @media(min-width:769px) {
     .page-title h1 {
     font-size: 60px;
@@ -578,7 +579,6 @@ span.social {
     }
     .header-container{
     background: url("../images/image3-small.jpg") no-repeat bottom -80px center;
-    min-height: 40vh;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -657,7 +657,6 @@ span.social {
 }
  .header-container{
     background: url("../images/image3.jpg") no-repeat bottom -100px center;
-    min-height: 40vh;
      background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
