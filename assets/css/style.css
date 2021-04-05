@@ -414,6 +414,9 @@ form p {
 form button.btn {
     margin-top: 5px;
 }
+.legend {
+    text-align: center;
+}
 
 /*---- Modal ----*/
 .modal-content {
@@ -549,7 +552,7 @@ span.social {
     }
     .landing-page-container {
     padding: 0;
-    background: url("../images/image1-small.jpg") no-repeat center center;
+    background: url("../images/image1.jpg") no-repeat center center;
     min-height: 80vh;
     text-align: center;
     background-size: cover;
@@ -558,7 +561,7 @@ span.social {
     -o-background-size: cover
     }
     .header-container{
-    background: url("../images/image3-small.jpg") no-repeat bottom -80px center;
+    background: url("../images/image3.jpg") no-repeat bottom -80px center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -629,7 +632,7 @@ span.social {
 @media(min-width:1000px) {
 .landing-page-container{
     padding: 0;
-    background: url("../images/image1.jpg") no-repeat top -130px center;
+    background: url("../images/image1.jpg") no-repeat top center;
      background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -648,6 +651,17 @@ span.social {
     }
  .video p {
         padding: 0 5px;
+    }
+}
+
+@media(min-width:1200px) {
+.landing-page-container{
+    padding: 0;
+    background: url("../images/image1.jpg") no-repeat top -130px center;
+     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     }
 }
 
