@@ -51,7 +51,7 @@ I wanted to create a site that provided information for people interested in the
      * As a user I want to be able to learn about ghosts and hauntings.
      * As a user who believes in the paranormal I want to read true stories and contribute my own.
      * As a user who's a cynic I want to see video and picture evidence. 
-     * As a user I would want to read theories as what could cause paranormal phenomona.
+     * As a user I would want to read theories as what could cause paranormal phenomena.
 
    - Site owner/ business goals
      * As the site owner I want to teach people about the fascinating world of the paranormal, in particular hauntings and ghosts.
@@ -78,7 +78,7 @@ I wanted to create a site that provided information for people interested in the
         3. As a returning visitor, I want to see recommended resources to learn more.
         4. As a returning visitor, I want to be able to contact the owner with comments or questions.
 
-    - #### Frequent Visitor Goals
+   - #### Frequent Visitor Goals
 
         1. As a frequent visitor, I want to easily identify new content.
         2. As a frequent visitor, I want to sign up to the mailing list so that i'm informed of new content or features.
@@ -118,7 +118,7 @@ I wanted to create a site that provided information for people interested in the
     
 -   #### Typography
     For the headers the font family is Noto Sans KR imported from Google fonts. To complement it I chose Montserrat 
-    from the popoular pairings section of their website. I chose these as they are easy to read and do not distract 
+    from the popular pairings section of their website. I chose these as they are easy to read and do not distract 
     from the content itself. In addition they go well with the feel that I want to achieve, others would have not 
     suited the subject matter.
         
@@ -175,7 +175,7 @@ visually tired.
 ## Features
 
 Within project conception, a list of features were compiled, these were the scored 
-between 1 & 5 for importance and feasability/ viability which then decided which features 
+between 1 & 5 for importance and feasbility/ viability which then decided which features 
 could be included for initial launch.
 
 ### Current features
@@ -250,8 +250,8 @@ could be included for initial launch.
         applied to the unordered list.</span>
         * Menu icon not working <br><span style="color: grey;">Solution: Hadn't given an id to the unordered list
          to target.</span>
-        * Wanted to style the burger icon menu. Initially had opaqness on nav set to 0.5 but where the navbar and dropdown
-         overlapped was obviously a line of full opaqness and the dropdown didnt fill the full width of the screen. Felt like
+        * Wanted to style the burger icon menu. Initially had opaqueness on nav set to 0.5 but where the navbar and dropdown
+         overlapped was obviously a line of full opaqueness and the dropdown didn't fill the full width of the screen. Felt like
          I had messed up the nav as I had taken the one from whiskey drop and deleted and edited to suit. It was the first 
          element on my page I had worked on and an empty screen had been daunting so now having issues with it, I deleted 
          the whole thing and started again using bootstrap documentation to write my own and then ultimately ended up copying 
@@ -261,14 +261,14 @@ could be included for initial launch.
          causing contrast issues.
    - Font awesome ghost icon not displaying.<br><span style="color: grey;">Solution: Font awesome version had updated
     to 5.15.2 and my link was for the older one.</span>
-   - Image centered in div. Tried img-fluid class, align-items, text-align, align-self, justify contents, margin 0 auto, 
+   - Image centred in div. Tried img-fluid class, align-items, text-align, align-self, justify contents, margin 0 auto, 
      margin auto with container at 33vw, display:flex etc. Searched and found some answers on stack overflow. Used bits 
      from two answers.<br><span style="color: grey;">Solution: position: absolute; display: inline; left: 50%; transform: 
      translate(-50%);</span>
    - Background image not displaying when deployed to github pages. Had heard there could be issues with file paths 
      which is why you should deploy early in the development which is why I did thankfully. Tried numerous file paths,
      then tried changing the image file size as it was quite large.<br><span style="color: grey;"> Solution: background-color
-     was overiding the background-image, I wasn't loving the background having a color as it was a bit much so just removed 
+     was overriding the background-image, I wasn't loving the background having a color as it was a bit much so just removed 
      it. If I was keeping it I would have give the image a z-index.</span>
    - Read more button
         Tried doing it with the button element, along with the stack overflow code for hiding and then unhiding a div. This
@@ -282,7 +282,7 @@ could be included for initial launch.
         screens to hide and unhide the div rather than that being the default style. I then could add my bootstrap classes back in
         and just hide the button on medium and large screens. As the hidden stories were in a new row, this created a gap on the 
         medium screens, so I filled this with an image.
-    - Realised I had a horizontal scroll, Thought it was the nav as the content box seemed to be outwith the screen size. Tried 
+    - Realised I had a horizontal scroll, Thought it was the nav as the content box seemed to be out with the screen size. Tried 
       to move things about, removed the right align, changed about the .row and .col classes, this didn't help. Commented out the 
       nav entirely and the scrolling issue was still there. This led me to realise that all my rows were escaping the container.<br>
       <span style="color: grey;">Solution: Found on stack overflow to target row with 100vh and body & html with width: 100% and 
@@ -296,7 +296,7 @@ could be included for initial launch.
       her mentor had written some Javascript for her, tried it but couldn't get it to work, then tried one I found on codepen and 
       couldn't get that work to either.<br>
       <span style="color: grey;">Solution: Javascript code from codepen with the script after the other scripts rather than above 
-      them. And using input type button without the method and action atributes.</span>
+      them. And using input type button without the method and action attributes.</span>
 
    
 ## Testing
@@ -308,16 +308,16 @@ Testing and results can be found [here](TESTING.md)
  - ### Creation 
 
     I created this repository by:<br>
-    (a) Logging into github and clicked the green new button.<br>
+    (a) Logging into Github and clicked the green new button.<br>
     (b) This took me to the page below. I selected the code institute template, input a repository name and clicked the 
     green create repository button.<br>
 
     ![Image showing the create repository page](readme-assets/readme-images/create.png)
 
-    (c) Opened new repository and clicked green Gitpod button to create a workspace in gitpod for editing.
+    (c) Opened new repository and clicked green Gitpod button to create a workspace in Gitpod for editing.
 
  - ### Github pages
-    I deployed my project to gihub pages by:
+    I deployed my project to Gihub pages by:
 
     (a) Logged in to github and opened my [repository](https://github.com/natalie-kate/haunted)<br>
     (b) From here clicked settings, see picture below.
@@ -327,9 +327,9 @@ Testing and results can be found [here](TESTING.md)
     (c) In settings scrolled down to Github pages, here under source branch I selected Master 
            and kept the default root and then clicked save.
 
-    ![Image showing the github pages options](readme-assets/readme-images/source.png) <br>
+    ![Image showing the Github pages options](readme-assets/readme-images/source.png) <br>
 
-    (d) After a minute or two the page has now published and the site address is available in the github page section.
+    (d) After a minute or two the page has now published and the site address is available in the Github page section.
 
     ![Image showing that the site has been successfully published](readme-assets/readme-images/published.png)
 
@@ -357,13 +357,13 @@ For more information or troubleshooting see the Github documentation
 
 ### Code
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.1/getting-started/introduction/): Bootstrap Library used for the layout and styling. Most prominantly seen in the 
+-   [Bootstrap4](https://getbootstrap.com/docs/4.1/getting-started/introduction/): Bootstrap Library used for the layout and styling. Most prominently seen in the 
     nav bar as I was having issues with it (see challenges section above) and in the modal. Modal made my own by deleting sections adding an icon and styling.
 -   Chiller on stack overflow for hide button [answer](https://stackoverflow.com/questions/42267467/how-to-toggle-effect-in-div-using-only-css)
     used bits of his code which are marked in CSS.
 -   Josh Comeau for his button animation code and the media query for reduced motion preference. [Article](https://www.joshwcomeau.com/animation/css-transitions/)
 -   Davide Sanfilippo javascript for modal to only appear when form submitted correctly. [Codepen](https://codepen.io/dasan/pen/vqaLPe)
--   Centering image in div code I used was a combination of two answers on stack overflow:
+-   Centring image in div code I used was a combination of two answers on stack overflow:
                                 position: absolute;     
                                 display: inline;       
                                 left: 50%;                   
@@ -373,7 +373,7 @@ For more information or troubleshooting see the Github documentation
 
 ### Content
 
--   Content was created by Natalie Alexander, using information from the following refernces that have been linked to in the content itself..
+-   Content was created by Natalie Alexander, using information from the following references that have been linked to in the content itself..
      * (1)https://www.collinsdictionary.com/dictionary/english/paranormal
      * (2)https://www.livescience.com/26697-are-ghosts-real.html
      * (3)http://www.victorianweb.org/victorian/religion/spirit.html
