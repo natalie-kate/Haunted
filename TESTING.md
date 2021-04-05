@@ -269,8 +269,8 @@ syntax errors in the project.
     and Opera. Viewed all three pages on each and checked the following:
     * Haunted brand takes user back to landing page from the other two pages.
     * Nav links work from all three pages to all links.
-        + <span style="color: grey;">Theory nav item was missing from both the evidence and contact pages, amended.</span>
-        + <span style="color: grey;">Found that the link to resource section from contact page was wrong, amended.</span>
+        + <span style="color: grey;">Theory nav item was missing from both the evidence and contact pages. Amended.</span>
+        + <span style="color: grey;">Found that the link to resource section from contact page was wrong. Amended.</span>
     * Clicking the font awesome ghost takes user to True stories section.
     * Clicking "Tell us your true Stories", "Share your experiences" and "Share your picture and videos" buttons take user to contact page.
     * The reference links open in a new page, to the correct resource.
@@ -279,7 +279,7 @@ syntax errors in the project.
     * The two pictures that required an attribute had links that opened in a new page to the correct places.
     * Social links in footer all open in a new page and work from all three pages.
        + <span style="color: grey;">When trying to open with internet explorer, kept opening with Microsoft Edge instead, apparently they no 
-       longer work with Internet explorer.Ensured it wasnt my link by trying to visit the page seperately and it did the same.</span>
+       longer work with Internet explorer. Ensured it wasn't my link by trying to visit the page seperately and it did the same.</span>
     * Back to top link in footer works in all three pages.
     * Hover effects on Brand, ghost icon, social icons and all links and buttons.
         + <span style="color: grey;">Hover change of colour on resource page picture attribute and "back to top" link not working, amended.</span>
@@ -292,7 +292,8 @@ syntax errors in the project.
     * Form will not submit without all three required personal details being completed. Checkboxes work, can only check one, can type in text area,
       "Choose file" input opens computer files and allows user to add files. On successful form submission, modal appears and can be closed by both
       close buttons.
--   Viewed manually on Macbook air 13", Dell 21" HD screen, iphone 11, Dell 17" laptop and Pixel 4XL phone.
+        + <span style="color: grey;">Form legend not centered on Internet Explorer or Firefox, added the bootstrap class text-center. This did
+          not fix it.</span>
 -   Friends, family and slack peer review used. Devices and browsers were iphone 11: Safari (x3), iphone XS Max: Safari,
     iphone 6: Chrome, iphone XR: safari, iphone 11 Pro: Safari, iphone 10: Safari, Samsung S20 FE: Chrome, Samsung S10, Sony Xperia I3: Chrome,
     Samsung tab 7, Huawei tablet and HP chromebook.
@@ -300,11 +301,38 @@ syntax errors in the project.
     + <span style="color: grey;"> Another found that the burger icon wasn't working. This was when I had removed the javascript to try
     and improve performance score before realising I needed the javascript for the collapsible menu. Thankfully it was only out for 
     10 minutes </span>
--   Chrome devtools used to test responsiveness, viewed all pages on all of the available devices.
--   
+-   Chrome devtools used to test responsiveness throughout the development process see bugs found [below](#bugs). Viewed all pages on all of the 
+    available devices at the end of the project to ensure everything still looked good.
+-   Viewed physically on Macbook air 13", Dell 21" HD screen, iphone 11, Dell 17" laptop and Pixel 4XL phone to ensure that after all 
+    issues found and resolved that there was nothing else appearing   
 
 ## Bugs
 
-   ### Found and Fixed
+   ### Found and Fixed 
+
+   In addition to the issues found in manual testing, I also found the below.
+
+   - Header image on bigger screens looked a bit thin, so added a media query for over 1400 screens 
+    to make background image min-height: 40vh .
+   - Toggle menu dropdown was going behind header text so added z-index: 1. Dropdown menu was moving
+    the content below down which didn't look nice so changed position to absolute which I found by playing
+    with devtools.
+    Also in mobile it was taking up alot of real estate so decreased font-size and line-height.
+   - Found one of the new badges on the True Stories was going into the second line between screen sizes
+    980 to 1030 so changed font size from 75% to 55% for the h3's only.
+   - Iphone 5 footer content not contained, reduced size of icons and font-weight of span. Media query
+    wrote to increase again on bigger screens.
+   - Footer was still escaping for galaxy fold so added in a media query for screens less than 350px.
+   - On ipad Pro there wa a gap below hero image on landing page and About header. Changed positioning 
+    of background image that was in media query from top to bottom.
+   - Hero image and header image looking pixelated where the xsmall version is being used. Have changed back 
+     to small will change again if I find a solution as will effect my performance scores.
+   - Testing on mobile when realised that the read more button wasn't working. After two and a half hours of
+    going back the stack overflow example and playing about in code pen, realised I had put the input and 
+    label in its own div so that i could apply bootstrap classes to it for positioning. So after playing 
+    about with it put the input and label along with the hidden stories in one big div and applied the 
+    bootstrap col class directly to the label. 
 
    ### Existing
+
+   - Table legend not centered on Internet explorer and Firefox.
